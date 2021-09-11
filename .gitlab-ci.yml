@@ -1,0 +1,4 @@
+include:
+  project: studyum/deploy-config
+  ref: master
+  file: /OlympicKarateMVP/gitlab-ci.yml

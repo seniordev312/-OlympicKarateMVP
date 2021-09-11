@@ -1,0 +1,5540 @@
+[
+  {
+    "category": "Warm up",
+    "url": "https://studumapp.ru/wp-content/uploads/2020/10/warm-up-1.-basic-bouncing_gokay/playlist.m3u8",
+    "title": "Basic bouncing",
+    "captions": [
+      {"text": "your ear.", "start": "00:37.2", "end": "00:37.7"},
+      {"text": "Six.", "start": "00:42.2", "end": "00:43.2"},
+      {
+        "text": "Roll your head down until you touch your chest with your",
+        "start": "00:43.2",
+        "end": "00:46.9"
+      },
+      {
+        "text": "chin. Repeat in one smooth motion.",
+        "start": "00:46.9",
+        "end": "00:50.2"
+      },
+      {
+        "text": "Remember to go slowly and carefully.",
+        "start": "00:50.5",
+        "end": "00:53.0"
+      },
+      {
+        "text": "Also, remember to do the other side.",
+        "start": "00:53.0",
+        "end": "00:56.0"
+      }
+    ],
+    "timings": [
+      {"time": "2"},
+      {"time": "6"},
+      {"time": "8"},
+      {"time": "12"},
+      {"time": "17"},
+      {"time": "21"}
+    ],
+    "questions": [
+      {
+        "text": "Which part of the foot should you be bouncing off?",
+        "answers": [
+          {"text": "The whole foot", "isCorrect": false},
+          {"text": "Toes", "isCorrect": false},
+          {"text": "Tippy-toes", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:26",
+    "positiveMessages": [
+      "Nice work! Let’s make this lesson even “hotter” by learning how to add a back and forth movement!",
+      "Get ready, I’m redirecting you to the next lesson. 😉"
+    ],
+    "negativeMessages": ["Good try. Give it another go!"],
+    "order": "1-1",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-2.-bouncing-forward-and-backward_gokay/playlist.m3u8",
+    "title": "Bouncing forward and backward",
+    "captions": [
+      {
+        "text": "Bouncing forward and backward.",
+        "start": "00:00.0",
+        "end": "00:01.7"
+      },
+      {"text": "One.", "start": "00:02.1", "end": "00:03.1"},
+      {
+        "text": "Keep your eyes forward, but imagine a line drawn on the floor",
+        "start": "00:03.2",
+        "end": "00:06.7"
+      },
+      {"text": "in front of you.", "start": "00:06.7", "end": "00:07.3"},
+      {"text": "Two.", "start": "00:07.5", "end": "00:08.3"},
+      {
+        "text": "Jump forward and backward over the line while pushing your",
+        "start": "00:08.8",
+        "end": "00:11.9"
+      },
+      {
+        "text": "head toward the ceiling.",
+        "start": "00:11.9",
+        "end": "00:13.0"
+      },
+      {"text": "Three.", "start": "00:13.2", "end": "00:14.1"},
+      {
+        "text": "Remember to always land softly.",
+        "start": "00:14.1",
+        "end": "00:16.5"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "8"}, {"time": "14"}],
+    "questions": [
+      {
+        "text": "How should you be landing on the floor?",
+        "answers": [
+          {"text": "Normally", "isCorrect": false},
+          {"text": "Jumping forward", "isCorrect": false},
+          {"text": "Softly", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:21",
+    "positiveMessages": [
+      "Congrats! You’re doing great. Now let’s intensify our knowledge by learning how to bounce to the right and the left!",
+      "Prepare yourself, I am redirecting you to the next lesson!"
+    ],
+    "negativeMessages": [
+      "Good attempt. One more time!",
+      "Alt. Great try! Let’s go back to the lesson again."
+    ],
+    "order": "1-2",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-3.-bouncing-side-to-side_gokay/playlist.m3u8",
+    "title": "Bouncing side to side",
+    "captions": [
+      {
+        "text": "Bouncing side to side.",
+        "start": "00:00.0",
+        "end": "00:02.6"
+      },
+      {"text": "One.", "start": "00:02.6", "end": "00:02.8"},
+      {
+        "text": "Bounce side to side two.",
+        "start": "00:03.4",
+        "end": "00:05.6"
+      },
+      {
+        "text": "Remember to safely land with your feet soft and your knees",
+        "start": "00:05.7",
+        "end": "00:09.6"
+      },
+      {"text": "bent.", "start": "00:09.6", "end": "00:09.9"}
+    ],
+    "timings": [{"time": "3"}, {"time": "6"}],
+    "questions": [
+      {
+        "text": "How do you keep your knees?",
+        "answers": [
+          {"text": "Apart", "isCorrect": false},
+          {"text": "Bent", "isCorrect": true},
+          {"text": "Straight", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:15",
+    "positiveMessages": [
+      "Nice work! Let’s increase our knowledge by learning how to switch it up with a criss-cross!",
+      "Prepare yourself to kick it to the next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try, there is a better answer!",
+      "Alt. Great try, you almost had it! Let’s review it again."
+    ],
+    "order": "1-3",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-4.-bouncing-while-switching-feet_gokay/playlist.m3u8",
+    "title": "Bouncing while switching feet",
+    "captions": [
+      {
+        "text": "Bouncing while switching feet.",
+        "start": "00:00.0",
+        "end": "00:03.5"
+      },
+      {"text": "One.", "start": "00:03.8", "end": "00:04.3"},
+      {
+        "text": "Keep your feet close to the Center line without placing them",
+        "start": "00:04.4",
+        "end": "00:08.0"
+      },
+      {"text": "on the line.", "start": "00:08.0", "end": "00:08.6"},
+      {
+        "text": "The distance between the heel of one foot and the toe of",
+        "start": "00:08.9",
+        "end": "00:12.7"
+      },
+      {
+        "text": "the other should be about half the length of your foot.",
+        "start": "00:12.7",
+        "end": "00:15.5"
+      },
+      {"text": "Two.", "start": "00:15.7", "end": "00:16.4"},
+      {
+        "text": "As you bounce, switch feet land softly.",
+        "start": "00:16.4",
+        "end": "00:20.6"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "16"}],
+    "questions": [
+      {
+        "text": "What is the distance between your feet upon landing?",
+        "answers": [
+          {"text": "One foot apart", "isCorrect": false},
+          {"text": "Half a foot", "isCorrect": true},
+          {"text": "Natural distance", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:28",
+    "positiveMessages": [
+      "Awesome work! Let’s turn it up by learning how to criss-cross and adding a hop!",
+      "Get ready, because your next lesson is coming right up!"
+    ],
+    "negativeMessages": [
+      "Great effort. You are doing well but, try again!",
+      "Alt. Great try! Let’s go back and review. You’re almost there."
+    ],
+    "order": "1-4",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-5.-jumping-with-crossing-legs_gokay/playlist.m3u8",
+    "title": "Jumping with crossing legs",
+    "captions": [
+      {
+        "text": "Jumping with crossing legs.",
+        "start": "00:00.0",
+        "end": "00:02.8"
+      },
+      {"text": "One.", "start": "00:03.0", "end": "00:03.5"},
+      {
+        "text": "Start with your feet crossed and your legs bent.",
+        "start": "00:03.5",
+        "end": "00:06.5"
+      },
+      {"text": "Two.", "start": "00:06.8", "end": "00:07.7"},
+      {
+        "text": "Jump as high as as you can.",
+        "start": "00:08.4",
+        "end": "00:10.2"
+      },
+      {"text": "Three.", "start": "00:10.2", "end": "00:11.8"},
+      {
+        "text": "Land with your feet apart about",
+        "start": "00:11.8",
+        "end": "00:13.8"
+      },
+      {
+        "text": "twice the width of your shoulders.",
+        "start": "00:13.9",
+        "end": "00:15.5"
+      },
+      {"text": "Four.", "start": "00:15.8", "end": "00:17.5"},
+      {
+        "text": "Every time you land, bend your knees slightly to absorb",
+        "start": "00:17.5",
+        "end": "00:20.6"
+      },
+      {"text": "the impact.", "start": "00:20.6", "end": "00:21.1"},
+      {"text": "Five.", "start": "00:21.4", "end": "00:22.2"},
+      {
+        "text": "Switch your feet at every jump.",
+        "start": "00:22.2",
+        "end": "00:24.5"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "7"},
+      {"time": "11"},
+      {"time": "17"},
+      {"time": "22"}
+    ],
+    "questions": [
+      {
+        "text": "What is the distance between your feet upon landing when legs are apart?",
+        "answers": [
+          {"text": "Twice the width of your shoulders", "isCorrect": true},
+          {"text": "One foot", "isCorrect": false},
+          {"text": "One shoulder width", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:27",
+    "positiveMessages": [
+      "Awesome job! For this next lesson, let’s learn how to engage both the upper and the lower body AND keep them both coordinated.",
+      "Let’s jump into the next lesson!"
+    ],
+    "negativeMessages": [
+      "Good attempt! Let’s do it again to emphasize the point.",
+      "Alt. Great try. I can see you’re working hard. Let’s try again."
+    ],
+    "order": "1-5",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-6.-jumping-jacks_gokay/playlist.m3u8",
+    "title": "Jumping jacks",
+    "captions": [
+      {"text": "Jumping Jacks.", "start": "00:00.0", "end": "00:01.1"},
+      {"text": "One.", "start": "00:01.6", "end": "00:02.6"},
+      {
+        "text": "Begin with your feet close together and your hands at your sides in soldier position.",
+        "start": "00:03.1",
+        "end": "00:08.5"
+      },
+      {"text": "Two.", "start": "00:08.8", "end": "00:09.9"},
+      {
+        "text": "Keep your arms straight the whole time.",
+        "start": "00:09.9",
+        "end": "00:11.9"
+      },
+      {"text": "Three.", "start": "00:12.1", "end": "00:13.3"},
+      {
+        "text": "Jump up and land with your feet about twice the width of",
+        "start": "00:13.3",
+        "end": "00:16.8"
+      },
+      {
+        "text": "your shoulders, and at the same time bring your arms straight",
+        "start": "00:16.8",
+        "end": "00:20.2"
+      },
+      {
+        "text": "up from your sides until your palms touch.",
+        "start": "00:20.3",
+        "end": "00:22.6"
+      },
+      {"text": "Four.", "start": "00:23.3", "end": "00:24.3"},
+      {
+        "text": "Look forward at all times.",
+        "start": "00:24.8",
+        "end": "00:26.6"
+      },
+      {"text": "Five.", "start": "00:27.0", "end": "00:28.2"},
+      {
+        "text": "Land safely with your knees bent and then jump immediately.",
+        "start": "00:28.2",
+        "end": "00:32.4"
+      },
+      {"text": "Six.", "start": "00:32.7", "end": "00:33.8"},
+      {
+        "text": "Bring your feet together and drop your arms down by your sides.",
+        "start": "00:33.9",
+        "end": "00:38.8"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "9"},
+      {"time": "13"},
+      {"time": "24"},
+      {"time": "28"},
+      {"time": "34"}
+    ],
+    "questions": [
+      {
+        "text": "How should you keep your arms?",
+        "answers": [
+          {"text": "Completely relaxed", "isCorrect": false},
+          {"text": "Always tight", "isCorrect": false},
+          {"text": "Straight", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:46",
+    "positiveMessages": [
+      "Perfect! Let’s keep up the good work with a micro-lesson on your abs that will instruct you on how to increase your strength and flexibility!",
+      "Prepare yourself, your next lesson starts now."
+    ],
+    "negativeMessages": [
+      "Let’s go over this one again.",
+      "Alt. You’re almost there! Let’s try it one more time."
+    ],
+    "order": "1-6",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-8.-high-knees_gokay/playlist.m3u8",
+    "title": "High knees",
+    "captions": [
+      {"text": "High knees.", "start": "00:00.0", "end": "00:01.8"},
+      {"text": "One.", "start": "00:01.8", "end": "00:02.4"},
+      {
+        "text": "Put your feet together and place the palms of your hands",
+        "start": "00:02.4",
+        "end": "00:05.7"
+      },
+      {
+        "text": "in front of your chest.",
+        "start": "00:05.7",
+        "end": "00:06.7"
+      },
+      {"text": "Two.", "start": "00:06.7", "end": "00:07.7"},
+      {
+        "text": "Lift your knee and try to touch",
+        "start": "00:07.7",
+        "end": "00:09.6"
+      },
+      {
+        "text": "your palm with your knee.",
+        "start": "00:09.7",
+        "end": "00:10.8"
+      },
+      {"text": "Three.", "start": "00:11.2", "end": "00:12.2"},
+      {
+        "text": "Hop and switch legs, touching the other hand with your other knee.",
+        "start": "00:12.3",
+        "end": "00:17.3"
+      },
+      {"text": "Four.", "start": "00:17.3", "end": "00:18.1"},
+      {
+        "text": "Keep your knees close to the Center.",
+        "start": "00:18.4",
+        "end": "00:20.5"
+      },
+      {
+        "text": "Pro Tip: For a more advanced exercise, try to point your toes",
+        "start": "00:20.8",
+        "end": "00:26.4"
+      },
+      {
+        "text": "down without moving your arms.",
+        "start": "00:26.4",
+        "end": "00:28.1"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "7"}, {"time": "12"}, {"time": "18"}],
+    "questions": [
+      {
+        "text": "Where do you keep your palms?",
+        "answers": [
+          {"text": "Your chest", "isCorrect": true},
+          {"text": "Your stomach", "isCorrect": false},
+          {"text": "Your hips", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:32",
+    "positiveMessages": [
+      "Great job! Sometimes the best way to get in-shape is to kick your own butt, literally! Learning how to do this warm-up will allow you to greatly increase your own flexibility!",
+      "Let’s kick it to the next lesson!"
+    ],
+    "negativeMessages": ["Great try! Let’s take it from the top again."],
+    "order": "1-8",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-9.-butt-kicks_gokay/playlist.m3u8",
+    "title": "Butt kicks",
+    "captions": [
+      {"text": "Butt kicks.", "start": "00:00.0", "end": "00:01.0"},
+      {"text": "One.", "start": "00:02.4", "end": "00:02.7"},
+      {
+        "text": "Put your feet together and place the back of your hands on",
+        "start": "00:03.1",
+        "end": "00:05.9"
+      },
+      {"text": "your buttocks.", "start": "00:05.9", "end": "00:06.4"},
+      {"text": "Two.", "start": "00:06.7", "end": "00:07.7"},
+      {
+        "text": "Kick back and up to touch the palm of each hand with your heel.",
+        "start": "00:07.9",
+        "end": "00:12.2"
+      },
+      {"text": "Three.", "start": "00:12.9", "end": "00:14.1"},
+      {
+        "text": "Keep your knees close together.",
+        "start": "00:14.1",
+        "end": "00:16.3"
+      },
+      {"text": "Four.", "start": "00:16.6", "end": "00:17.5"},
+      {"text": "Breathe steadily.", "start": "00:17.5", "end": "00:18.9"},
+      {"text": "Five.", "start": "00:19.6", "end": "00:20.2"},
+      {
+        "text": "Keep your body relaxed and control your posture.",
+        "start": "00:20.2",
+        "end": "00:23.7"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "8"},
+      {"time": "14"},
+      {"time": "18"},
+      {"time": "20"}
+    ],
+    "questions": [
+      {
+        "text": "Where do you keep your palms?",
+        "answers": [
+          {"text": "On your bottocks", "isCorrect": true},
+          {"text": "Behind your legs", "isCorrect": false},
+          {"text": "Behind your back", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:26",
+    "positiveMessages": [
+      "Great Work! This next lesson will increase your health and longevity, it can even improve your mood",
+      "Get ready because your next micro-lesson is coming right up!"
+    ],
+    "negativeMessages": ["Nice try! Let’s review the move again!"],
+    "order": "1-9",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-1.-four-legged-stance-shiko-datchi_gokay/playlist.m3u8",
+    "title": "Four legged stance (shiko datchi)",
+    "captions": [
+      {
+        "text": "Four legged stance Shiko Datchi.",
+        "start": "00:00.0",
+        "end": "00:03.1"
+      },
+      {"text": "One.", "start": "00:03.1", "end": "00:03.6"},
+      {
+        "text": "Place your feet about two and a half shoulder width apart",
+        "start": "00:03.6",
+        "end": "00:06.8"
+      },
+      {
+        "text": "and turn your feet 45 degrees outward.",
+        "start": "00:06.8",
+        "end": "00:09.6"
+      },
+      {"text": "Two.", "start": "00:14.1", "end": "00:15.5"},
+      {
+        "text": "Place your hands on your hip joints.",
+        "start": "00:15.5",
+        "end": "00:17.0"
+      },
+      {"text": "Three.", "start": "00:18.7", "end": "00:19.7"},
+      {
+        "text": "Sink down until your thighs are parallel to the floor and",
+        "start": "00:20.2",
+        "end": "00:23.7"
+      },
+      {
+        "text": "push your knees apart.",
+        "start": "00:23.7",
+        "end": "00:25.0"
+      },
+      {"text": "Four.", "start": "00:28.2", "end": "00:29.3"},
+      {
+        "text": "Place your elbows on the inside of your thighs and sink even",
+        "start": "00:29.9",
+        "end": "00:33.8"
+      },
+      {
+        "text": "lower while pushing your knees apart.",
+        "start": "00:33.9",
+        "end": "00:35.9"
+      },
+      {"text": "Five.", "start": "00:39.6", "end": "00:40.6"},
+      {
+        "text": "Relax and breathe into the stretch.",
+        "start": "00:40.6",
+        "end": "00:44.0"
+      }
+    ],
+    "timings": [
+      {"time": "4"},
+      {"time": "14"},
+      {"time": "19"},
+      {"time": "29"},
+      {"time": "40"}
+    ],
+    "questions": [
+      {
+        "text": "Where should you place your hands?",
+        "answers": [
+          {"text": "On the legs", "isCorrect": false},
+          {"text": "On the hips", "isCorrect": false},
+          {"text": "On the hip joints", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:53",
+    "positiveMessages": [
+      "Excellent work! Learn the steps carefully on this next work-out for a GREAT decompression and stretch of your spine.",
+      "It’ll really take a load off!",
+      "Your next micro-lesson is ready when you are!"
+    ],
+    "negativeMessages": [
+      "Nice try! I can see you’re working hard. Let’s try again."
+    ],
+    "order": "2-1",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-2.-four-legged-stance-shiko-datchi-with-twisting-shoulders_gokay/playlist.m3u8",
+    "title": "Four legged stance (shiko datchi) with twisting shoulders",
+    "captions": [
+      {
+        "text": "Four legged stands Shiko Datchi with twisting shoulders.",
+        "start": "00:00.0",
+        "end": "00:04.7"
+      },
+      {"text": "One.", "start": "00:04.7", "end": "00:05.0"},
+      {
+        "text": "Take the Chico Datchi stance.",
+        "start": "00:05.0",
+        "end": "00:07.2"
+      },
+      {"text": "Two. ", "start": "00:07.2", "end": "00:08.2"},
+      {
+        "text": "Place your hands on your knees",
+        "start": "00:08.2",
+        "end": "00:10.1"
+      },
+      {
+        "text": "with your arms straight.",
+        "start": "00:10.1",
+        "end": "00:11.5"
+      },
+      {"text": "Three.", "start": "00:14.7", "end": "00:15.6"},
+      {
+        "text": "Bring your right shoulder forward and pull your left shoulder backward.",
+        "start": "00:15.6",
+        "end": "00:20.8"
+      },
+      {"text": "Four.", "start": "00:24.8", "end": "00:25.9"},
+      {
+        "text": "Continuously push your knees apart with your elbows locked.",
+        "start": "00:26.1",
+        "end": "00:29.3"
+      },
+      {"text": "Five.", "start": "00:29.6", "end": "00:30.7"},
+      {
+        "text": "Continue twisting your body, sinking lower and pushing your",
+        "start": "00:30.7",
+        "end": "00:34.9"
+      },
+      {
+        "text": "knees apart while you exhale.",
+        "start": "00:35.0",
+        "end": "00:36.9"
+      },
+      {
+        "text": "Make sure to do the other side.",
+        "start": "00:37.1",
+        "end": "00:39.7"
+      }
+    ],
+    "timings": [
+      {"time": "5"},
+      {"time": "8"},
+      {"time": "16"},
+      {"time": "25"},
+      {"time": "30"}
+    ],
+    "questions": [
+      {
+        "text": "What should you be doing while exhaling?",
+        "answers": [
+          {"text": "Bringing knees together", "isCorrect": false},
+          {"text": "Pushing your knees apart", "isCorrect": true},
+          {"text": "Twisting ankles", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:44",
+    "positiveMessages": [
+      "Excellent work! This next lesson focuses on balance, stretching and coordination all in one package.",
+      "You can do this! Get ready for your next micro-lesson!"
+    ],
+    "negativeMessages": [
+      "Nice try. Let’s review it again. You’re almost there."
+    ],
+    "order": "2-2",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-3.-balanced-squat-with-a-straight-leg_gokay/playlist.m3u8",
+    "title": "Balanced squat with a straight leg",
+    "captions": [
+      {
+        "text": "Balanced squat with a straight leg.",
+        "start": "00:00.8",
+        "end": "00:03.4"
+      },
+      {"text": "One.", "start": "00:05.2", "end": "00:06.5"},
+      {
+        "text": "From the Shiko Datchi, shift your weight to the right leg",
+        "start": "00:07.4",
+        "end": "00:10.1"
+      },
+      {
+        "text": "and raise the heel of your bent leg.",
+        "start": "00:10.1",
+        "end": "00:12.5"
+      },
+      {"text": "Two.", "start": "00:16.2", "end": "00:17.2"},
+      {
+        "text": "Point the foot of the straight leg upward and curve the toes",
+        "start": "00:17.9",
+        "end": "00:21.4"
+      },
+      {
+        "text": "on the straight leg inward.",
+        "start": "00:21.4",
+        "end": "00:22.8"
+      },
+      {"text": "Three.", "start": "00:23.3", "end": "00:24.3"},
+      {
+        "text": "Keep your hands on your knees.",
+        "start": "00:24.4",
+        "end": "00:26.5"
+      },
+      {
+        "text": "Keep your back straight and turn your head in the direction",
+        "start": "00:26.5",
+        "end": "00:30.6"
+      },
+      {"text": "of the straight leg.", "start": "00:30.6", "end": "00:31.6"},
+      {"text": "Four.", "start": "00:32.2", "end": "00:33.2"},
+      {"text": "Look horizontally.", "start": "00:33.8", "end": "00:35.2"},
+      {
+        "text": "Keep your eyes focused on the same spot and find your balance.",
+        "start": "00:35.2",
+        "end": "00:39.7"
+      },
+      {"text": "Five.", "start": "00:40.1", "end": "00:41.1"},
+      {
+        "text": "Push the knee of the bent leg backward to create more space",
+        "start": "00:41.1",
+        "end": "00:44.9"
+      },
+      {"text": "between your knees.", "start": "00:44.9", "end": "00:45.6"},
+      {"text": "Six.", "start": "00:46.0", "end": "00:47.0"},
+      {
+        "text": "Transition to the next position by placing your left foot",
+        "start": "00:47.3",
+        "end": "00:51.1"
+      },
+      {"text": "on the floor.", "start": "00:51.1", "end": "00:51.7"},
+      {"text": "Seven.", "start": "00:52.0", "end": "00:53.1"},
+      {
+        "text": "Shift your weight to your left leg by transitioning through",
+        "start": "00:53.1",
+        "end": "00:56.8"
+      },
+      {
+        "text": "the Shiko Datchi stance to your left.",
+        "start": "00:56.8",
+        "end": "00:58.8"
+      },
+      {
+        "text": "Remember to keep your body straight.",
+        "start": "00:59.4",
+        "end": "01:01.8"
+      }
+    ],
+    "timings": [
+      {"time": "6"},
+      {"time": "17"},
+      {"time": "24"},
+      {"time": "34"},
+      {"time": "41"},
+      {"time": "47"},
+      {"time": "53"}
+    ],
+    "questions": [
+      {
+        "text": "In what direction should you be looking at?",
+        "answers": [
+          {"text": "At the floor", "isCorrect": false},
+          {"text": "At the front foot", "isCorrect": false},
+          {"text": "Horizontally", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:11",
+    "positiveMessages": [
+      "Awesome job! Learn how to improve your mobility and increase the flexibility of your hamstrings and your lower back in this next micro-lesson.",
+      "Do you have your back’s back? I sure hope so, because your next lesson is ready for you now!"
+    ],
+    "negativeMessages": [
+      "Nice try. Let’s take it from the top. You’re so close!"
+    ],
+    "order": "2-3",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-4.-seated-forward-bend_gokay/playlist.m3u8",
+    "title": "Seated forward bend",
+    "captions": [
+      {"text": "Seated forward bend.", "start": "00:00.3", "end": "00:02.4"},
+      {"text": "One.", "start": "00:02.7", "end": "00:03.2"},
+      {
+        "text": "Sit down on the floor with your feet and legs together in",
+        "start": "00:03.2",
+        "end": "00:06.7"
+      },
+      {
+        "text": "front of you and keep your legs and back perfectly straight.",
+        "start": "00:06.7",
+        "end": "00:10.2"
+      },
+      {"text": "Two.", "start": "00:10.4", "end": "00:11.5"},
+      {"text": "Reaching forward.", "start": "00:11.6", "end": "00:13.1"},
+      {
+        "text": "Extend your arms in front of you.",
+        "start": "00:13.1",
+        "end": "00:15.1"
+      },
+      {"text": "Three.", "start": "00:17.8", "end": "00:18.8"},
+      {
+        "text": "Keep your legs straight.",
+        "start": "00:19.3",
+        "end": "00:20.8"
+      },
+      {"text": "Four.", "start": "00:20.8", "end": "00:21.7"},
+      {
+        "text": "Pull your toes towards you.",
+        "start": "00:22.1",
+        "end": "00:23.6"
+      },
+      {"text": "Five.", "start": "00:26.2", "end": "00:27.2"},
+      {
+        "text": "Every time you exhale, lift the top of your pelvis slightly",
+        "start": "00:27.7",
+        "end": "00:31.4"
+      },
+      {
+        "text": "forward and relax into this lower position.",
+        "start": "00:31.5",
+        "end": "00:34.1"
+      },
+      {"text": "Six.", "start": "00:34.8", "end": "00:35.8"},
+      {
+        "text": "Take another deep breath and tilt your pelvis forward again",
+        "start": "00:35.8",
+        "end": "00:40.1"
+      },
+      {"text": "as you exhale.", "start": "00:40.3", "end": "00:41.2"}
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "11"},
+      {"time": "18"},
+      {"time": "22"},
+      {"time": "26"},
+      {"time": "36"}
+    ],
+    "questions": [
+      {
+        "text": "In what position do you maintain your knees?",
+        "answers": [
+          {"text": "I keep them locked", "isCorrect": true},
+          {"text": "I keep them bent", "isCorrect": false},
+          {"text": "I keep them natural", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:43",
+    "positiveMessages": [
+      "Nice work! Learning how to improve your hip’s rotator mobility, in this next micro-lesson, will allow you to greatly improve your kicks.",
+      "Prepare yourself, because your next lesson is about to start!"
+    ],
+    "negativeMessages": [
+      "Good try. You almost had it. Let’s review it again until you master it."
+    ],
+    "order": "2-4",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-5.-butterfly_gokay/playlist.m3u8",
+    "title": "Butterfly",
+    "captions": [
+      {"text": "Butterfly.", "start": "00:00.0", "end": "00:01.5"},
+      {"text": "One.", "start": "00:01.6", "end": "00:02.2"},
+      {
+        "text": "Sitting down on the floor, bring your feet together",
+        "start": "00:02.2",
+        "end": "00:05.4"
+      },
+      {
+        "text": "and pull them as close to your thighs as possible,",
+        "start": "00:05.4",
+        "end": "00:08.3"
+      },
+      {
+        "text": "and grab your feet with both hands.",
+        "start": "00:08.3",
+        "end": "00:11.5"
+      },
+      {"text": "Two.", "start": "00:11.5", "end": "00:12.7"},
+      {
+        "text": "Be sure to keep your entire back straight.",
+        "start": "00:12.7",
+        "end": "00:15.1"
+      },
+      {"text": "Three.", "start": "00:15.8", "end": "00:16.8"},
+      {
+        "text": "Every time you exhale, push your knees to the floor until",
+        "start": "00:16.9",
+        "end": "00:21.0"
+      },
+      {
+        "text": "your knees reached the floor.",
+        "start": "00:21.0",
+        "end": "00:22.5"
+      }
+    ],
+    "timings": [{"time": "2"}, {"time": "12"}, {"time": "17"}],
+    "questions": [
+      {
+        "text": "In what position do you keep your back?",
+        "answers": [
+          {"text": "Slightly relaxed", "isCorrect": false},
+          {"text": "Straight", "isCorrect": true},
+          {"text": "Slightly bent", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:31",
+    "positiveMessages": [
+      "Nice work! This next micro-lesson will show you how you can increase your range of motion AND leave your body with a feeling of lightness.",
+      "Get ready to learn, because your next micro-lesson is ready and waiting!"
+    ],
+    "negativeMessages": [
+      "Good try. You almost had it. Let’s review it again until you master it."
+    ],
+    "order": "2-5",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-6.-sitting-split-with-front-bend_gokay/playlist.m3u8",
+    "title": "Sitting split with front bend",
+    "captions": [
+      {
+        "text": "Sitting split with front bend.",
+        "start": "00:00.0",
+        "end": "00:02.3"
+      },
+      {"text": "One.", "start": "00:02.9", "end": "00:03.9"},
+      {
+        "text": "Sit on the floor with your legs extended as far as possible to the sides",
+        "start": "00:03.9",
+        "end": "00:08.2"
+      },
+      {
+        "text": "with your knees locked and your feet pointing upward.",
+        "start": "00:08.4",
+        "end": "00:12.3"
+      },
+      {"text": "Two.", "start": "00:12.5", "end": "00:13.5"},
+      {
+        "text": "Keep your entire back straight.",
+        "start": "00:13.7",
+        "end": "00:15.7"
+      },
+      {"text": "Three.", "start": "00:16.0", "end": "00:17.0"},
+      {
+        "text": "Extend your arms in front of you.",
+        "start": "00:17.0",
+        "end": "00:19.5"
+      },
+      {"text": "Four.", "start": "00:19.7", "end": "00:20.8"},
+      {
+        "text": "Start leaning forward and go slightly lower every time you exhale.",
+        "start": "00:20.9",
+        "end": "00:26.7"
+      }
+    ],
+    "timings": [{"time": "4"}, {"time": "13"}, {"time": "17"}, {"time": "21"}],
+    "questions": [
+      {
+        "text": "What do you do while exhaling?",
+        "answers": [
+          {"text": "Lean backwards", "isCorrect": false},
+          {"text": "Hold on to your legs", "isCorrect": false},
+          {"text": "Go lower every time", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:39",
+    "positiveMessages": [
+      "Excellent work! This next lesson will once again help you understand how to stretch your hamstrings and lower back!",
+      "Let’s go!"
+    ],
+    "negativeMessages": ["Nice try. You almost had it! Let’s review it again."],
+    "order": "2-6",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-7.-sitting-split-with-side-bend_gokay/playlist.m3u8",
+    "title": "Sitting split with side bend",
+    "captions": [
+      {
+        "text": "Sitting split with side bend.",
+        "start": "00:00.0",
+        "end": "00:02.1"
+      },
+      {"text": "One.", "start": "00:03.0", "end": "00:04.0"},
+      {
+        "text": "Sit on the floor with your legs extended as far as possible",
+        "start": "00:04.0",
+        "end": "00:07.8"
+      },
+      {
+        "text": "to the sides, with your knees locked and your feet pointing upward.",
+        "start": "00:08.0",
+        "end": "00:11.9"
+      },
+      {"text": "Two.", "start": "00:12.1", "end": "00:13.0"},
+      {
+        "text": "Place your left hand on the floor behind your left leg.",
+        "start": "00:13.1",
+        "end": "00:16.7"
+      },
+      {"text": "Three.", "start": "00:17.3", "end": "00:18.3"},
+      {
+        "text": "Turn your body to face your left knee and keep your entire back straight.",
+        "start": "00:18.3",
+        "end": "00:23.1"
+      },
+      {"text": "Four.", "start": "00:23.8", "end": "00:24.8"},
+      {
+        "text": "Extend your arm along your leg.",
+        "start": "00:25.0",
+        "end": "00:27.4"
+      },
+      {
+        "text": "Grab your toes or the outer edge of your foot and pull toward you.",
+        "start": "00:27.7",
+        "end": "00:32.2"
+      },
+      {"text": "Five.", "start": "00:32.8", "end": "00:34.3"},
+      {
+        "text": "Every time you exhale, lean forward a little more.",
+        "start": "00:34.5",
+        "end": "00:38.1"
+      },
+      {
+        "text": "Make sure to do the other side.",
+        "start": "00:38.4",
+        "end": "00:41.1"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "13"},
+      {"time": "19"},
+      {"time": "25"},
+      {"time": "34"}
+    ],
+    "questions": [
+      {
+        "text": "How far apart should you extend your legs?",
+        "answers": [
+          {"text": "As far as possible", "isCorrect": true},
+          {"text": "Comfortably", "isCorrect": false},
+          {"text": "Slightly", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:48",
+    "positiveMessages": [
+      "Great work! This next lesson will help you understand how to increase both your strength and your flexibility!",
+      "Let’s get to it!"
+    ],
+    "negativeMessages": ["Great try! Let’s review it one more time."],
+    "order": "2-7",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-9.-front-lunge_gokay/playlist.m3u8",
+    "title": "Front lunge",
+    "captions": [
+      {"text": "Front lunge.", "start": "00:00.0", "end": "00:02.1"},
+      {"text": "One.", "start": "00:02.5", "end": "00:03.2"},
+      {
+        "text": "Starting from the side lunge step to your side with your",
+        "start": "00:03.2",
+        "end": "00:07.3"
+      },
+      {
+        "text": "front foot approximately one foot to the side.",
+        "start": "00:07.3",
+        "end": "00:10.5"
+      },
+      {"text": "Two.", "start": "00:10.7", "end": "00:11.8"},
+      {
+        "text": "Turn your hips and shoulders forward and keep your arms straight.",
+        "start": "00:11.8",
+        "end": "00:16.2"
+      },
+      {
+        "text": "Connect your palms and bring your arms all the way up.",
+        "start": "00:16.4",
+        "end": "00:20.2"
+      },
+      {"text": "Three.", "start": "00:20.9", "end": "00:21.9"},
+      {
+        "text": "Squeeze your ears between your biceps and push your arms",
+        "start": "00:21.9",
+        "end": "00:26.3"
+      },
+      {"text": "further upward.", "start": "00:26.5", "end": "00:27.4"},
+      {"text": "Four.", "start": "00:27.6", "end": "00:28.3"},
+      {
+        "text": "Every time you exhale, go a bit further.",
+        "start": "00:28.3",
+        "end": "00:32.0"
+      },
+      {"text": "Five.", "start": "00:32.0", "end": "00:32.9"},
+      {
+        "text": "Do not pass the tow line with your knee.",
+        "start": "00:33.7",
+        "end": "00:35.9"
+      },
+      {
+        "text": "Make sure to do the other side.",
+        "start": "00:36.5",
+        "end": "00:39.0"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "12"},
+      {"time": "22"},
+      {"time": "28"},
+      {"time": "33"}
+    ],
+    "questions": [
+      {
+        "text": "What direction should you turn your hips and shoulders to?",
+        "answers": [
+          {"text": "To the side", "isCorrect": false},
+          {"text": "Backward", "isCorrect": false},
+          {"text": "Forward", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:41",
+    "positiveMessages": [
+      "Nice work! For this next lesson, learning how to perform active stretching will take your flexibility to a whole new level!",
+      "Lesson begins soon! Here we go!"
+    ],
+    "negativeMessages": [
+      "Great try! You were so close. Let’s go over it again."
+    ],
+    "order": "2-9",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-1.-situps_gokay/playlist.m3u8",
+    "title": "Situps",
+    "captions": [
+      {"text": "Sit ups", "start": "00:01.0", "end": "00:02.3"},
+      {"text": "One", "start": "00:02.3", "end": "00:03.5"},
+      {
+        "text": "Lie flat on your back.",
+        "start": "00:03.5",
+        "end": "00:04.9"
+      },
+      {"text": "Two.", "start": "00:05.5", "end": "00:06.2"},
+      {
+        "text": "Lock your fingers and place your hands behind your head.",
+        "start": "00:06.3",
+        "end": "00:08.8"
+      },
+      {"text": "Three.", "start": "00:10.1", "end": "00:10.6"},
+      {
+        "text": "Contract your upper ABS while exhaling quickly to force yourself",
+        "start": "00:11.0",
+        "end": "00:14.9"
+      },
+      {
+        "text": "into an upward position with your elbows still pointed outward.",
+        "start": "00:14.9",
+        "end": "00:18.8"
+      },
+      {"text": "Four.", "start": "00:20.3", "end": "00:20.9"},
+      {
+        "text": "Never pull with your arms.",
+        "start": "00:21.3",
+        "end": "00:22.5"
+      },
+      {
+        "text": "This puts unnecessary pressure on your lower back.",
+        "start": "00:23.2",
+        "end": "00:25.8"
+      },
+      {"text": "Five.", "start": "00:27.1", "end": "00:28.0"},
+      {
+        "text": "Keep your elbows pointed to the sides.",
+        "start": "00:28.0",
+        "end": "00:30.2"
+      },
+      {"text": "Six.", "start": "00:31.2", "end": "00:31.9"},
+      {
+        "text": "Return to your starting position by rounding your lower back",
+        "start": "00:32.5",
+        "end": "00:35.8"
+      },
+      {
+        "text": "and rolling back easily with no tension.",
+        "start": "00:35.8",
+        "end": "00:38.8"
+      }
+    ],
+    "timings": [
+      {"time": "2"},
+      {"time": "5"},
+      {"time": "10"},
+      {"time": "20"},
+      {"time": "27"},
+      {"time": "32"}
+    ],
+    "questions": [
+      {
+        "text": "At what point do you exhale?",
+        "answers": [
+          {"text": "When lowering the body", "isCorrect": false},
+          {
+            "text": "While resting in the sit-up position",
+            "isCorrect": false
+          },
+          {"text": "While raising the torso up", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:41",
+    "positiveMessages": [
+      "Excellent work! This next lesson will focus on pushups. Learning Karate push-ups will strengthen your knuckles for punching and help you maintain your posture.",
+      "Redirecting you to Karate push-ups as soon as you&#8217;re ready!"
+    ],
+    "negativeMessages": [
+      "Nice try! Let’s review that one again. Don’t give up! You’re almost there."
+    ],
+    "order": "3-1",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-2.-pushups_gokay/playlist.m3u8",
+    "title": "Pushups",
+    "captions": [
+      {"text": "Pushups.", "start": "00:00.0", "end": "00:00.9"},
+      {"text": "One.", "start": "00:01.2", "end": "00:02.2"},
+      {
+        "text": "Squat down and place your fists on the floor so they end up",
+        "start": "00:03.0",
+        "end": "00:06.1"
+      },
+      {
+        "text": "underneath your shoulders.",
+        "start": "00:06.1",
+        "end": "00:07.4"
+      },
+      {"text": "Two.", "start": "00:07.7", "end": "00:08.7"},
+      {
+        "text": "Keep the knuckles of your index and middle fingers on the floor",
+        "start": "00:08.9",
+        "end": "00:12.2"
+      },
+      {
+        "text": "with your arms facing each other.",
+        "start": "00:12.3",
+        "end": "00:14.6"
+      },
+      {
+        "text": "Jump or step backward, then make sure to keep your body perfectly straight.",
+        "start": "00:17.8",
+        "end": "00:23.0"
+      },
+      {"text": "Four.", "start": "00:23.0", "end": "00:24.1"},
+      {
+        "text": "Lower your whole body while looking down and keeping your",
+        "start": "00:24.6",
+        "end": "00:28.3"
+      },
+      {
+        "text": "forearms as close to your rib cage as possible.",
+        "start": "00:28.3",
+        "end": "00:31.0"
+      },
+      {"text": "Five.", "start": "00:34.5", "end": "00:35.5"},
+      {
+        "text": "Imagine an opponent in front of you.",
+        "start": "00:36.3",
+        "end": "00:38.1"
+      },
+      {
+        "text": "Try to punch or push that imaginary opponent fast, matching",
+        "start": "00:38.3",
+        "end": "00:42.6"
+      },
+      {
+        "text": "that movement with equally fast exhalation.",
+        "start": "00:42.6",
+        "end": "00:45.1"
+      },
+      {"text": "Six.", "start": "00:45.5", "end": "00:46.3"},
+      {
+        "text": "Come up while exhaling.",
+        "start": "00:46.3",
+        "end": "00:48.7"
+      }
+    ],
+    "timings": [
+      {"time": "2"},
+      {"time": "9"},
+      {"time": "18"},
+      {"time": "24"},
+      {"time": "35"},
+      {"time": "46"},
+      {"time": "52"}
+    ],
+    "questions": [
+      {
+        "text": "On which knuckles do you keep your fists while on the floor?",
+        "answers": [
+          {"text": "INDEX and MIDDLE", "isCorrect": true},
+          {"text": "All knuckles", "isCorrect": false},
+          {"text": "Naturally as you feel", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:53",
+    "positiveMessages": [
+      "Great work! This next lesson will instruct you on how to perform squats. Strong quads and glutes are the foundation of every successful Karate student.",
+      "I’ll see you at your next lesson!"
+    ],
+    "negativeMessages": [
+      "Excellent try! Let’s review that one more time. You’re almost there. You can do it!"
+    ],
+    "order": "3-2",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-3.-squats_gokay/playlist.m3u8",
+    "title": "Squats",
+    "captions": [
+      {"text": "Squats one.", "start": "00:00.0", "end": "00:02.5"},
+      {
+        "text": "Start in a natural position with your feet spread slightly",
+        "start": "00:02.8",
+        "end": "00:06.4"
+      },
+      {
+        "text": "apart at about a 35 degree angle.",
+        "start": "00:06.4",
+        "end": "00:09.1"
+      },
+      {"text": "Two.", "start": "00:09.2", "end": "00:10.2"},
+      {
+        "text": "Lock your fingers and put your hands on the back of your",
+        "start": "00:10.3",
+        "end": "00:13.4"
+      },
+      {"text": "head. Three.", "start": "00:13.4", "end": "00:14.9"},
+      {
+        "text": "Squat all the way down in one motion without any restrictions,",
+        "start": "00:15.4",
+        "end": "00:19.1"
+      },
+      {
+        "text": "so your knees follow the foot line.",
+        "start": "00:19.1",
+        "end": "00:21.2"
+      },
+      {"text": "Four.", "start": "00:21.9", "end": "00:22.9"},
+      {
+        "text": "Without any pause at the bottom, bounce back up.",
+        "start": "00:23.3",
+        "end": "00:26.2"
+      },
+      {
+        "text": "Don't overload your knees, and don't send your knees too",
+        "start": "00:26.5",
+        "end": "00:30.7"
+      },
+      {"text": "far forward.", "start": "00:30.7", "end": "00:31.4"},
+      {"text": "Five.", "start": "00:31.6", "end": "00:32.7"},
+      {"text": "Exhale on the way up.", "start": "00:32.9", "end": "00:34.7"},
+      {"text": "Six.", "start": "00:34.9", "end": "00:35.9"},
+      {
+        "text": "Keep your back straight.",
+        "start": "00:35.9",
+        "end": "00:37.9"
+      }
+    ],
+    "timings": [
+      {"time": "2"},
+      {"time": "9"},
+      {"time": "15"},
+      {"time": "22"},
+      {"time": "33"},
+      {"time": "36"}
+    ],
+    "questions": [
+      {
+        "text": "In which direction should your knees be pointing at?",
+        "answers": [
+          {"text": "Front", "isCorrect": false},
+          {"text": "The direction of your toes", "isCorrect": true},
+          {"text": "45 degrees apart", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:41",
+    "positiveMessages": [
+      "Excellent work! This next lesson will focus on your lower back muscles. Strong lower back muscles will hold your whole body together.",
+      "I will see you in the next lesson whenever you are ready!"
+    ],
+    "negativeMessages": [
+      "Nice try! Keep up the great effort. We’ll go over it again."
+    ],
+    "order": "3-3",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-4.-superman_gokay/playlist.m3u8",
+    "title": "Superman",
+    "captions": [
+      {"text": "Superman.", "start": "00:00.0", "end": "00:00.6"},
+      {"text": "One.", "start": "00:01.5", "end": "00:02.4"},
+      {
+        "text": "Lie flat on your stomach with your arms in front of you.",
+        "start": "00:02.6",
+        "end": "00:05.5"
+      },
+      {"text": "Two.", "start": "00:06.3", "end": "00:07.1"},
+      {
+        "text": "Keep your arms and legs straight.",
+        "start": "00:07.1",
+        "end": "00:09.0"
+      },
+      {"text": "Three.", "start": "00:09.5", "end": "00:10.3"},
+      {
+        "text": "Bring your hands and your feet together.",
+        "start": "00:10.5",
+        "end": "00:12.6"
+      },
+      {"text": "Four.", "start": "00:13.7", "end": "00:14.2"},
+      {
+        "text": "Exhale quickly raise your arms and then get back to the floor naturally.",
+        "start": "00:14.3",
+        "end": "00:19.2"
+      }
+    ],
+    "duration": "0:22",
+    "positiveMessages": [
+      "Nice work! Let’s move on to the next lesson focused on your abs. Who says ab exercises have to be boring? I like to switch things up and make ab exercises fun!",
+      "Your next lesson awaits!"
+    ],
+    "negativeMessages": [
+      "Nice try! Your effort is commendable! Let’s review it one more time."
+    ],
+    "order": "3-4",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-5.-vertical-scissors_gokay/playlist.m3u8",
+    "title": "Vertical scissors",
+    "captions": [
+      {"text": "Vertical scissors", "start": "00:00.0", "end": "00:02.9"},
+      {"text": "One.", "start": "00:02.9", "end": "00:04.1"},
+      {
+        "text": "Sit half way up, supporting yourself with your elbows",
+        "start": "00:04.1",
+        "end": "00:07.2"
+      },
+      {"text": "Two.", "start": "00:07.7", "end": "00:08.8"},
+      {
+        "text": "keep your feet together.",
+        "start": "00:08.8",
+        "end": "00:09.7"
+      },
+      {"text": "Three.", "start": "00:10.5", "end": "00:11.5"},
+      {
+        "text": "Lift your legs as straight and as close as possible to the center line.",
+        "start": "00:11.5",
+        "end": "00:15.8"
+      },
+      {"text": "Four.", "start": "00:16.9", "end": "00:17.8"},
+      {
+        "text": "Keep your lower ABS tight and breathe steadily and naturally.",
+        "start": "00:17.8",
+        "end": "00:21.6"
+      },
+      {"text": "Five.", "start": "00:22.8", "end": "00:23.8"},
+      {
+        "text": "Move your left and right leg up and down.",
+        "start": "00:24.0",
+        "end": "00:27.0"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "8"},
+      {"time": "11"},
+      {"time": "17"},
+      {"time": "23"}
+    ],
+    "questions": [
+      {
+        "text": "When should you stop breathing?",
+        "answers": [
+          {"text": "As soon as you start the exercise", "isCorrect": false},
+          {"text": "Never", "isCorrect": true},
+          {"text": "When you bring the legs together", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:33",
+    "positiveMessages": [
+      "Nice work! Learning to strengthen your lower abdominals is the key to throwing powerful punches and kicks!",
+      "I am now redirecting you to your next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You almost had it! Let’s try it one more time."
+    ],
+    "order": "3-5",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-6.-horizontal-scissors_gokay/playlist.m3u8",
+    "title": "Horizontal scissors",
+    "captions": [
+      {"text": "Horizontal scissors.", "start": "00:00.0", "end": "00:02.4"},
+      {"text": "One.", "start": "00:02.5", "end": "00:03.0"},
+      {
+        "text": "Raise your legs off the floor approximately one to 1 and",
+        "start": "00:03.1",
+        "end": "00:06.7"
+      },
+      {"text": "a half feet.", "start": "00:06.7", "end": "00:07.2"},
+      {"text": "Two.", "start": "00:07.4", "end": "00:08.5"},
+      {"text": "Cross your legs.", "start": "00:09.1", "end": "00:11.5"},
+      {"text": "Three.", "start": "00:11.5", "end": "00:12.7"},
+      {
+        "text": "Spread your legs to about an 80 degree angle, pointing your",
+        "start": "00:13.2",
+        "end": "00:16.7"
+      },
+      {"text": "toes out.", "start": "00:16.7", "end": "00:17.3"},
+      {"text": "Four.", "start": "00:19.7", "end": "00:20.7"},
+      {
+        "text": "Cross your legs again with the other leg on top.",
+        "start": "00:21.0",
+        "end": "00:23.6"
+      },
+      {"text": "Five.", "start": "00:28.3", "end": "00:29.3"},
+      {
+        "text": "Repeat 6 exhale when your legs are going outward.",
+        "start": "00:29.7",
+        "end": "00:34.7"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "8"},
+      {"time": "12"},
+      {"time": "20"},
+      {"time": "29"},
+      {"time": "32"}
+    ],
+    "questions": [
+      {
+        "text": "How far apart should you split your legs?",
+        "answers": [
+          {"text": "65-degrees", "isCorrect": false},
+          {"text": "45-degrees", "isCorrect": false},
+          {"text": "80-degrees", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:38",
+    "positiveMessages": [
+      "Nice work! The more variations you learn, the easier the learning will become! I promise!",
+      "Let’s move onto the next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You’re almost there. Let’s take it from the top!"
+    ],
+    "order": "3-6",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-7.-bicycling-forward_gokay/playlist.m3u8",
+    "title": "Bicycling forward",
+    "captions": [
+      {"text": "Bicycling forward.", "start": "00:00.5", "end": "00:02.0"},
+      {
+        "text": "This exercise is self-explanatory move your legs like you're cycling.",
+        "start": "00:02.3",
+        "end": "00:07.1"
+      },
+      {
+        "text": "One important tip, move your legs in well formed",
+        "start": "00:07.1",
+        "end": "00:11.6"
+      },
+      {
+        "text": "round circles and keep your knees close together.",
+        "start": "00:11.7",
+        "end": "00:14.6"
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "How do you move your legs?",
+        "answers": [
+          {"text": "In a cycling motion", "isCorrect": true},
+          {"text": "Keep pushing with the legs", "isCorrect": false},
+          {"text": "Slowly", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:19",
+    "positiveMessages": [
+      "Great work! With each lesson, your mental-body connections keep on getting stronger! Keep it up!",
+      "Let’s move onto the next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You’re almost there. Let’s take it from the top!"
+    ],
+    "order": "3-7",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-8.-backpedaling_gokay/playlist.m3u8",
+    "title": "Backpedaling",
+    "captions": [
+      {
+        "text": "Back Pedaling This is the same as the previous exercise,",
+        "start": "00:00.0",
+        "end": "00:04.3"
+      },
+      {
+        "text": "but moving your legs in the opposite direction.",
+        "start": "00:04.6",
+        "end": "00:07.2"
+      },
+      {
+        "text": "Keep your knees close together.",
+        "start": "00:07.4",
+        "end": "00:09.6"
+      },
+      {
+        "text": "Breathe steadily and keep your lower ABS tight.",
+        "start": "00:09.6",
+        "end": "00:13.0"
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "On which part of the body should you focus the most?",
+        "answers": [
+          {"text": "Legs", "isCorrect": false},
+          {"text": "Abs", "isCorrect": true},
+          {"text": "Back", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:16",
+    "positiveMessages": [
+      "Great work! The next lesson is both fun AND effective!",
+      "Let’s move on to your next lesson!"
+    ],
+    "negativeMessages": ["Nice try! Let’s take it from the top again."],
+    "order": "3-8",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Strength training",
+    "url": "https://stream.studyum.io/strength-training-9.-leg-raise-5-write-your-last-name-with-your-toes_gokay/playlist.m3u8",
+    "title": "Leg raise 5 write your last name with your toes",
+    "captions": [
+      {
+        "text": "Leg Raise Write your last name with your toes.",
+        "start": "00:00.0",
+        "end": "00:03.5"
+      },
+      {
+        "text": "This is a great exercise for Igor Dyachenko because he has",
+        "start": "00:04.2",
+        "end": "00:09.5"
+      },
+      {
+        "text": "a pretty long last name.",
+        "start": "00:09.5",
+        "end": "00:11.3"
+      },
+      {
+        "text": "But if your last name happens to be too short, just go ahead",
+        "start": "00:11.6",
+        "end": "00:15.6"
+      },
+      {"text": "and write his.", "start": "00:15.6", "end": "00:16.6"}
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "With which part of the body you should write your last name?",
+        "answers": [
+          {"text": "Fingers", "isCorrect": false},
+          {"text": "Toes", "isCorrect": true},
+          {"text": "Legs", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:23",
+    "positiveMessages": [
+      "Great work! Let’s move on to the next lesson. Respect is essential for karate, remember to bow before and after each technique.",
+      "Take a bow, your next lesson awaits you!"
+    ],
+    "negativeMessages": ["Nice try! Let’s review the move again!"],
+    "order": "3-9",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Falling",
+    "url": "https://stream.studyum.io/falling-1.-back-fall-serghei_gokay/playlist.m3u8",
+    "title": "Back fall serghei",
+    "captions": [
+      {"text": "Back fall.", "start": "00:00.3", "end": "00:01.8"},
+      {"text": "One.", "start": "00:02.4", "end": "00:03.4"},
+      {
+        "text": "Bring your feet together and touch your chest with your chin",
+        "start": "00:03.9",
+        "end": "00:07.2"
+      },
+      {"text": "Two", "start": "00:07.2", "end": "00:08.5"},
+      {
+        "text": " move your arms as you would sweep the floor and squat",
+        "start": "00:08.6",
+        "end": "00:11.8"
+      },
+      {"text": "down all the way.", "start": "00:11.8", "end": "00:12.8"},
+      {"text": "Three.", "start": "00:13.1", "end": "00:14.2"},
+      {
+        "text": "Continuing the same motion, land on either one of your buttocks.",
+        "start": "00:14.6",
+        "end": "00:18.6"
+      },
+      {
+        "text": "Keep your back grounded and start rolling onto your back ",
+        "start": "00:18.7",
+        "end": "00:24.6"
+      },
+      {"text": "Four", "start": "00:24.6", "end": "00:25.4"},
+      {
+        "text": "when your head is about to hit the floor, kick your legs",
+        "start": "00:25.9",
+        "end": "00:29.0"
+      },
+      {
+        "text": "forward and release your shacks your arms to absorb the impact",
+        "start": "00:29.0",
+        "end": "00:34.0"
+      },
+      {
+        "text": "of striking the floor at a 30 degree angle, using the outer",
+        "start": "00:34.0",
+        "end": "00:38.1"
+      },
+      {
+        "text": "areas of your palms as if you're slicing the floor.",
+        "start": "00:38.1",
+        "end": "00:41.7"
+      },
+      {
+        "text": "The angle from your landing arms to your body should be approximately",
+        "start": "00:42.4",
+        "end": "00:46.4"
+      },
+      {"text": "30 degrees as well.", "start": "00:46.4", "end": "00:48.1"},
+      {"text": "Five.", "start": "00:48.6", "end": "00:49.0"},
+      {
+        "text": "Use the counter momentum to bend your legs and stand up immediately.",
+        "start": "00:49.3",
+        "end": "00:54.1"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "8"},
+      {"time": "14"},
+      {"time": "25"},
+      {"time": "49"}
+    ],
+    "questions": [
+      {
+        "text": "What part of the body do you land on?",
+        "answers": [
+          {"text": "Your back", "isCorrect": false},
+          {"text": "Your hips", "isCorrect": false},
+          {"text": "Your buttocks", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:02",
+    "positiveMessages": [
+      "You made that one look easy! This next technique will teach you how to fall properly on your side.",
+      "Get knocked down six-times, get up seven times!",
+      "Allow me to redirect you to your next lesson."
+    ],
+    "negativeMessages": ["Ah so close! Let’s take it from the top."],
+    "order": "4-1",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Falling",
+    "url": "https://stream.studyum.io/falling-3.-ground-defense_gokay/playlist.m3u8",
+    "title": "Ground defense",
+    "captions": [
+      {"text": "Ground Defense ", "start": "00:00.0", "end": "00:01.8"},
+      {
+        "text": "If you've lost your balance or you have been",
+        "start": "00:02.9",
+        "end": "00:05.0"
+      },
+      {
+        "text": "thrown or swept right before your back touches the floor,",
+        "start": "00:05.2",
+        "end": "00:08.1"
+      },
+      {
+        "text": "you should start kicking with your legs in the form of an",
+        "start": "00:08.5",
+        "end": "00:11.4"
+      },
+      {
+        "text": "upward bicycling motion.",
+        "start": "00:11.4",
+        "end": "00:12.7"
+      },
+      {
+        "text": "If your opponent takes a different angle relative to you,",
+        "start": "00:13.8",
+        "end": "00:16.4"
+      },
+      {
+        "text": "follow your opponent with your legs.",
+        "start": "00:16.5",
+        "end": "00:18.6"
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "When should you start kicking with your legs?",
+        "answers": [
+          {"text": "Once I sense danger", "isCorrect": false},
+          {"text": "Once I’m on the floor", "isCorrect": true},
+          {"text": "When the opponent gets closer", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:19",
+    "positiveMessages": [
+      "Congratulations!! You’ve completed your Olympic Karate black belt theoretical knowledge certification. I knew you could do it!"
+    ],
+    "negativeMessages": [
+      "Great try! You almost had it. You’re so close to mastering the moves."
+    ],
+    "order": "4-3",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-3.-lunge-punch-kizami-zuki_gokay/playlist.m3u8",
+    "title": "Lunge punch (kizami zuki)",
+    "captions": [
+      {
+        "text": "Lunge Punch - Kizami zuki.",
+        "start": "00:00.0",
+        "end": "00:02.3"
+      },
+      {"text": "One.", "start": "00:02.3", "end": "00:02.7"},
+      {
+        "text": "Stand in your fighting stance with your hands on guard.",
+        "start": "00:03.0",
+        "end": "00:06.6"
+      },
+      {"text": "Two.", "start": "00:07.2", "end": "00:07.8"},
+      {
+        "text": "Extend your arm like you're pressing an elevator button.",
+        "start": "00:08.0",
+        "end": "00:11.2"
+      },
+      {
+        "text": "Think of your opponent's nose as a button.",
+        "start": "00:11.3",
+        "end": "00:14.4"
+      },
+      {"text": "Three.", "start": "00:15.3", "end": "00:16.3"},
+      {
+        "text": "Reach out, and just as you touch it, twist your wrist so",
+        "start": "00:17.0",
+        "end": "00:20.9"
+      },
+      {
+        "text": "that at the end of the movement, your palm is turned downward.",
+        "start": "00:21.0",
+        "end": "00:24.7"
+      },
+      {"text": "Four.", "start": "00:25.5", "end": "00:26.5"},
+      {
+        "text": "Do not move your shoulder or elbow sideways.",
+        "start": "00:27.1",
+        "end": "00:29.8"
+      },
+      {"text": "Five.", "start": "00:30.6", "end": "00:31.6"},
+      {
+        "text": "Put as much weight as you can on your front foot so you're",
+        "start": "00:32.3",
+        "end": "00:35.7"
+      },
+      {
+        "text": "prepared to make a quick dash.",
+        "start": "00:35.7",
+        "end": "00:37.1"
+      },
+      {"text": "Six.", "start": "00:37.9", "end": "00:38.9"},
+      {
+        "text": "Pull your foot and arm almost at the same time as if you",
+        "start": "00:39.0",
+        "end": "00:43.5"
+      },
+      {
+        "text": "just touched a red hot iron.",
+        "start": "00:43.6",
+        "end": "00:45.4"
+      },
+      {"text": "Seven.", "start": "00:46.0", "end": "00:47.0"},
+      {
+        "text": "Control the Center line with your backhand.",
+        "start": "00:47.0",
+        "end": "00:50.0"
+      },
+      {"text": "Eight.", "start": "00:50.5", "end": "00:51.5"},
+      {
+        "text": "Come back to the hand guard.",
+        "start": "00:51.6",
+        "end": "00:53.8"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "7"},
+      {"time": "16"},
+      {"time": "27"},
+      {"time": "31"},
+      {"time": "39"},
+      {"time": "47"},
+      {"time": "52"}
+    ],
+    "questions": [
+      {
+        "text": "How much weight should you put onto your front foot?",
+        "answers": [
+          {"text": "30 percent of the weight", "isCorrect": false},
+          {"text": "As much weight as you can", "isCorrect": true},
+          {"text": "Don’t put any weight", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:59",
+    "positiveMessages": [
+      "Great work! Now lets learn the reverse punch. This punch is one of the most effective and versatile. Ki-yah!",
+      "The next lesson is ready when you are!"
+    ],
+    "negativeMessages": [
+      "Excellent try! Let’s review it again. You’re almost there."
+    ],
+    "order": "4-3",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-4.-reverse-punch-gyaku-zuki_gokay/playlist.m3u8",
+    "title": "Reverse punch (gyaku zuki)",
+    "captions": [
+      {
+        "text": "Reverse Punch Gyaku Zuki.",
+        "start": "00:00.0",
+        "end": "00:02.9"
+      },
+      {"text": "One.", "start": "00:03.1", "end": "00:04.2"},
+      {
+        "text": "Start in your fighting position with hands on guard.",
+        "start": "00:04.3",
+        "end": "00:08.0"
+      },
+      {"text": "Two.", "start": "00:08.0", "end": "00:10.0"},
+      {
+        "text": "Extend your back arm about 30% and keep your elbow facing down the",
+        "start": "00:10.0",
+        "end": "00:15.2"
+      },
+      {
+        "text": "next several elements three to 9 are all done simultaneously.",
+        "start": "00:15.2",
+        "end": "00:19.6"
+      },
+      {
+        "text": "I repeat, do them all at the same time.",
+        "start": "00:20.0",
+        "end": "00:23.4"
+      },
+      {"text": "Three.", "start": "00:23.8", "end": "00:24.7"},
+      {
+        "text": "Step forward about half a foot or more to your outer side.",
+        "start": "00:24.7",
+        "end": "00:28.3"
+      },
+      {"text": "Four.", "start": "00:28.8", "end": "00:29.4"},
+      {
+        "text": "Rotate your shoulders and your pelvis.",
+        "start": "00:29.4",
+        "end": "00:32.1"
+      },
+      {"text": "Five.", "start": "00:32.2", "end": "00:33.1"},
+      {
+        "text": "Drive your back knee toward the floor while you move your hips.",
+        "start": "00:33.1",
+        "end": "00:36.5"
+      },
+      {"text": "Six.", "start": "00:37.4", "end": "00:38.4"},
+      {
+        "text": "Rotate your back foot on the inner part of the ball of your",
+        "start": "00:38.8",
+        "end": "00:41.8"
+      },
+      {
+        "text": "foot where your big toe is attached.",
+        "start": "00:41.8",
+        "end": "00:43.8"
+      },
+      {
+        "text": "Make sure your foot is moving forward, not backward.",
+        "start": "00:44.0",
+        "end": "00:47.5"
+      },
+      {"text": "Seven.", "start": "00:48.0", "end": "00:49.0"},
+      {
+        "text": "Extend your punching arm fully before your front foot hits",
+        "start": "00:49.0",
+        "end": "00:53.3"
+      },
+      {"text": "the floor.", "start": "00:53.3", "end": "00:53.7"},
+      {
+        "text": "Make sure your elbow is pointing down and your shoulders",
+        "start": "00:54.0",
+        "end": "00:58.1"
+      },
+      {
+        "text": "are pushed down at all times.",
+        "start": "00:58.1",
+        "end": "01:00.1"
+      },
+      {"text": "Eight.", "start": "01:00.5", "end": "01:01.5"},
+      {
+        "text": "Rotate your wrist inward.",
+        "start": "01:01.5",
+        "end": "01:03.6"
+      },
+      {"text": "Nine.", "start": "01:04.2", "end": "01:05.2"},
+      {
+        "text": "Supplement the whole motion with a strong push of your back",
+        "start": "01:05.9",
+        "end": "01:09.6"
+      },
+      {
+        "text": "leg to help direct your rotation and initial momentum toward",
+        "start": "01:09.6",
+        "end": "01:13.5"
+      },
+      {
+        "text": "the target and tie it all together with the exhalation.",
+        "start": "01:13.5",
+        "end": "01:18.4"
+      },
+      {"text": "Ten.", "start": "01:22.2", "end": "01:24.1"},
+      {
+        "text": "Instantly pull your arm back to maximize the effectiveness",
+        "start": "01:24.4",
+        "end": "01:28.0"
+      },
+      {"text": "of the punch.", "start": "01:28.0", "end": "01:28.8"}
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "9"},
+      {"time": "24"},
+      {"time": "29"},
+      {"time": "33"},
+      {"time": "38"},
+      {"time": "49"},
+      {"time": "62"},
+      {"time": "66"},
+      {"time": "84"}
+    ],
+    "questions": [
+      {
+        "text": "What is the seventh step?",
+        "answers": [
+          {
+            "text": "Make a strong push with your back leg",
+            "isCorrect": false
+          },
+          {"text": "Drive your front knee forward", "isCorrect": false},
+          {"text": "Extend your punching arm fully", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:40",
+    "positiveMessages": [
+      "Nice work! While everyone wants to learn to punch, learning to avoid a punch is just as important. We’ll go over this in the next lesson!\nRemember to always keep yourself protected!",
+      "Nothing can stop your momentum now, let’s move on to the next lesson!"
+    ],
+    "negativeMessages": [
+      "Nice try! Keep up the great effort. We’ll go over it again."
+    ],
+    "order": "4-4",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-5.-dodging_gokay/playlist.m3u8",
+    "title": "Dodging",
+    "captions": [
+      {"text": "Dodging.", "start": "00:00.7", "end": "00:02.4"},
+      {
+        "text": "Use your legs and let gravity help you drop down",
+        "start": "00:02.4",
+        "end": "00:05.6"
+      },
+      {"text": "and evade the attack.", "start": "00:05.6", "end": "00:06.6"},
+      {
+        "text": "Remember to also use your arms to protect yourself.",
+        "start": "00:06.8",
+        "end": "00:10.2"
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "What helps you to achieve the best dodging?",
+        "answers": [
+          {"text": "My back", "isCorrect": false},
+          {"text": "My legs", "isCorrect": false},
+          {"text": "Gravity", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:21",
+    "positiveMessages": [
+      "Nice work! This next technique is super-effective, once you learn it properly!",
+      "I will be waiting patiently for you at our next micro-lesson."
+    ],
+    "negativeMessages": [
+      "Great try! I can see you’re working hard. Let’s take it from the top."
+    ],
+    "order": "4-5",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-6.-middle-level-front-kick-chudan-mae-geri-with-the-back-leg_gokay/playlist.m3u8",
+    "title": "Middle level front kick (chudan mae geri) with the back leg",
+    "captions": [
+      {
+        "text": "Middle level front kick with the back leg.",
+        "start": "00:00.0",
+        "end": "00:02.5"
+      },
+      {"text": "Chudan Mae Geri.", "start": "00:02.5", "end": "00:04.6"},
+      {"text": "One.", "start": "00:04.6", "end": "00:05.6"},
+      {
+        "text": "Start in the fighting position with your hands on guard.",
+        "start": "00:06.0",
+        "end": "00:09.5"
+      },
+      {"text": "Two.", "start": "00:10.3", "end": "00:11.0"},
+      {
+        "text": "Bring your back knee straight up in a direct line as close",
+        "start": "00:11.3",
+        "end": "00:15.0"
+      },
+      {
+        "text": "to the Center line as possible.",
+        "start": "00:15.0",
+        "end": "00:16.6"
+      },
+      {"text": "Three.", "start": "00:18.1", "end": "00:19.1"},
+      {
+        "text": "With your toes facing upward, start pushing your knee further",
+        "start": "00:19.7",
+        "end": "00:23.1"
+      },
+      {
+        "text": "forward using your pelvis and right before extending your leg fully",
+        "start": "00:23.1",
+        "end": "00:26.7"
+      },
+      {
+        "text": "move your foot like you would if you were pressing",
+        "start": "00:26.7",
+        "end": "00:30.3"
+      },
+      {
+        "text": "a gas pedal, using the ball of your foot as the striking surface.",
+        "start": "00:30.3",
+        "end": "00:35.2"
+      },
+      {"text": "Four.", "start": "00:35.2", "end": "00:35.9"},
+      {
+        "text": "Snap your heel all the way back to your buttock.",
+        "start": "00:35.9",
+        "end": "00:38.7"
+      },
+      {
+        "text": "Stay low so you can comfortably step back to your fighting stance",
+        "start": "00:39.2",
+        "end": "00:42.6"
+      },
+      {
+        "text": "when you've completed this kick.",
+        "start": "00:42.6",
+        "end": "00:44.7"
+      }
+    ],
+    "timings": [{"time": "5"}, {"time": "11"}, {"time": "19"}, {"time": "36"}],
+    "questions": [
+      {
+        "text": "What part of the body should you use in order to advance your kicking leg forward?",
+        "answers": [
+          {"text": "The whole body", "isCorrect": false},
+          {"text": "Pelvic", "isCorrect": true},
+          {"text": "Foot", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:54",
+    "positiveMessages": [
+      "Nice work! Let’s learn some fancy techniques now. I KNOW you can do it!",
+      "I am redirecting you to our next lesson and can’t wait to see you there!"
+    ],
+    "negativeMessages": ["Nice try! You almost had it. Let’s review it again."],
+    "order": "4-6",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-8.-release-of-energy-ki-ai_gokay/playlist.m3u8",
+    "title": "Release of energy (ki ai)",
+    "captions": [
+      {"text": "Release of energy.", "start": "00:00.0", "end": "00:01.8"},
+      {"text": "Ki-ai.", "start": "00:01.8", "end": "00:05.1"},
+      {"text": "Ki means energy.", "start": "00:05.1", "end": "00:07.2"},
+      {
+        "text": "While Ai means release or push out.",
+        "start": "00:07.5",
+        "end": "00:11.6"
+      },
+      {
+        "text": "Together these words mean energy release.",
+        "start": "00:12.3",
+        "end": "00:15.3"
+      },
+      {
+        "text": "The energy we are releasing is contained in our breath.",
+        "start": "00:15.7",
+        "end": "00:19.7"
+      },
+      {"text": "One.", "start": "00:20.2", "end": "00:21.2"},
+      {
+        "text": "Inhale deeply using your stomach.",
+        "start": "00:21.3",
+        "end": "00:24.8"
+      },
+      {"text": "Two.", "start": "00:24.8", "end": "00:25.3"},
+      {"text": "Open your mouth wide", "start": "00:25.3", "end": "00:26.8"},
+      {
+        "text": "and squeeze your ABS as fast and hard as possible.",
+        "start": "00:26.8",
+        "end": "00:30.1"
+      },
+      {"text": "Three.", "start": "00:30.6", "end": "00:31.6"},
+      {
+        "text": "Imagine the air from your body is being released through",
+        "start": "00:32.2",
+        "end": "00:35.3"
+      },
+      {"text": "the open channel.", "start": "00:35.3", "end": "00:36.3"},
+      {
+        "text": "Visualize the way the energy penetrates a wall in front of you.",
+        "start": "00:37.5",
+        "end": "00:41.2"
+      },
+      {
+        "text": "Then the front wall of the next building, then goes",
+        "start": "00:41.2",
+        "end": "00:45.4"
+      },
+      {
+        "text": "right through that building, comes out through its back wall,",
+        "start": "00:45.4",
+        "end": "00:48.8"
+      },
+      {
+        "text": "and then hits another building across the Street.",
+        "start": "00:49.1",
+        "end": "00:51.7"
+      },
+      {
+        "text": "That is how much energy you should release with each Ki-ai.",
+        "start": "00:52.2",
+        "end": "00:56.7"
+      },
+      {
+        "text": "Note: you don't have to say Ki-ai",
+        "start": "00:56.7",
+        "end": "01:01.0"
+      },
+      {
+        "text": "while performing this exercise.",
+        "start": "01:01.2",
+        "end": "01:03.6"
+      },
+      {
+        "text": "Every person has their unique sound.",
+        "start": "01:03.6",
+        "end": "01:05.5"
+      },
+      {
+        "text": "Please videotape your Ki-ai.",
+        "start": "01:06.3",
+        "end": "01:08.9"
+      },
+      {
+        "text": "Put it on your Instagram or Facebook and tag me.",
+        "start": "01:08.9",
+        "end": "01:12.4"
+      },
+      {
+        "text": "I will personally comment on how good your Ki-ai is.",
+        "start": "01:12.6",
+        "end": "01:16.5"
+      }
+    ],
+    "timings": [{"time": "21"}, {"time": "25"}, {"time": "32"}],
+    "questions": [
+      {
+        "text": "Should I pronounce the actual word Ki- Ai?",
+        "answers": [
+          {"text": "No", "isCorrect": true},
+          {"text": "Yes", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "1:17",
+    "positiveMessages": [
+      "Nice work! For this next lesson remember that an unexpected kick to the head is a powerful tool to add to your arsenal.",
+      "Let’s continue on with our learning!"
+    ],
+    "negativeMessages": ["Nice try! You almost had it. Let’s review it again."],
+    "order": "4-8",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-9.-high-level-roundhouse-kick-jodan-mawashi-geri-_gokay/playlist.m3u8",
+    "title": "High level roundhouse kick (jodan mawashi geri)",
+    "captions": [
+      {
+        "text": "High level Roundhouse kick.",
+        "start": "00:00.0",
+        "end": "00:02.0"
+      },
+      {"text": "Jodan Mawashi Geri.", "start": "00:02.0", "end": "00:04.6"},
+      {"text": "One.", "start": "00:04.6", "end": "00:05.3"},
+      {
+        "text": "Start by switching your hands.",
+        "start": "00:05.3",
+        "end": "00:07.2"
+      },
+      {"text": "Two.", "start": "00:07.5", "end": "00:08.3"},
+      {
+        "text": "As you move your arms relative to one another, keep them",
+        "start": "00:08.4",
+        "end": "00:11.9"
+      },
+      {
+        "text": "as close as possible to the Center line.",
+        "start": "00:12.0",
+        "end": "00:13.8"
+      },
+      {"text": "Three.", "start": "00:15.5", "end": "00:16.5"},
+      {
+        "text": "Bring your knee up as quickly and as high as possible with",
+        "start": "00:17.0",
+        "end": "00:20.6"
+      },
+      {
+        "text": "your toes pointing down.",
+        "start": "00:20.6",
+        "end": "00:21.9"
+      },
+      {"text": "Four.", "start": "00:23.9", "end": "00:24.9"},
+      {
+        "text": "Push your knee in the direction of your target.",
+        "start": "00:25.6",
+        "end": "00:27.8"
+      },
+      {
+        "text": "This will let you turn your body sideways.",
+        "start": "00:28.0",
+        "end": "00:30.5"
+      },
+      {
+        "text": "Your supporting foot will naturally pivot so far that its",
+        "start": "00:30.5",
+        "end": "00:35.0"
+      },
+      {
+        "text": "heel will almost be facing your Center line.",
+        "start": "00:35.0",
+        "end": "00:37.3"
+      },
+      {"text": "Five.", "start": "00:39.3", "end": "00:40.3"},
+      {
+        "text": "When your knee is fully lifted and your body is rotating",
+        "start": "00:40.6",
+        "end": "00:44.1"
+      },
+      {
+        "text": "sideways, release your lower leg and your foot extending",
+        "start": "00:44.1",
+        "end": "00:48.2"
+      },
+      {
+        "text": "your leg fully before you hit the target with your top surface",
+        "start": "00:48.2",
+        "end": "00:51.6"
+      },
+      {"text": "of your foot.", "start": "00:51.7", "end": "00:52.3"},
+      {"text": "Six.", "start": "00:54.2", "end": "00:55.2"},
+      {
+        "text": "Instantly snap your heel back so that your leg is completely bent.",
+        "start": "00:56.1",
+        "end": "01:01.0"
+      },
+      {"text": "Seven.", "start": "01:01.1", "end": "01:02.1"},
+      {
+        "text": "Come back to your initial position.",
+        "start": "01:02.1",
+        "end": "01:04.5"
+      },
+      {
+        "text": "Pro Tip: At the end of your kick, you should have your legs",
+        "start": "01:05.3",
+        "end": "01:09.9"
+      },
+      {
+        "text": "fully extended and your body should be positioned in line",
+        "start": "01:09.9",
+        "end": "01:13.3"
+      },
+      {"text": "with your legs.", "start": "01:13.3", "end": "01:14.0"},
+      {
+        "text": "Don't stick your butt out backward.",
+        "start": "01:14.4",
+        "end": "01:16.8"
+      },
+      {
+        "text": "Instead, engage the muscles of your lower back.",
+        "start": "01:16.9",
+        "end": "01:20.4"
+      }
+    ],
+    "timings": [
+      {"time": "4"},
+      {"time": "8"},
+      {"time": "16"},
+      {"time": "25"},
+      {"time": "40"},
+      {"time": "55"},
+      {"time": "63"}
+    ],
+    "questions": [
+      {
+        "text": "What part of the leg should you be hitting the target with?",
+        "answers": [
+          {"text": "Top surface of the foot", "isCorrect": true},
+          {"text": "The ankle", "isCorrect": false},
+          {"text": "Shin", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "1:23",
+    "positiveMessages": [
+      "Great job! Once you learn this next kick, you’ll feel like you can cut through the trunk of a tree!",
+      "Let’s kick it to our next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! Let’s review that one again. You’re almost there."
+    ],
+    "order": "4-9",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-10.-neck-rolls_gokay/playlist.m3u8",
+    "title": "Neck rolls",
+    "captions": [
+      {"text": "Neck Rolls", "start": "00:00.4", "end": "00:02.3"},
+      {"text": "One.", "start": "00:02.3", "end": "00:03.0"},
+      {
+        "text": "Take natural stance with your heels.",
+        "start": "00:03.6",
+        "end": "00:06.0"
+      },
+      {
+        "text": "Shoulder width a part.",
+        "start": "00:06.0",
+        "end": "00:07.1"
+      },
+      {"text": "Two.", "start": "00:07.4", "end": "00:08.5"},
+      {
+        "text": "Hold your hands as if you're gripping a tree trunk.",
+        "start": "00:08.5",
+        "end": "00:15.0"
+      },
+      {"text": "Then grab your waist.", "start": "00:15.0", "end": "00:15.9"},
+      {"text": "Three.", "start": "00:17.3", "end": "00:18.3"},
+      {
+        "text": "Without moving your shoulders, try to touch your left shoulder",
+        "start": "00:19.0",
+        "end": "00:22.6"
+      },
+      {"text": "with your left ear.", "start": "00:22.6", "end": "00:23.7"},
+      {"text": "Four.", "start": "00:26.9", "end": "00:27.8"},
+      {
+        "text": "Roll your head back and look up.",
+        "start": "00:27.8",
+        "end": "00:30.5"
+      },
+      {"text": "Five.", "start": "00:32.6", "end": "00:33.6"},
+      {
+        "text": "Continue rolling until you touch the other shoulder with",
+        "start": "00:34.1",
+        "end": "00:37.2"
+      },
+      {"text": "your ear.", "start": "00:37.2", "end": "00:37.7"},
+      {"text": "Six.", "start": "00:42.2", "end": "00:43.2"},
+      {
+        "text": "Roll your head down until you touch your chest with your chin.",
+        "start": "00:43.2",
+        "end": "00:46.9"
+      },
+      {
+        "text": "Repeat in one smooth motion.",
+        "start": "00:46.9",
+        "end": "00:50.2"
+      },
+      {
+        "text": "Remember to go slowly and carefully.",
+        "start": "00:50.5",
+        "end": "00:53.0"
+      },
+      {
+        "text": "Also, remember to do the other side.",
+        "start": "00:53.0",
+        "end": "00:56.0"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "8"},
+      {"time": "18"},
+      {"time": "27"},
+      {"time": "33"},
+      {"time": "43"}
+    ],
+    "questions": [
+      {
+        "text": "What part of your head should you touch your shoulder with?",
+        "answers": [
+          {"text": "Back of the head", "isCorrect": false},
+          {"text": "Ear", "isCorrect": true},
+          {"text": "Cheek", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:56",
+    "positiveMessages": [
+      "Nice work! This warm-up will teach you to increase your range of motion and improve your posture. Better posture may lead to an increase in confidence 😎.",
+      "Get ready for your next micro-lesson!"
+    ],
+    "negativeMessages": ["Great try! Let’s go back and try it again."],
+    "order": "1-10",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-11.-shoulder-rolls-forward_gokay/playlist.m3u8",
+    "title": "Shoulder rolls forward",
+    "captions": [
+      {
+        "text": "Shoulder rolls forward.",
+        "start": "00:00.0",
+        "end": "00:01.7"
+      },
+      {"text": "One.", "start": "00:02.0", "end": "00:03.0"},
+      {
+        "text": "Take natural stance with your heels shoulder width apart.",
+        "start": "00:03.0",
+        "end": "00:07.1"
+      },
+      {"text": "Two.", "start": "00:07.3", "end": "00:08.1"},
+      {
+        "text": "Raise your arms sideways 90 degrees while pulling them",
+        "start": "00:08.1",
+        "end": "00:13.0"
+      },
+      {
+        "text": "backward as far as you can.",
+        "start": "00:13.0",
+        "end": "00:14.5"
+      },
+      {"text": "Three.", "start": "00:14.8", "end": "00:15.4"},
+      {
+        "text": "Cross your arms above your head.",
+        "start": "00:15.4",
+        "end": "00:17.9"
+      },
+      {"text": "Four.", "start": "00:21.1", "end": "00:22.3"},
+      {
+        "text": "Drop them in front of your face and bend your knees slightly.",
+        "start": "00:22.4",
+        "end": "00:26.2"
+      },
+      {
+        "text": "Repeat in one smooth motion.",
+        "start": "00:27.2",
+        "end": "00:29.5"
+      },
+      {
+        "text": "Remember to go slowly and carefully.",
+        "start": "00:29.9",
+        "end": "00:32.7"
+      },
+      {
+        "text": "Also, remember to do the other side.",
+        "start": "00:32.7",
+        "end": "00:35.6"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "8"}, {"time": "15"}, {"time": "22"}],
+    "questions": [
+      {
+        "text": "What do you do with your arms when they are in an upright position?",
+        "answers": [
+          {"text": "Keep them apar", "isCorrect": false},
+          {"text": "Keep them together", "isCorrect": false},
+          {"text": "Cross your arms", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:41",
+    "positiveMessages": [
+      "Nice Work! It’s essential to learn how to warm-up your elbows before you start to punch.",
+      "I’m ready when you are. Here comes your next micro-lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! I can see you’re working hard. Let’s take it from the top."
+    ],
+    "order": "1-11",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-13.-elbow-rolls_gokay/playlist.m3u8",
+    "title": "Elbow rolls",
+    "captions": [
+      {"text": "Elbow Rolls.", "start": "00:00.0", "end": "00:02.0"},
+      {"text": "One.", "start": "00:02.0", "end": "00:02.8"},
+      {
+        "text": "Take natural stance with your heels shoulder width apart.",
+        "start": "00:03.2",
+        "end": "00:07.2"
+      },
+      {"text": "Two.", "start": "00:07.4", "end": "00:08.5"},
+      {
+        "text": "Push your elbows out sideways.",
+        "start": "00:08.5",
+        "end": "00:11.1"
+      },
+      {
+        "text": "Check that your shoulders and elbows are level.",
+        "start": "00:11.4",
+        "end": "00:14.3"
+      },
+      {"text": "Three.", "start": "00:15.1", "end": "00:16.1"},
+      {
+        "text": "Point your fists at each other to keep them level.",
+        "start": "00:16.1",
+        "end": "00:19.5"
+      },
+      {"text": "Four.", "start": "00:20.2", "end": "00:21.2"},
+      {
+        "text": "Raise your fists upward in front of your face.",
+        "start": "00:21.3",
+        "end": "00:24.5"
+      },
+      {"text": "Five.", "start": "00:27.6", "end": "00:28.6"},
+      {
+        "text": "Extend your arms sideways so your fists point sideways.",
+        "start": "00:28.6",
+        "end": "00:32.7"
+      },
+      {"text": "Six.", "start": "00:35.5", "end": "00:36.0"},
+      {
+        "text": "Drop your forearms so that your fists point down.",
+        "start": "00:36.4",
+        "end": "00:39.7"
+      },
+      {"text": "Seven.", "start": "00:42.1", "end": "00:43.1"},
+      {
+        "text": "Raise your fists in front of your chest to the starting position.",
+        "start": "00:43.3",
+        "end": "00:47.3"
+      },
+      {"text": "Eight.", "start": "00:47.5", "end": "00:48.7"},
+      {
+        "text": "Now do the whole airplane propeller motion again.",
+        "start": "00:48.7",
+        "end": "00:52.6"
+      },
+      {
+        "text": "Remember to do it in the opposite direction.",
+        "start": "00:53.3",
+        "end": "00:56.3"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "8"},
+      {"time": "16"},
+      {"time": "21"},
+      {"time": "28"},
+      {"time": "36"},
+      {"time": "42"},
+      {"time": "48"}
+    ],
+    "questions": [
+      {
+        "text": "What do you do with your hands when you raise them?",
+        "answers": [
+          {"text": "Keep them naturally", "isCorrect": false},
+          {"text": "Keep in fists", "isCorrect": true},
+          {"text": "Hold tight", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "1:01",
+    "positiveMessages": [
+      "Great work! Now let’s prepare to throw punches by learning how to warm up our wrists.",
+      "Let’s jump to the next lesson!"
+    ],
+    "negativeMessages": [
+      "Excellent try! Let’s review it again. You’re almost there."
+    ],
+    "order": "1-13",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-14.-wrist-rolls_gokay/playlist.m3u8",
+    "title": "Wrist rolls",
+    "captions": [
+      {"text": "Wrist Rolls.", "start": "00:00.9", "end": "00:02.6"},
+      {"text": "One.", "start": "00:02.6", "end": "00:03.9"},
+      {
+        "text": "Lock your fingers in front of your chest and bend your arms.",
+        "start": "00:04.0",
+        "end": "00:07.8"
+      },
+      {"text": "Two.", "start": "00:12.3", "end": "00:13.3"},
+      {
+        "text": "Flip one palm downward and press down gently.",
+        "start": "00:13.4",
+        "end": "00:17.3"
+      },
+      {"text": "Three.", "start": "00:18.9", "end": "00:19.9"},
+      {
+        "text": "Flip your palms so the other faces down and press again.",
+        "start": "00:20.3",
+        "end": "00:24.0"
+      },
+      {"text": "Four.", "start": "00:26.6", "end": "00:27.6"},
+      {
+        "text": "Slowly and carefully repeat this sequence so it looks like",
+        "start": "00:28.4",
+        "end": "00:32.5"
+      },
+      {
+        "text": "you're making a snowball.",
+        "start": "00:32.5",
+        "end": "00:33.8"
+      },
+      {
+        "text": "Remember to do it in the other direction.",
+        "start": "00:34.6",
+        "end": "00:37.3"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "13"}, {"time": "19"}, {"time": "28"}],
+    "questions": [
+      {
+        "text": "Where do you keep your hands?",
+        "answers": [
+          {"text": "In front of your body", "isCorrect": false},
+          {"text": "In front of your stomach", "isCorrect": false},
+          {"text": "In front of your chest", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:43",
+    "positiveMessages": [
+      "Great work! Let’s move into Side Bends. In this micro-lesson, learning how to develop torso and arm mobility will be essential to your self-defense skills.",
+      "Get ready for your next micro-lesson, because here it comes!"
+    ],
+    "negativeMessages": [
+      "Nice try! I can see you’re working hard. Let’s review it again."
+    ],
+    "order": "1-14",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-15.-side-bends_gokay/playlist.m3u8",
+    "title": "Side bends",
+    "captions": [
+      {"text": "Wrist Rolls.", "start": "00:00.9", "end": "00:02.6"},
+      {"text": "One.", "start": "00:02.6", "end": "00:03.9"},
+      {
+        "text": "Lock your fingers in front of your chest and bend your arms.",
+        "start": "00:04.0",
+        "end": "00:07.8"
+      },
+      {"text": "Two.", "start": "00:12.3", "end": "00:13.3"},
+      {
+        "text": "Flip one palm downward and press down gently.",
+        "start": "00:13.4",
+        "end": "00:17.3"
+      },
+      {"text": "Three.", "start": "00:18.9", "end": "00:19.9"},
+      {
+        "text": "Flip your palms so the other faces down and press again.",
+        "start": "00:20.3",
+        "end": "00:24.0"
+      },
+      {"text": "Four.", "start": "00:26.6", "end": "00:27.6"},
+      {
+        "text": "Slowly and carefully repeat this sequence so it looks like",
+        "start": "00:28.4",
+        "end": "00:32.5"
+      },
+      {
+        "text": "you're making a snowball.",
+        "start": "00:32.5",
+        "end": "00:33.8"
+      },
+      {
+        "text": "Remember to do it in the other direction.",
+        "start": "00:34.6",
+        "end": "00:37.3"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "14"},
+      {"time": "20"},
+      {"time": "23"},
+      {"time": "34"},
+      {"time": "41"}
+    ],
+    "questions": [
+      {
+        "text": "What helps you to go lower?",
+        "answers": [
+          {"text": "Strength", "isCorrect": false},
+          {"text": "Top arm", "isCorrect": false},
+          {"text": "Gravity", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:55",
+    "positiveMessages": [
+      "Great work! Your lower back and hamstrings will thank you for learning this next stretch!",
+      "Prepare yourself for your next micro-lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You almost had it. Let’s review it again."
+    ],
+    "order": "1-15",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-16.-cross-bends_gokay/playlist.m3u8",
+    "title": "Cross bends",
+    "captions": [
+      {"text": "Cross bends.", "start": "00:00.9", "end": "00:03.2"},
+      {"text": "One.", "start": "00:03.2", "end": "00:04.2"},
+      {
+        "text": "Start this exercise in the same position as the side bend",
+        "start": "00:04.6",
+        "end": "00:08.3"
+      },
+      {"text": "with your arm up.", "start": "00:08.4", "end": "00:10.9"},
+      {"text": "Two.", "start": "00:14.2", "end": "00:15.2"},
+      {
+        "text": "Place your other hand on the back",
+        "start": "00:15.4",
+        "end": "00:17.3"
+      },
+      {"text": "side of your leg.", "start": "00:17.3", "end": "00:18.2"},
+      {"text": "Three.", "start": "00:18.8", "end": "00:19.8"},
+      {
+        "text": "Push your pelvis backward about 45 degrees",
+        "start": "00:19.8",
+        "end": "00:23.4"
+      },
+      {"text": "and bend low.", "start": "00:23.7", "end": "00:24.8"},
+      {"text": "Four.", "start": "00:29.7", "end": "00:30.9"},
+      {
+        "text": "Try to touch your opposite foot with your raised hand.",
+        "start": "00:30.9",
+        "end": "00:34.4"
+      },
+      {"text": "Five.", "start": "00:35.7", "end": "00:36.7"},
+      {
+        "text": "Keep both knees locked.",
+        "start": "00:37.0",
+        "end": "00:39.2"
+      },
+      {"text": "Six.", "start": "00:40.0", "end": "00:41.0"},
+      {
+        "text": "Focus on bending at the pelvis while keeping your back straight.",
+        "start": "00:41.2",
+        "end": "00:45.5"
+      },
+      {"text": "Do the other side.", "start": "00:45.7", "end": "00:47.5"}
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "14"},
+      {"time": "19"},
+      {"time": "30"},
+      {"time": "36"},
+      {"time": "41"}
+    ],
+    "questions": [
+      {
+        "text": "What do you do with your knees when you try to touch the opposite foot?",
+        "answers": [
+          {"text": "I keep them locked", "isCorrect": true},
+          {"text": "I keep them natural", "isCorrect": false},
+          {"text": "I slightly bend them", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:49",
+    "positiveMessages": [
+      "Excellent work! Let’s get ready to learn how to improve your balance and strengthen your lower back and hamstrings!",
+      "Get ready for your next micro-lesson."
+    ],
+    "negativeMessages": [
+      "Nice try! You’re almost there. Let’s go over it one more time."
+    ],
+    "order": "1-16",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-17.-lower-back-rolls_gokay/playlist.m3u8",
+    "title": "Lower back rolls",
+    "captions": [
+      {"text": "Lower Back Rolls.", "start": "00:00.6", "end": "00:02.4"},
+      {"text": "One.", "start": "00:02.9", "end": "00:04.1"},
+      {
+        "text": "Start with your feet spread apart about twice the width of your shoulders",
+        "start": "00:04.1",
+        "end": "00:08.5"
+      },
+      {"text": " at 45 degree angles.", "start": "00:08.5", "end": "00:11.9"},
+      {"text": "Two.", "start": "00:12.0", "end": "00:12.6"},
+      {
+        "text": "Lock your hands like hooks",
+        "start": "00:13.3",
+        "end": "00:14.6"
+      },
+      {
+        "text": "and lean forward while keeping your knees locked.",
+        "start": "00:14.6",
+        "end": "00:17.9"
+      },
+      {"text": "Three.", "start": "00:24.1", "end": "00:25.0"},
+      {
+        "text": "Move your torso and pelvis sideways and bring your arms above",
+        "start": "00:25.0",
+        "end": "00:29.8"
+      },
+      {
+        "text": "your head while you look through the loop of your arms.",
+        "start": "00:29.8",
+        "end": "00:32.9"
+      },
+      {"text": "Four.", "start": "00:37.1", "end": "00:38.1"},
+      {
+        "text": "Bend your knees slightly, arch your back, bring your arms",
+        "start": "00:38.8",
+        "end": "00:43.0"
+      },
+      {
+        "text": "behind your head, and look backward.",
+        "start": "00:43.0",
+        "end": "00:45.7"
+      },
+      {"text": "Five.", "start": "00:52.8", "end": "00:53.8"},
+      {
+        "text": "Smoothly transition to the other side, looking through ",
+        "start": "00:54.4",
+        "end": "00:58.9"
+      },
+      {
+        "text": "the loop of your arms.",
+        "start": "00:58.9",
+        "end": "00:59.7"
+      },
+      {
+        "text": "By now, your knees should be straight again, and your pelvis",
+        "start": "01:02.8",
+        "end": "01:07.2"
+      },
+      {
+        "text": "should be shifted sideways.",
+        "start": "01:07.2",
+        "end": "01:08.7"
+      },
+      {"text": "Six.", "start": "01:09.6", "end": "01:10.6"},
+      {
+        "text": "Complete the circular motion by leaning forward, locking",
+        "start": "01:11.4",
+        "end": "01:15.1"
+      },
+      {
+        "text": "your knees, and dropping your locked arms down.",
+        "start": "01:15.1",
+        "end": "01:18.0"
+      },
+      {
+        "text": "Remember to do it in the other direction.",
+        "start": "01:19.2",
+        "end": "01:22.0"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "12"},
+      {"time": "24"},
+      {"time": "38"},
+      {"time": "53"},
+      {"time": "71"}
+    ],
+    "questions": [
+      {
+        "text": "When do you keep your knees straight?",
+        "answers": [
+          {"text": "When your arch your back", "isCorrect": false},
+          {"text": "When you lean to the side", "isCorrect": false},
+          {"text": "When you lean forward", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:34",
+    "positiveMessages": [
+      "Great work! For this next micro-lesson you’ll learn how to increase the mobility of your hip joints AND improve your pelvic alignment.",
+      "Who doesn’t love a two-for-one deal? Let’s get ready to roll into our next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You almost had it. Let’s review it again."
+    ],
+    "order": "1-17",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-18.-hip-rolls_gokay/playlist.m3u8",
+    "title": "Hip rolls",
+    "captions": [
+      {"text": "Hip Rolls.", "start": "00:01.5", "end": "00:02.2"},
+      {"text": "One", "start": "00:02.3", "end": "00:02.7"},
+      {
+        "text": "Take natural stance with your heels shoulder width apart",
+        "start": "00:03.1",
+        "end": "00:07.1"
+      },
+      {
+        "text": "and your hands on your waist.",
+        "start": "00:07.1",
+        "end": "00:08.8"
+      },
+      {"text": "Two.", "start": "00:09.2", "end": "00:10.3"},
+      {
+        "text": "Imagine you're stuck in a large box, trying to touch each",
+        "start": "00:10.4",
+        "end": "00:15.2"
+      },
+      {"text": "side with your hips.", "start": "00:15.2", "end": "00:16.2"},
+      {"text": "Three.", "start": "00:17.2", "end": "00:18.2"},
+      {
+        "text": "Keep your knees locked.",
+        "start": "00:18.2",
+        "end": "00:20.3"
+      },
+      {"text": "Four.", "start": "00:21.0", "end": "00:22.0"},
+      {
+        "text": "Shift your hips sideways to touch one side of the box.",
+        "start": "00:22.2",
+        "end": "00:26.3"
+      },
+      {"text": "Five.", "start": "00:27.3", "end": "00:28.3"},
+      {
+        "text": "Shift your hips backwards to touch the back side of the box",
+        "start": "00:28.3",
+        "end": "00:32.5"
+      },
+      {"text": "with your buttocks.", "start": "00:32.7", "end": "00:33.5"},
+      {"text": "Six.", "start": "00:36.1", "end": "00:37.1"},
+      {
+        "text": "Touch the other side of the box with your hips.",
+        "start": "00:37.1",
+        "end": "00:40.2"
+      },
+      {"text": "Seven.", "start": "00:43.0", "end": "00:44.0"},
+      {
+        "text": "Touch the front side with your pelvis.",
+        "start": "00:44.0",
+        "end": "00:46.9"
+      },
+      {
+        "text": "Smoothly repeat this excercise",
+        "start": "00:47.9",
+        "end": "00:49.7"
+      },
+      {
+        "text": "then do it on the other direction.",
+        "start": "00:49.7",
+        "end": "00:52.9"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "10"},
+      {"time": "18"},
+      {"time": "22"},
+      {"time": "28"},
+      {"time": "37"},
+      {"time": "44"}
+    ],
+    "questions": [
+      {
+        "text": "Where do you keep your hands?",
+        "answers": [
+          {"text": "I hold them in front of my chest", "isCorrect": false},
+          {"text": "I keep them on my waist", "isCorrect": true},
+          {"text": "I keep them stretched forward", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:55",
+    "positiveMessages": [
+      "Awesome job! This next micro-lesson will focus on your knees. Learn to care for your knees now and your knees will care for you when you get older.",
+      "You’re on a roll! Prepare for your next micro-lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You’re almost there. Let’s review it again."
+    ],
+    "order": "1-18",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-20.-double-knee-rolls_gokay/playlist.m3u8",
+    "title": "Double knee rolls",
+    "captions": [
+      {"text": "Double Knee Rolls.", "start": "00:00.0", "end": "00:02.3"},
+      {"text": "One.", "start": "00:02.3", "end": "00:03.0"},
+      {
+        "text": "Stand with your feet and toes together.",
+        "start": "00:03.4",
+        "end": "00:06.0"
+      },
+      {"text": "Two", "start": "00:06.5", "end": "00:07.0"},
+      {"text": "Lean forward and", "start": "00:07.2", "end": "00:09.4"},
+      {
+        "text": "place your hands on your knees.",
+        "start": "00:09.4",
+        "end": "00:11.0"
+      },
+      {"text": "Three.", "start": "00:13.0", "end": "00:14.0"},
+      {
+        "text": "Keep your knees together.",
+        "start": "00:14.0",
+        "end": "00:16.1"
+      },
+      {"text": "Four.", "start": "00:16.8", "end": "00:18.0"},
+      {
+        "text": "Begin making medium size circles with your knees to the left.",
+        "start": "00:18.8",
+        "end": "00:22.3"
+      },
+      {"text": "Five.", "start": "00:22.5", "end": "00:23.3"},
+      {
+        "text": "Avoid crossing the tow line with your knees.",
+        "start": "00:23.5",
+        "end": "00:27.4"
+      },
+      {
+        "text": "Smoothly repeat the exercise, then change direction.",
+        "start": "00:27.5",
+        "end": "00:31.6"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "7"},
+      {"time": "13"},
+      {"time": "18"},
+      {"time": "23"}
+    ],
+    "questions": [
+      {
+        "text": "How far apart should you keep your knees?",
+        "answers": [
+          {"text": "Slightly apart", "isCorrect": false},
+          {"text": "One foot apart", "isCorrect": false},
+          {"text": "Keep them together", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:34",
+    "positiveMessages": [
+      "You’re doing great! This next micro-lesson will teach you to increase the strength and mobility of your whole lower body.",
+      "This lesson will begin shortly. Let’s go!"
+    ],
+    "negativeMessages": ["Good try! You’re so close. Let’s go over it again."],
+    "order": "1-20",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-21.-gravity-knee-rolls_gokay/playlist.m3u8",
+    "title": "Gravity knee rolls",
+    "captions": [
+      {"text": "Gravity Knee Rolls.", "start": "00:00.8", "end": "00:03.4"},
+      {"text": "One.", "start": "00:03.4", "end": "00:04.0"},
+      {
+        "text": "Keep your feet toes and heels together and place your hands",
+        "start": "00:04.1",
+        "end": "00:08.0"
+      },
+      {"text": "on your knees.", "start": "00:08.0", "end": "00:08.6"},
+      {"text": "Two.", "start": "00:08.9", "end": "00:10.1"},
+      {
+        "text": "Push your knees slightly to the side and squat all the way",
+        "start": "00:10.7",
+        "end": "00:14.2"
+      },
+      {
+        "text": "down so that your butt almost touches your heels.",
+        "start": "00:14.3",
+        "end": "00:17.2"
+      },
+      {"text": "Three.", "start": "00:21.7", "end": "00:22.7"},
+      {
+        "text": "Keep your heels firmly on the floor.",
+        "start": "00:23.2",
+        "end": "00:25.2"
+      },
+      {"text": "Four.", "start": "00:25.7", "end": "00:26.7"},
+      {
+        "text": "Push your knees to the other side and come up.",
+        "start": "00:26.9",
+        "end": "00:29.9"
+      },
+      {
+        "text": "Do not practice this exercise too slowly.",
+        "start": "00:30.1",
+        "end": "00:33.4"
+      },
+      {
+        "text": "Let gravity help you down, then bounce off your legs to come",
+        "start": "00:33.5",
+        "end": "00:38.1"
+      },
+      {"text": "up naturally.", "start": "00:38.1", "end": "00:38.8"},
+      {
+        "text": "Remember to do it to the other side.",
+        "start": "00:39.3",
+        "end": "00:41.9"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "10"}, {"time": "22"}, {"time": "26"}],
+    "questions": [
+      {
+        "text": "When do you lift up your heels?",
+        "answers": [
+          {"text": "Everytime I squat down", "isCorrect": false},
+          {"text": "Everytime I come up", "isCorrect": false},
+          {"text": "Never", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:44",
+    "positiveMessages": [
+      "Nice work! This next micro-lesson will teach you how to stretch out your foot to prevent common injuries and improve your flexibility.",
+      "In Karate, like in life, it’s best to prevent problems before they start.",
+      "Your next micro-lesson will begin in just a moment!"
+    ],
+    "negativeMessages": ["Nice try! You’re so close. Let’s review it again."],
+    "order": "1-21",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-22.-sideway-foot-rolls_gokay/playlist.m3u8",
+    "title": "Sideway foot rolls",
+    "captions": [
+      {"text": "Sideway Foot Rolls.", "start": "00:00.2", "end": "00:02.7"},
+      {"text": "One.", "start": "00:02.7", "end": "00:03.3"},
+      {
+        "text": "Take a small step forward with your right foot ",
+        "start": "00:03.3",
+        "end": "00:07.3"
+      },
+      {
+        "text": "and bring the toes of your front foot upward.",
+        "start": "00:07.3",
+        "end": "00:09.3"
+      },
+      {"text": "Two.", "start": "00:13.6", "end": "00:14.6"},
+      {
+        "text": "Curl your ankle by rolling your foot onto the outer edge",
+        "start": "00:15.2",
+        "end": "00:18.7"
+      },
+      {
+        "text": "and shift your weight to your front foot.",
+        "start": "00:19.0",
+        "end": "00:21.7"
+      },
+      {"text": "Three.", "start": "00:26.6", "end": "00:27.6"},
+      {
+        "text": "Roll your foot onto the inner edge.",
+        "start": "00:27.6",
+        "end": "00:30.3"
+      },
+      {
+        "text": "Bend your knees slightly and apply pressure by shifting your",
+        "start": "00:30.6",
+        "end": "00:34.5"
+      },
+      {
+        "text": "weight to your front foot.",
+        "start": "00:34.5",
+        "end": "00:36.0"
+      },
+      {
+        "text": "Do the Sideways foot rolls with your other foot as well.",
+        "start": "00:41.3",
+        "end": "00:45.5"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "14"}, {"time": "27"}],
+    "questions": [
+      {
+        "text": "Which leg do I put my weight on?",
+        "answers": [
+          {"text": "I keep my weight centered", "isCorrect": false},
+          {"text": "Front leg", "isCorrect": true},
+          {"text": "Back leg", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:52",
+    "positiveMessages": [
+      "Nice work! This next micro-lesson will instruct you on how to increase the range of motion in your feet and toes!",
+      "Increased flexibility and range will give your kick that extra kick.",
+      "Get ready, your next micro-lesson is about to start!"
+    ],
+    "negativeMessages": ["Great try! You’re almost there. Let’s try it again."],
+    "order": "1-22",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Warm up",
+    "url": "https://stream.studyum.io/warm-up-23.-circular-foot-rolls-and-toe-stretch_gokay/playlist.m3u8",
+    "title": "Circular foot rolls and toe stretch",
+    "captions": [
+      {
+        "text": "Circular Foot Rolls and Toe Stretch.",
+        "start": "00:00.3",
+        "end": "00:04.0"
+      },
+      {"text": "One.", "start": "00:04.0", "end": "00:05.6"},
+      {
+        "text": "Step on the ball of your foot.",
+        "start": "00:05.6",
+        "end": "00:06.9"
+      },
+      {"text": "Two", "start": "00:06.9", "end": "00:07.9"},
+      {
+        "text": "Begin to make circular movements inward with",
+        "start": "00:07.9",
+        "end": "00:11.6"
+      },
+      {"text": "your foot.", "start": "00:11.6", "end": "00:12.0"},
+      {"text": "Three.", "start": "00:12.6", "end": "00:13.6"},
+      {
+        "text": "Be sure to cross the tow line with your knees.",
+        "start": "00:14.1",
+        "end": "00:16.4"
+      },
+      {"text": "Four.", "start": "00:17.0", "end": "00:18.0"},
+      {
+        "text": "Do the same in the opposite direction.",
+        "start": "00:18.1",
+        "end": "00:21.0"
+      },
+      {
+        "text": "Do both inward and outward rolls with your other foot as well.",
+        "start": "00:21.3",
+        "end": "00:26.6"
+      },
+      {"text": "Five.", "start": "00:26.7", "end": "00:28.2"},
+      {
+        "text": "Place your toes on the ground.",
+        "start": "00:28.2",
+        "end": "00:30.6"
+      },
+      {"text": "Six.", "start": "00:30.9", "end": "00:31.7"},
+      {
+        "text": "Apply slight pressure forward by shifting more weight onto",
+        "start": "00:31.8",
+        "end": "00:35.9"
+      },
+      {"text": "your ankle.", "start": "00:36.0", "end": "00:36.5"},
+      {
+        "text": "During this exercise, make sure you stretch your toes and",
+        "start": "00:36.8",
+        "end": "00:40.3"
+      },
+      {"text": "your Instep.", "start": "00:40.3", "end": "00:40.9"},
+      {
+        "text": "Remember to stretch the other foot.",
+        "start": "00:41.2",
+        "end": "00:43.0"
+      }
+    ],
+    "timings": [
+      {"time": "4"},
+      {"time": "8"},
+      {"time": "13"},
+      {"time": "18"},
+      {"time": "28"},
+      {"time": "32"}
+    ],
+    "questions": [
+      {
+        "text": "What do I stretch besides the toes?",
+        "answers": [
+          {"text": "My shin", "isCorrect": false},
+          {"text": "My calf", "isCorrect": false},
+          {"text": "My ankle", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:43",
+    "positiveMessages": [
+      "Great work! While the name of this next stance may come from sumo wrestling position, for this lesson you’ll be learning to stay on both of your feet!",
+      "Your karate-sumo lesson is ready for you now!"
+    ],
+    "negativeMessages": [
+      "Great try! Your effort is commendable. Let’s take it from the top."
+    ],
+    "order": "1-23",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-10.-front-swing_gokay/playlist.m3u8",
+    "title": "Front swing",
+    "captions": [
+      {"text": "Front swing.", "start": "00:00.0", "end": "00:02.0"},
+      {"text": "One.", "start": "00:02.0", "end": "00:02.8"},
+      {
+        "text": "Take a step forward and keep your back legs knees always",
+        "start": "00:03.1",
+        "end": "00:06.9"
+      },
+      {
+        "text": "straight, and make strong fists with your thumbs over your",
+        "start": "00:06.9",
+        "end": "00:10.6"
+      },
+      {"text": "index fingers.", "start": "00:10.6", "end": "00:11.3"},
+      {"text": "Two.", "start": "00:11.6", "end": "00:12.7"},
+      {
+        "text": "Extend your arms to the sides at 45 degree angles.",
+        "start": "00:12.8",
+        "end": "00:16.6"
+      },
+      {"text": "Three.", "start": "00:18.6", "end": "00:19.6"},
+      {
+        "text": "To generate momentum, step forward a few inches and swing",
+        "start": "00:20.4",
+        "end": "00:24.2"
+      },
+      {
+        "text": "your back leg, which is completely straight forward, to a",
+        "start": "00:24.2",
+        "end": "00:28.0"
+      },
+      {"text": "comfortable height.", "start": "00:28.1", "end": "00:28.9"},
+      {"text": "Four.", "start": "00:29.5", "end": "00:30.5"},
+      {
+        "text": "Keep your swinging leg always straight and close to the central line.",
+        "start": "00:31.2",
+        "end": "00:35.7"
+      },
+      {"text": "Five.", "start": "00:36.0", "end": "00:36.8"},
+      {
+        "text": "Every time you swing, try to go a tiny bit higher.",
+        "start": "00:36.9",
+        "end": "00:40.6"
+      },
+      {"text": "Six.", "start": "00:41.1", "end": "00:42.1"},
+      {
+        "text": "Change the angle of your pelvis so you can swing even higher.",
+        "start": "00:42.5",
+        "end": "00:46.9"
+      },
+      {
+        "text": "When you're ready, switch to the other side.",
+        "start": "00:47.2",
+        "end": "00:50.7"
+      }
+    ],
+    "timings": [
+      {"time": "2"},
+      {"time": "12"},
+      {"time": "19"},
+      {"time": "30"},
+      {"time": "36"},
+      {"time": "42"}
+    ],
+    "questions": [
+      {
+        "text": "When should you exhale?",
+        "answers": [
+          {"text": "When I lower my leg", "isCorrect": false},
+          {"text": "When I make the step", "isCorrect": false},
+          {"text": "When I swing with the leg", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:52",
+    "positiveMessages": [
+      "Nice work! Now let’s learn how to perform the Side Swing to take your active stretching to an even higher level!",
+      "Keep your head in the game, I know you’ve got this. Prepare for a redirect to your next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You were so close. Let’s go over it again."
+    ],
+    "order": "2-10",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-11.-side-swing_gokay/playlist.m3u8",
+    "title": "Side swing",
+    "captions": [
+      {"text": "Side Swing.", "start": "00:01.0", "end": "00:03.2"},
+      {"text": "One.", "start": "00:03.3", "end": "00:04.0"},
+      {
+        "text": "Bring your feet and legs together and keep your knees slightly bent.",
+        "start": "00:04.3",
+        "end": "00:07.7"
+      },
+      {"text": "Two.", "start": "00:11.6", "end": "00:13.0"},
+      {
+        "text": "Place your right foot behind your left and step on",
+        "start": "00:13.0",
+        "end": "00:16.0"
+      },
+      {
+        "text": "the ball of your foot.",
+        "start": "00:16.0",
+        "end": "00:17.2"
+      },
+      {"text": "Three.", "start": "00:19.7", "end": "00:20.9"},
+      {
+        "text": "Extend your arms 45 degrees to the sides.",
+        "start": "00:20.9",
+        "end": "00:24.1"
+      },
+      {"text": "Four.", "start": "00:26.6", "end": "00:27.6"},
+      {
+        "text": "Look over your right shoulder.",
+        "start": "00:28.3",
+        "end": "00:29.9"
+      },
+      {"text": "Five.", "start": "00:33.3", "end": "00:33.9"},
+      {
+        "text": "Extend your leg to the side.",
+        "start": "00:34.1",
+        "end": "00:36.1"
+      },
+      {
+        "text": "Remember the position of your foot.",
+        "start": "00:36.6",
+        "end": "00:38.7"
+      },
+      {"text": "Curve it inward.", "start": "00:38.7", "end": "00:40.2"},
+      {"text": "Six.", "start": "00:41.2", "end": "00:42.2"},
+      {
+        "text": "At the knee level, start pushing your pelvis in the direction",
+        "start": "00:42.7",
+        "end": "00:46.6"
+      },
+      {
+        "text": "of the swing to allow your base foot to pivot forward.",
+        "start": "00:46.6",
+        "end": "00:49.9"
+      },
+      {"text": "Seven.", "start": "00:52.5", "end": "00:53.5"},
+      {
+        "text": "Swing carefully and return to the starting position.",
+        "start": "00:54.0",
+        "end": "00:57.2"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "12"},
+      {"time": "21"},
+      {"time": "27"},
+      {"time": "33"},
+      {"time": "43"},
+      {"time": "53"}
+    ],
+    "questions": [
+      {
+        "text": "Which direction should I be pushing my pelvis while swinging?",
+        "answers": [
+          {"text": "In the direction of the swing", "isCorrect": true},
+          {"text": "To the side", "isCorrect": false},
+          {"text": "Keep in place", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "1:12",
+    "positiveMessages": [
+      "Excellent work! This next lesson will teach you how to strengthen and stretch your whole body. It may even lead to an increase in good feelings as well!",
+      "Prepare yourself, because your next lesson is straight ahead!"
+    ],
+    "negativeMessages": [
+      "Nice try! I can see you’re working hard. Let’s review it again."
+    ],
+    "order": "2-11",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-12.-bridge_gokay/playlist.m3u8",
+    "title": "Bridge",
+    "captions": [
+      {"text": "Bridge.", "start": "00:00.7", "end": "00:01.9"},
+      {"text": "One.", "start": "00:02.4", "end": "00:03.5"},
+      {
+        "text": "Lie down and bring your feet as close to your buttocks as possible.",
+        "start": "00:03.8",
+        "end": "00:08.0"
+      },
+      {"text": "Two.", "start": "00:08.4", "end": "00:09.1"},
+      {
+        "text": "Place your palms on the floor above your shoulders so that",
+        "start": "00:09.1",
+        "end": "00:13.1"
+      },
+      {
+        "text": "your fingertips are almost touching them.",
+        "start": "00:13.2",
+        "end": "00:15.5"
+      },
+      {"text": "Three.", "start": "00:15.7", "end": "00:16.9"},
+      {
+        "text": "Push the floor with your legs and arms.",
+        "start": "00:16.9",
+        "end": "00:19.7"
+      },
+      {"text": "Four.", "start": "00:20.1", "end": "00:21.3"},
+      {
+        "text": "Look at the floor to engage your upper back muscles and push",
+        "start": "00:22.1",
+        "end": "00:25.6"
+      },
+      {
+        "text": "your belly toward the ceiling.",
+        "start": "00:25.7",
+        "end": "00:27.2"
+      },
+      {"text": "Five.", "start": "00:27.4", "end": "00:28.6"},
+      {
+        "text": "Breathe steadily and keep your eyes focused on the floor.",
+        "start": "00:28.6",
+        "end": "00:32.6"
+      }
+    ],
+    "timings": [
+      {"time": "2"},
+      {"time": "9"},
+      {"time": "16"},
+      {"time": "21"},
+      {"time": "28"}
+    ],
+    "questions": [
+      {
+        "text": "Where should you look while performing this exercise?",
+        "answers": [
+          {"text": "Look forward", "isCorrect": false},
+          {"text": "Look up", "isCorrect": false},
+          {"text": "Look at the floor", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:37",
+    "positiveMessages": [
+      "Great work! Now I’m going to explain some deep stretches!",
+      "Your next lesson is ready when you are!"
+    ],
+    "negativeMessages": [
+      "Nice try! Your effort is commendable. Let’s take it from the top."
+    ],
+    "order": "2-12",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-13.-split_gokay/playlist.m3u8",
+    "title": "Split",
+    "captions": [
+      {"text": "Split.", "start": "00:00.0", "end": "00:00.8"},
+      {"text": "One.", "start": "00:01.3", "end": "00:02.3"},
+      {
+        "text": "Stretch your legs as far as you can.",
+        "start": "00:02.7",
+        "end": "00:06.0"
+      },
+      {"text": "Two. ", "start": "00:06.0", "end": "00:07.2"},
+      {
+        "text": "Put your hands on your hips.",
+        "start": "00:07.2",
+        "end": "00:09.0"
+      },
+      {"text": "Three.", "start": "00:09.1", "end": "00:10.1"},
+      {
+        "text": "Slowly slide your feet apart.",
+        "start": "00:10.1",
+        "end": "00:12.4"
+      },
+      {"text": "Four.", "start": "00:12.6", "end": "00:13.8"},
+      {
+        "text": "Make sure your entire back is straight.",
+        "start": "00:14.0",
+        "end": "00:16.5"
+      },
+      {"text": "Five.", "start": "00:17.0", "end": "00:18.0"},
+      {"text": "Breathe steadily.", "start": "00:18.1", "end": "00:19.9"},
+      {"text": "Six.", "start": "00:20.2", "end": "00:21.3"},
+      {
+        "text": "Go lower each time you exhale.",
+        "start": "00:21.3",
+        "end": "00:23.8"
+      },
+      {"text": "Seven.", "start": "00:24.1", "end": "00:25.2"},
+      {
+        "text": "Remember to relax and let gravity do its work.",
+        "start": "00:25.2",
+        "end": "00:29.3"
+      }
+    ],
+    "timings": [
+      {"time": "2"},
+      {"time": "6"},
+      {"time": "10"},
+      {"time": "14"},
+      {"time": "18"},
+      {"time": "21"},
+      {"time": "25"}
+    ],
+    "questions": [
+      {
+        "text": "How fast should you slide your legs apart?",
+        "answers": [
+          {"text": "Rapidly", "isCorrect": false},
+          {"text": "Slowly", "isCorrect": true},
+          {"text": "At once", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:38",
+    "positiveMessages": [
+      "Nice work! Let’s move into the next lesson. As DJ Khaled says, “another one”— one more deep stretch for you!",
+      "Allow me to redirect you to your next lesson!"
+    ],
+    "negativeMessages": ["Nice try! You almost had it. Let’s review it again."],
+    "order": "2-13",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Stretching",
+    "url": "https://stream.studyum.io/stretching-14.-side-split_gokay/playlist.m3u8",
+    "title": "Side split",
+    "captions": [
+      {"text": "Side split.", "start": "00:00.7", "end": "00:02.3"},
+      {"text": "One.", "start": "00:02.7", "end": "00:03.7"},
+      {
+        "text": "Start by stretching your legs as far as you can.",
+        "start": "00:03.9",
+        "end": "00:07.2"
+      },
+      {"text": "Two. ", "start": "00:07.2", "end": "00:08.6"},
+      {
+        "text": "Turn your body sideways.",
+        "start": "00:08.8",
+        "end": "00:10.0"
+      },
+      {"text": "Three.", "start": "00:10.4", "end": "00:11.4"},
+      {"text": "Lock your knees.", "start": "00:11.4", "end": "00:12.9"},
+      {"text": "Four.", "start": "00:16.4", "end": "00:17.2"},
+      {
+        "text": "Slowly spread your legs further apart.",
+        "start": "00:17.2",
+        "end": "00:19.8"
+      },
+      {"text": "Five.", "start": "00:20.1", "end": "00:21.1"},
+      {
+        "text": "Push your front leg forward and go a bit lower every time",
+        "start": "00:21.1",
+        "end": "00:25.0"
+      },
+      {"text": "you exhale.", "start": "00:25.0", "end": "00:25.6"},
+      {"text": "Six.", "start": "00:26.5", "end": "00:27.5"},
+      {
+        "text": "Remember to relax and let gravity do its work.",
+        "start": "00:27.6",
+        "end": "00:31.4"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "8"},
+      {"time": "11"},
+      {"time": "17"},
+      {"time": "21"},
+      {"time": "27"}
+    ],
+    "questions": [
+      {
+        "text": "How do you keep your knees?",
+        "answers": [
+          {"text": "Locked", "isCorrect": true},
+          {"text": "Naturally", "isCorrect": false},
+          {"text": "Slightly bent", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:41",
+    "positiveMessages": [
+      "Great work! From your core comes your strength, so let’s learn to strengthen your core in this next lesson!",
+      "Your next lesson awaits you!"
+    ],
+    "negativeMessages": [
+      "Great try! Let’s review that one again. You’re almost there."
+    ],
+    "order": "2-14",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-10.-middle-level-roundhouse-kick-chudan-mawashi-geri_gokay/playlist.m3u8",
+    "title": "Middle level roundhouse kick (chudan mawashi geri)",
+    "captions": [
+      {
+        "text": "Middle level Roundhouse Kick, Chudan Mawashi Geri.",
+        "start": "00:00.0",
+        "end": "00:03.5"
+      },
+      {"text": "One.", "start": "00:03.5", "end": "00:04.2"},
+      {
+        "text": "Start by switching your hands and bending your back leg to",
+        "start": "00:04.2",
+        "end": "00:08.3"
+      },
+      {
+        "text": "create a 35 degree angle between your legs.",
+        "start": "00:08.3",
+        "end": "00:10.8"
+      },
+      {
+        "text": "Your back leg should be completely bent and your toes pointed away.",
+        "start": "00:11.1",
+        "end": "00:15.7"
+      },
+      {"text": "Two.", "start": "00:16.3", "end": "00:17.3"},
+      {
+        "text": "Drive your knee in an upward and forward direction,",
+        "start": "00:17.3",
+        "end": "00:20.8"
+      },
+      {
+        "text": "as if you're trying to hit the target with your knee.",
+        "start": "00:20.8",
+        "end": "00:23.6"
+      },
+      {
+        "text": "This motion will rotate your body sideways.",
+        "start": "00:23.8",
+        "end": "00:26.7"
+      },
+      {"text": "Three.", "start": "00:27.8", "end": "00:28.8"},
+      {
+        "text": "With your foot pivoting to the point that your heel is facing",
+        "start": "00:28.9",
+        "end": "00:32.5"
+      },
+      {
+        "text": "front, add a little more weight on the back leg.",
+        "start": "00:32.5",
+        "end": "00:35.4"
+      },
+      {"text": "Four.", "start": "00:36.0", "end": "00:37.0"},
+      {
+        "text": "At the same time, extend your raised leg.",
+        "start": "00:37.2",
+        "end": "00:40.7"
+      },
+      {"text": "Five.", "start": "00:41.3", "end": "00:42.3"},
+      {
+        "text": "Make sure your whole body and both of your legs are positioned",
+        "start": "00:43.1",
+        "end": "00:46.4"
+      },
+      {
+        "text": "on the same line and extend your leg right before hitting",
+        "start": "00:46.4",
+        "end": "00:50.5"
+      },
+      {"text": "your target.", "start": "00:50.6", "end": "00:51.1"},
+      {"text": "Six.", "start": "00:51.3", "end": "00:52.2"},
+      {
+        "text": "The trajectory going back to your standing position should",
+        "start": "00:52.3",
+        "end": "00:56.1"
+      },
+      {
+        "text": "be the same as going forward toward the target.",
+        "start": "00:56.2",
+        "end": "00:58.7"
+      }
+    ],
+    "timings": [
+      {"time": "4"},
+      {"time": "17"},
+      {"time": "29"},
+      {"time": "37"},
+      {"time": "43"},
+      {"time": "52"}
+    ],
+    "questions": [
+      {
+        "text": "How do you position your whole body and both of your legs before hitting the target?",
+        "answers": [
+          {"text": "Naturally", "isCorrect": false},
+          {"text": "On the same line", "isCorrect": true},
+          {"text": "One at the time", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "1:08",
+    "positiveMessages": [
+      "Excellent job! You’re picking this up quickly. This next kick is one of the most effective ways to keep your opponent away!",
+      "I hope you are ready to learn! Your next lesson is starting now!"
+    ],
+    "negativeMessages": [
+      "You’re almost there! Don’t give up. We’ll go over it again."
+    ],
+    "order": "4-10",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-11.-front-side-kick-kizami-yoko-geri_gokay/playlist.m3u8",
+    "title": "Front side kick (kizami yoko geri)",
+    "captions": [
+      {
+        "text": "Front sidekick, Kizami Yoku Geri.",
+        "start": "00:00.0",
+        "end": "00:03.4"
+      },
+      {"text": "One.", "start": "00:03.4", "end": "00:04.3"},
+      {
+        "text": "Take a step with your back leg without moving your head or",
+        "start": "00:04.3",
+        "end": "00:08.6"
+      },
+      {"text": "your hands.", "start": "00:08.6", "end": "00:09.2"},
+      {
+        "text": "This hides your intentions because the movement of your back",
+        "start": "00:09.6",
+        "end": "00:13.3"
+      },
+      {
+        "text": "leg is not visible to your opponent.",
+        "start": "00:13.3",
+        "end": "00:15.3"
+      },
+      {"text": "Two.", "start": "00:15.7", "end": "00:16.7"},
+      {
+        "text": "Lift your knee high toward your stomach and aim your heel",
+        "start": "00:16.8",
+        "end": "00:20.7"
+      },
+      {
+        "text": "in the direction of the target.",
+        "start": "00:20.8",
+        "end": "00:22.1"
+      },
+      {
+        "text": "It's as if you are folding an accordion in three ways, making",
+        "start": "00:22.3",
+        "end": "00:26.6"
+      },
+      {"text": "a Trifold.", "start": "00:26.6", "end": "00:28.0"},
+      {"text": "Three.", "start": "00:28.0", "end": "00:28.9"},
+      {
+        "text": "Use the strength of your supporting leg to extend your raised",
+        "start": "00:29.2",
+        "end": "00:33.1"
+      },
+      {
+        "text": "leg in a way that sends your heel traveling toward the target",
+        "start": "00:33.1",
+        "end": "00:36.5"
+      },
+      {
+        "text": "in a straight blind while using the muscles of your lower",
+        "start": "00:36.7",
+        "end": "00:39.9"
+      },
+      {
+        "text": "back by arching your body a little bit.",
+        "start": "00:39.9",
+        "end": "00:42.2"
+      },
+      {"text": "Four.", "start": "00:43.0", "end": "00:44.0"},
+      {
+        "text": "Make sure you pull the leg back along the same trajectory",
+        "start": "00:44.1",
+        "end": "00:47.4"
+      },
+      {
+        "text": "it was sent out and always come back to your fighting position.",
+        "start": "00:47.4",
+        "end": "00:51.4"
+      },
+      {
+        "text": "Pro Tip With a little practice and some experience, you won't",
+        "start": "00:51.9",
+        "end": "00:57.3"
+      },
+      {
+        "text": "even have to take the step with the back leg, but kick straight",
+        "start": "00:57.3",
+        "end": "01:00.8"
+      },
+      {
+        "text": "from your fighting stance.",
+        "start": "01:00.8",
+        "end": "01:02.0"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "16"}, {"time": "29"}, {"time": "44"}],
+    "questions": [
+      {
+        "text": "What part of the foot should you be using to strike the target?",
+        "answers": [
+          {"text": "Bottom of the foot", "isCorrect": false},
+          {"text": "Outer ridge of the foot", "isCorrect": false},
+          {"text": "Heel", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:05",
+    "positiveMessages": [
+      "Excellent job! You’ll be a pro in no time. Karate originated out of the idea that there is no first punch, therefore mastering your blocks is essential in this next lesson.",
+      "Are you ready to block? I am now redirecting you into our next lesson!"
+    ],
+    "negativeMessages": [
+      "Almost! Let’s try that one again. You were so close!"
+    ],
+    "order": "4-11",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-15.-four-way-movement-in-the-fighting-stance_gokay/playlist.m3u8",
+    "title": "Four way movement in the fighting stance",
+    "captions": [
+      {
+        "text": "Four way Movement in the Fighting Stance. ",
+        "start": "00:00.0",
+        "end": "00:04.5"
+      },
+      {"text": "The main concept is", "start": "00:04.5", "end": "00:06.2"},
+      {
+        "text": "whenever you move, you do not cross your legs.",
+        "start": "00:06.3",
+        "end": "00:09.3"
+      },
+      {
+        "text": "Instead, you always lengthen your stance like a worm or a",
+        "start": "00:09.6",
+        "end": "00:14.0"
+      },
+      {
+        "text": "snail. Stretch your stance and then Shorten it.",
+        "start": "00:14.1",
+        "end": "00:17.5"
+      },
+      {
+        "text": "Always maintain the same average distance between your feet",
+        "start": "00:17.7",
+        "end": "00:21.9"
+      },
+      {
+        "text": "and always start the movement with the leg that is closest",
+        "start": "00:21.9",
+        "end": "00:25.7"
+      },
+      {
+        "text": "to the direction you want to go.",
+        "start": "00:25.7",
+        "end": "00:27.4"
+      },
+      {
+        "text": "If you want to move forward, lead with your front leg.",
+        "start": "00:27.7",
+        "end": "00:31.8"
+      },
+      {
+        "text": "Backward, lead with your back leg.",
+        "start": "00:32.9",
+        "end": "00:34.4"
+      },
+      {
+        "text": "Right lead with your right leg, but push with your left leg.",
+        "start": "00:34.7",
+        "end": "00:38.9"
+      },
+      {
+        "text": "This creates space and then you come back to the same stance",
+        "start": "00:39.1",
+        "end": "00:43.4"
+      },
+      {"text": "in which you started.", "start": "00:43.4", "end": "00:44.3"},
+      {
+        "text": "Always keep your composure.",
+        "start": "00:44.5",
+        "end": "00:46.7"
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "While moving forward which leg should you lead with?",
+        "answers": [
+          {"text": "Front", "isCorrect": true},
+          {"text": "Back", "isCorrect": false},
+          {"text": "Both", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:47",
+    "positiveMessages": [
+      "Excellent work! By learning this next block, you will be able to stop even a powerful punch!",
+      "Let’s jump into the next lesson!"
+    ],
+    "negativeMessages": [
+      "You’re almost there! Keep up the good work. Let’s review it again."
+    ],
+    "order": "4-15",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-17.-low-block-gedan-uke_gokay/playlist.m3u8",
+    "title": "Low block (gedan uke)",
+    "captions": [
+      {"text": "Low block Gedon Uke.", "start": "00:00.0", "end": "00:03.0"},
+      {"text": "One.", "start": "00:03.0", "end": "00:03.5"},
+      {
+        "text": "Drop your front forearm all the way down and keep your fingers together.",
+        "start": "00:03.5",
+        "end": "00:08.5"
+      },
+      {"text": "Two.", "start": "00:08.7", "end": "00:10.0"},
+      {
+        "text": "Don't lock your elbow.",
+        "start": "00:10.8",
+        "end": "00:12.1"
+      },
+      {
+        "text": "Keep your arm slightly bent.",
+        "start": "00:12.3",
+        "end": "00:14.4"
+      },
+      {"text": "Three.", "start": "00:15.3", "end": "00:16.1"},
+      {
+        "text": "Control your central line with your back arm.",
+        "start": "00:16.1",
+        "end": "00:18.9"
+      }
+    ],
+    "timings": [{"time": "3"}, {"time": "10"}, {"time": "16"}],
+    "questions": [
+      {
+        "text": "How should you keep your arm while blocking?",
+        "answers": [
+          {"text": "Slightly bent", "isCorrect": true},
+          {"text": "Straight", "isCorrect": false},
+          {"text": "90-degrees", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:27",
+    "positiveMessages": [
+      "Excellent work! This next lesson is a universal block that can be used for any kick coming to your middle and lower sections.",
+      "Get ready, because your next lesson is coming in hot!"
+    ],
+    "negativeMessages": [
+      "You’re almost there! Keep up the good work. Let’s review it again."
+    ],
+    "order": "4-17",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-18.-low-block-with-back-arm-giaku-gedan-uke_gokay/playlist.m3u8",
+    "title": "Low block with back arm (giaku gedan uke)",
+    "captions": [
+      {
+        "text": "Low block with back arm Giaku Gedan Uke. ",
+        "timestamp": {"start": "00:00.0", "end": "00:04.8"}
+      },
+      {
+        "text": "With regular Gedan Uke you just use your front arm without large or significant",
+        "timestamp": {"start": "00:04.8", "end": "00:10.3"}
+      },
+      {
+        "text": "body movement.",
+        "timestamp": {"start": "00:10.3", "end": "00:11.0"}
+      },
+      {
+        "text": "However, to perform Giaku Gedan Uke, you scoop with your",
+        "timestamp": {"start": "00:11.1", "end": "00:15.6"}
+      },
+      {
+        "text": "back arm from your Center line box with the rotation of your",
+        "timestamp": {"start": "00:15.6", "end": "00:19.2"}
+      },
+      {
+        "text": "body so you can move your body out of the way of the attack.",
+        "timestamp": {"start": "00:19.2", "end": "00:22.5"}
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "What part of the body should you move out of attack?",
+        "answers": [
+          {"text": "Your head", "isCorrect": false},
+          {"text": "Your shoulders", "isCorrect": false},
+          {"text": "Your body", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:23",
+    "positiveMessages": [
+      "Great work! Your next lesson will teach you how to perform a fancy and super-effective kick that can really deliver a surprise to your opponent!",
+      "Let’s kick it to the next lesson!"
+    ],
+    "negativeMessages": [
+      "You’re so close! Great effort! Let’s review that one again."
+    ],
+    "order": "4-18",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-19.-hook-kick-front-leg-kizami-ura-mawashi-geri_gokay/playlist.m3u8",
+    "title": "Hook kick – front leg (kizami ura mawashi geri)",
+    "captions": [
+      {
+        "text": "Hook kick front leg Kisame URA Mawashi Gary",
+        "start": "00:00.0",
+        "end": "00:04.5"
+      },
+      {"text": "One.", "start": "00:04.9", "end": "00:05.6"},
+      {
+        "text": "Keep your shoulders pushed down ",
+        "start": "00:05.6",
+        "end": "00:07.9"
+      },
+      {"text": "Two.", "start": "00:07.9", "end": "00:08.9"},
+      {
+        "text": "Maintain your hands on guard before, during, and after the entire technique.",
+        "start": "00:08.9",
+        "end": "00:13.8"
+      },
+      {"text": "Three.", "start": "00:14.7", "end": "00:15.9"},
+      {
+        "text": "Get closer to your opponent by taking a discreet step with your back leg behind your front leg.",
+        "start": "00:15.9",
+        "end": "00:21.1"
+      },
+      {"text": "Four.", "start": "00:23.8", "end": "00:24.6"},
+      {
+        "text": "Lift your knee upward and push your knee forward approximately",
+        "start": "00:24.6",
+        "end": "00:28.5"
+      },
+      {
+        "text": "25 degrees away from your target.",
+        "start": "00:28.6",
+        "end": "00:30.8"
+      },
+      {"text": "Five.", "start": "00:32.1", "end": "00:32.8"},
+      {
+        "text": "Extend your leg completely.",
+        "start": "00:33.2",
+        "end": "00:35.1"
+      },
+      {"text": "Six.", "start": "00:35.7", "end": "00:36.9"},
+      {
+        "text": "Make sure your entire body is fully extended and aligned",
+        "start": "00:36.9",
+        "end": "00:40.1"
+      },
+      {
+        "text": "along the same straight line.",
+        "start": "00:40.1",
+        "end": "00:42.0"
+      },
+      {"text": "Seven.", "start": "00:43.4", "end": "00:44.5"},
+      {
+        "text": "Make the arching motion with your lower back and your Glutes",
+        "start": "00:44.5",
+        "end": "00:48.1"
+      },
+      {
+        "text": "and at the same time, flick with your lower leg so you connect",
+        "start": "00:48.4",
+        "end": "00:52.1"
+      },
+      {
+        "text": "with your target with either the bottom of the foot or the heel.",
+        "start": "00:52.1",
+        "end": "00:56.4"
+      },
+      {"text": "Eight.", "start": "00:57.4", "end": "00:58.4"},
+      {
+        "text": "Recoil back to the straight leg position at a 25 degree angle",
+        "start": "00:58.4",
+        "end": "01:02.2"
+      },
+      {
+        "text": "away from your target.",
+        "start": "01:02.2",
+        "end": "01:03.4"
+      },
+      {"text": "Nine.", "start": "01:05.6", "end": "01:06.4"},
+      {
+        "text": "Bend your front leg, step down, and come back to your fighting stance.",
+        "start": "01:06.4",
+        "end": "01:10.8"
+      }
+    ],
+    "timings": [
+      {"time": "4"},
+      {"time": "8"},
+      {"time": "15"},
+      {"time": "24"},
+      {"time": "32"},
+      {"time": "36"},
+      {"time": "43"},
+      {"time": "57"},
+      {"time": "65"}
+    ],
+    "questions": [
+      {
+        "text": "Which part of the foot should you be kicking the target with?",
+        "answers": [
+          {"text": "The heel", "isCorrect": true},
+          {"text": "The ankle", "isCorrect": false},
+          {"text": "The bottom of the foot", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:20",
+    "positiveMessages": [
+      "Excellent job! In this next lesson you’ll learn how to kick with both legs equally. Trust me, your hard work and dedication will pay-off eventually!",
+      "Your next lesson is on its way!"
+    ],
+    "negativeMessages": [
+      "You almost had it! Let’s go over it again so you can master it!"
+    ],
+    "order": "4-19",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-20.-hook-kick-ura-mawashi-geri_gokay/playlist.m3u8",
+    "title": "Hook kick (ura mawashi geri)",
+    "captions": [
+      {
+        "text": "Hook Kick Ura Mawashi Geri",
+        "start": "00:00.0",
+        "end": "00:02.3"
+      },
+      {"text": "One.", "start": "00:03.0", "end": "00:03.4"},
+      {
+        "text": "Switch your hands and raising the knee of your back leg with",
+        "start": "00:04.0",
+        "end": "00:06.9"
+      },
+      {
+        "text": "your toes pointing down",
+        "start": "00:06.9",
+        "end": "00:08.6"
+      },
+      {"text": "Two", "start": "00:10.9", "end": "00:11.6"},
+      {
+        "text": "Push that knee 25 degrees to the side of the target.",
+        "start": "00:11.6",
+        "end": "00:14.6"
+      },
+      {"text": "Three.", "start": "00:16.0", "end": "00:16.8"},
+      {
+        "text": "Make sure your turned sideways with the heel of your supporting",
+        "start": "00:16.8",
+        "end": "00:20.5"
+      },
+      {
+        "text": "leg facing your target and extend your leg completely.",
+        "start": "00:20.5",
+        "end": "00:24.1"
+      },
+      {"text": "Four.", "start": "00:24.9", "end": "00:26.0"},
+      {
+        "text": "Make sure your entire body is fully extended and aligned along the same straight line.",
+        "start": "00:26.0",
+        "end": "00:31.1"
+      },
+      {"text": "Five.", "start": "00:32.7", "end": "00:33.6"},
+      {
+        "text": "Make the arching motion with your lower back and your glutes",
+        "start": "00:33.6",
+        "end": "00:36.7"
+      },
+      {
+        "text": "and at the same time flick with your lower leg so you connect",
+        "start": "00:36.7",
+        "end": "00:40.9"
+      },
+      {
+        "text": "with your target with either the bottom of your foot or the heel.",
+        "start": "00:40.9",
+        "end": "00:44.7"
+      },
+      {"text": "Six.", "start": "00:45.1", "end": "00:46.2"},
+      {
+        "text": "Recoil back to the straight leg position at a 25 degree angle",
+        "start": "00:46.2",
+        "end": "00:50.2"
+      },
+      {
+        "text": "away from your target.",
+        "start": "00:50.3",
+        "end": "00:51.4"
+      },
+      {"text": "Seven.", "start": "00:52.2", "end": "00:53.5"},
+      {
+        "text": "Bend your front leg, step down and come back to your fighting stance.",
+        "start": "00:53.5",
+        "end": "00:57.7"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "10"},
+      {"time": "16"},
+      {"time": "25"},
+      {"time": "32"},
+      {"time": "45"},
+      {"time": "52"}
+    ],
+    "questions": [
+      {
+        "text": "What should you do with your hands before the start of the kick?",
+        "answers": [
+          {"text": "Don’t move them", "isCorrect": false},
+          {"text": "Hold the fists tight", "isCorrect": false},
+          {"text": "Switch your hands", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:05",
+    "positiveMessages": [
+      "Great work! This next lesson will teach you a block that will help you to protect yourself from both punches and kicks!",
+      "I hope you’re ready! Your next lesson is coming right up!"
+    ],
+    "negativeMessages": ["Ah you’re so close. Let’s take it from the top."],
+    "order": "4-20",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-21.-brazilian-double-block-morote-uke_gokay/playlist.m3u8",
+    "title": "“brazilian” double block (morote uke)",
+    "captions": [
+      {
+        "text": "Brazilian Double Block Monroe Uke Double Block or Monroe Uke",
+        "start": "00:00.0",
+        "end": "00:07.2"
+      },
+      {
+        "text": "is a combination of Soto Uke and Gyaku Gedan Uke done simultaneously.",
+        "start": "00:07.2",
+        "end": "00:13.7"
+      },
+      {
+        "text": "You first use your front arm or Soto Uke and your back arm",
+        "start": "00:14.8",
+        "end": "00:19.0"
+      },
+      {"text": "for Gyaku Gedan Uke.", "start": "00:19.2", "end": "00:21.1"},
+      {
+        "text": "In this version, your back end will be scooping the area",
+        "start": "00:21.1",
+        "end": "00:24.4"
+      },
+      {
+        "text": "at your lower level and your front arm will be going across",
+        "start": "00:24.4",
+        "end": "00:28.1"
+      },
+      {"text": "your face.", "start": "00:28.1", "end": "00:28.5"},
+      {
+        "text": "Pro Tip, Always keep your arms slightly bent.",
+        "start": "00:29.8",
+        "end": "00:33.9"
+      },
+      {
+        "text": "Allow some air cushion for your face and your body.",
+        "start": "00:34.2",
+        "end": "00:36.9"
+      },
+      {
+        "text": "You can repeat it many times depending on how your opponent is attacking.",
+        "start": "00:38.1",
+        "end": "00:42.1"
+      },
+      {
+        "text": "Or you can do it just once or twice and come back to your fighting position.",
+        "start": "00:42.5",
+        "end": "00:46.7"
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "How do you move your arms?",
+        "answers": [
+          {"text": "Simultaneously", "isCorrect": true},
+          {"text": "One at the time", "isCorrect": false},
+          {"text": "One after the other", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:47",
+    "positiveMessages": [
+      "Amazing job! This next punch while very simple is extremely effective and practical.",
+      "Let’s give it a shot!"
+    ],
+    "negativeMessages": [
+      "Great try. You’re so close to mastering these moves. Let’s try that one again."
+    ],
+    "order": "4-21",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-22.-jodan-kizami-zuki-jodan-giaku-zuki-_gokay/playlist.m3u8",
+    "title": "Jodan kizami zuki  jodan giaku zuki)",
+    "captions": [
+      {
+        "text": "Lunge Punch to the Face Reverse Punch to the Face Jodan Kiza",
+        "start": "00:00.0",
+        "end": "00:05.2"
+      },
+      {
+        "text": "Mizuki Jodan Kia Kozuki",
+        "start": "00:05.2",
+        "end": "00:07.8"
+      },
+      {"text": "One.", "start": "00:08.6", "end": "00:09.6"},
+      {
+        "text": "Punch with your leading arm",
+        "start": "00:09.6",
+        "end": "00:11.9"
+      },
+      {"text": "Two.", "start": "00:12.3", "end": "00:13.3"},
+      {
+        "text": "Right before your front foot lands, begin the second punch",
+        "start": "00:13.3",
+        "end": "00:16.6"
+      },
+      {"text": "with the back arm.", "start": "00:16.7", "end": "00:17.9"},
+      {"text": "Three.", "start": "00:18.7", "end": "00:19.5"},
+      {
+        "text": "Quickly draw your back arm after punching hit.",
+        "start": "00:19.5",
+        "end": "00:22.5"
+      },
+      {
+        "text": "Note: The first punch will make the opponent move, react, or even block.",
+        "start": "00:24.8",
+        "end": "00:30.0"
+      },
+      {
+        "text": "So your leading hand punch is only meant to distract",
+        "start": "00:30.7",
+        "end": "00:34.0"
+      },
+      {
+        "text": "the opponent, to measure the distance and to set up the second punch.",
+        "start": "00:34.0",
+        "end": "00:38.5"
+      },
+      {
+        "text": " Another important tip, Since the reverse punch is",
+        "start": "00:39.5",
+        "end": "00:42.7"
+      },
+      {
+        "text": "delivered to the face, keep your back leg almost straight.",
+        "start": "00:42.7",
+        "end": "00:46.2"
+      },
+      {
+        "text": "This will allow your greater hip rotation and let you send",
+        "start": "00:46.5",
+        "end": "00:50.3"
+      },
+      {
+        "text": "more energy in the direction of your target.",
+        "start": "00:50.3",
+        "end": "00:52.6"
+      }
+    ],
+    "timings": [{"time": "9"}, {"time": "13"}, {"time": "19"}],
+    "questions": [
+      {
+        "text": "How fast should you draw your hand after punching?",
+        "answers": [
+          {"text": "Don’t draw at all", "isCorrect": false},
+          {"text": "As fast as possible", "isCorrect": true},
+          {"text": "Medium speed", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:53",
+    "positiveMessages": [
+      "Great work! This next combination is one of the most frequently used combinations in Karate.",
+      "I’m redirecting to your next lesson now!"
+    ],
+    "negativeMessages": [
+      "Nice try! You’re so close to mastering these moves. Let’s try that one again."
+    ],
+    "order": "4-22",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-23.-jodan-kizami-zuki-chudan-giaku-zuki_gokay/playlist.m3u8",
+    "title": "Jodan kizami zuki  chudan giaku zuki",
+    "captions": [
+      {
+        "text": "Lunge Punch to the Face Reverse Punch to the middle Section",
+        "start": "00:00.0",
+        "end": "00:03.9"
+      },
+      {
+        "text": "Jadon Kiza Mizuki Cudon Kia Kozuki",
+        "start": "00:03.9",
+        "end": "00:07.5"
+      },
+      {"text": "One.", "start": "00:07.7", "end": "00:08.5"},
+      {"text": "Lunge forward with", "start": "00:08.5", "end": "00:10.1"},
+      {"text": "your front foot", "start": "00:10.1", "end": "00:11.4"},
+      {"text": "Two.", "start": "00:12.9", "end": "00:13.4"},
+      {
+        "text": "extend your front arm as much as possible",
+        "start": "00:13.4",
+        "end": "00:15.9"
+      },
+      {
+        "text": "to create your leading first strike.",
+        "start": "00:15.9",
+        "end": "00:18.1"
+      },
+      {"text": "Three.", "start": "00:19.1", "end": "00:20.0"},
+      {
+        "text": "Make sure your back leg is slightly bent.",
+        "start": "00:20.0",
+        "end": "00:22.2"
+      },
+      {
+        "text": "Note: There is delay between the first punch and the second one,",
+        "start": "00:23.6",
+        "end": "00:27.9"
+      },
+      {
+        "text": "so you'll be required to make two steps with your front foot,",
+        "start": "00:27.9",
+        "end": "00:31.4"
+      },
+      {
+        "text": "Note: At the beginning of the reverse punch.",
+        "start": "00:31.8",
+        "end": "00:34.5"
+      },
+      {
+        "text": "Make sure your back leg is bent and your knee is directed down. ",
+        "start": "00:34.8",
+        "end": "00:40.0"
+      },
+      {
+        "text": "With this version of the technique, the second reverse",
+        "start": "00:40.0",
+        "end": "00:42.5"
+      },
+      {
+        "text": "punch targets above the belt level to the lower part of the",
+        "start": "00:42.6",
+        "end": "00:46.1"
+      },
+      {
+        "text": "rib cage underneath the opponent's elbow.",
+        "start": "00:46.1",
+        "end": "00:48.6"
+      },
+      {
+        "text": "Pay attention to your pulling hands or hike, and try to tie",
+        "start": "00:49.2",
+        "end": "00:53.8"
+      },
+      {
+        "text": "this whole combination with one long exhalation from the",
+        "start": "00:53.8",
+        "end": "00:58.0"
+      },
+      {
+        "text": "start of the combination until you pull the second hand back.",
+        "start": "00:58.0",
+        "end": "01:01.4"
+      },
+      {
+        "text": "Another tip, be sure to get out of the range of motion of",
+        "start": "01:02.8",
+        "end": "01:06.4"
+      },
+      {
+        "text": "your opponent by kicking backward with your back leg and",
+        "start": "01:06.4",
+        "end": "01:09.8"
+      },
+      {
+        "text": "pushing back with your front foot.",
+        "start": "01:09.8",
+        "end": "01:11.6"
+      },
+      {
+        "text": "Your goal is to get back into your fighting stance and hand guard as quickly as you can.",
+        "start": "01:12.7",
+        "end": "01:17.8"
+      }
+    ],
+    "timings": [{"time": "8"}, {"time": "13"}, {"time": "20"}],
+    "questions": [
+      {
+        "text": "On what part of the opponent&#8217;s body should you land your punch?",
+        "answers": [
+          {"text": "Lower part of the ribcage", "isCorrect": true},
+          {"text": "The chest of the opponent", "isCorrect": false},
+          {"text": "The neck of the opponent", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "1:18",
+    "positiveMessages": [
+      "Fantastic job! This is my favorite combination. I hope it becomes one of your favorites too!",
+      "I can’t wait to see you for our next lesson!"
+    ],
+    "negativeMessages": ["Awesome try! You’re almost there."],
+    "order": "4-23",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-24.-kizami-zuki-kizami-mawashi-geri_gokay/playlist.m3u8",
+    "title": "Kizami zukikizami mawashi geri",
+    "captions": [
+      {
+        "text": "Lunch Punch Roundhouse Kick Kiza Mizuki Kisame owashi Gary",
+        "start": "00:00.0",
+        "end": "00:06.0"
+      },
+      {"text": "One.", "start": "00:07.0", "end": "00:08.3"},
+      {
+        "text": "Launch forward with your front foot with full extension.",
+        "start": "00:08.3",
+        "end": "00:10.7"
+      },
+      {"text": "Two.", "start": "00:11.5", "end": "00:12.7"},
+      {
+        "text": "While you're in the air, punch with your front fist extending",
+        "start": "00:12.7",
+        "end": "00:16.0"
+      },
+      {"text": "your front arm.", "start": "00:16.0", "end": "00:16.7"},
+      {"text": "Three.", "start": "00:17.9", "end": "00:18.7"},
+      {
+        "text": "By the time you land with your front foot, your back foot",
+        "start": "00:18.7",
+        "end": "00:21.8"
+      },
+      {
+        "text": "should be caught up and be in position right behind your",
+        "start": "00:21.8",
+        "end": "00:24.5"
+      },
+      {
+        "text": "front foot with your toes turned away from the opponent.",
+        "start": "00:24.7",
+        "end": "00:27.9"
+      },
+      {"text": "Four.", "start": "00:29.0", "end": "00:30.0"},
+      {
+        "text": "Immediately bring your front knee up and execute the Roundhouse kick to the face.",
+        "start": "00:30.0",
+        "end": "00:35.0"
+      },
+      {"text": "Five.", "start": "00:35.7", "end": "00:37.0"},
+      {
+        "text": "While kicking, tilt your torso slightly backward.",
+        "start": "00:37.0",
+        "end": "00:39.8"
+      },
+      {"text": "Six.", "start": "00:40.8", "end": "00:42.1"},
+      {
+        "text": "Keep your hands in place to protect you at all times.",
+        "start": "00:42.1",
+        "end": "00:44.6"
+      },
+      {"text": "Seven.", "start": "00:45.5", "end": "00:47.0"},
+      {
+        "text": "Finish the kick by stepping down as fast as you can and jumping",
+        "start": "00:47.0",
+        "end": "00:50.8"
+      },
+      {
+        "text": "out of the way of your opponent.",
+        "start": "00:50.8",
+        "end": "00:52.2"
+      },
+      {"text": "Eight.", "start": "00:53.5", "end": "00:54.4"},
+      {
+        "text": "Remember to keep your eyes on your opponent at all times.",
+        "start": "00:54.4",
+        "end": "00:58.4"
+      }
+    ],
+    "timings": [
+      {"time": "7"},
+      {"time": "12"},
+      {"time": "18"},
+      {"time": "29"},
+      {"time": "36"},
+      {"time": "41"},
+      {"time": "46"},
+      {"time": "53"}
+    ],
+    "questions": [
+      {
+        "text": "What part of the body should the roundhouse kick be landing on?",
+        "answers": [
+          {"text": "The lower back", "isCorrect": false},
+          {"text": "The face", "isCorrect": true},
+          {"text": "Abdominals", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "1:00",
+    "positiveMessages": [
+      "Wonderful job! This next punch is fantastic for striking your opponent’s at a middle to far distance away. I suggest learning it very carefully.",
+      "Let’s smash into our next lesson!"
+    ],
+    "negativeMessages": [
+      "Great try! You almost had it. Let’s review it again."
+    ],
+    "order": "4-24",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-25.-giaku-zuki-giaku-zuki_gokay/playlist.m3u8",
+    "title": "Giaku zukigiaku zuki",
+    "captions": [
+      {
+        "text": "Reverse punch to the face.",
+        "start": "00:00.0",
+        "end": "00:01.6"
+      },
+      {"text": "Jadon Gyaku Zuki", "start": "00:03.2", "end": "00:04.5"},
+      {"text": "One.", "start": "00:05.3", "end": "00:06.6"},
+      {
+        "text": "Put more weight on your front leg to extend your arm further",
+        "start": "00:06.6",
+        "end": "00:09.8"
+      },
+      {
+        "text": "than your usual punch.",
+        "start": "00:09.8",
+        "end": "00:11.0"
+      },
+      {"text": "Two. ", "start": "00:12.0", "end": "00:12.9"},
+      {
+        "text": "Use the momentum to step forward with your back leg.",
+        "start": "00:12.9",
+        "end": "00:15.7"
+      },
+      {"text": "Three.", "start": "00:17.6", "end": "00:18.6"},
+      {
+        "text": "Be sure to step slightly to the side to protect yourself",
+        "start": "00:18.6",
+        "end": "00:21.9"
+      },
+      {
+        "text": "from the direct attack.",
+        "start": "00:21.9",
+        "end": "00:23.1"
+      },
+      {"text": "Four.", "start": "00:24.1", "end": "00:25.2"},
+      {
+        "text": "Keep your arms on guard after you've completed the combination.",
+        "start": "00:25.2",
+        "end": "00:29.1"
+      }
+    ],
+    "timings": [{"time": "5"}, {"time": "12"}, {"time": "18"}, {"time": "25"}],
+    "questions": [
+      {
+        "text": "What should you do to protect yourself while punching?",
+        "answers": [
+          {"text": "Go faster than usual", "isCorrect": false},
+          {"text": "Drop your weight down", "isCorrect": false},
+          {"text": "Step slightly to the side", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:39",
+    "positiveMessages": [
+      "Great job! This next lesson is a defensive combination. Once mastered, it will be very frustrating for your opponent to try and hit you.",
+      "I am redirecting to your next lesson… enjoy!"
+    ],
+    "negativeMessages": [
+      "Nice try! You were so close! Let’s take it from the top."
+    ],
+    "order": "4-25",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-26.-soto-uke-giaku-zuki_gokay/playlist.m3u8",
+    "title": "Soto ukegiaku zuki",
+    "captions": [
+      {
+        "text": "Outside to Inside Block Lunge Punch Reverse Punch.",
+        "start": "00:00.0",
+        "end": "00:04.3"
+      },
+      {
+        "text": "Soto Uke Kizami Zuki Giaku Zuki.",
+        "start": "00:04.5",
+        "end": "00:08.7"
+      },
+      {"text": "One", "start": "00:08.9", "end": "00:09.7"},
+      {
+        "text": "Load your back leg and shift your body slightly backward and to the side.",
+        "start": "00:09.9",
+        "end": "00:14.5"
+      },
+      {"text": "Two.", "start": "00:14.7", "end": "00:15.7"},
+      {
+        "text": "Execute the inside block.",
+        "start": "00:15.7",
+        "end": "00:18.4"
+      },
+      {"text": "Three.", "start": "00:18.4", "end": "00:19.3"},
+      {
+        "text": "Instantly draw your front arm a short distance back.",
+        "start": "00:19.6",
+        "end": "00:23.7"
+      },
+      {"text": "Four.", "start": "00:23.7", "end": "00:24.7"},
+      {
+        "text": "Lunge forward with your front foot and execute two punches",
+        "start": "00:25.2",
+        "end": "00:29.1"
+      },
+      {
+        "text": "to the face using the already familiar two-punch combination.",
+        "start": "00:29.1",
+        "end": "00:33.2"
+      }
+    ],
+    "timings": false,
+    "questions": [
+      {
+        "text": "While performing Soto-Uke where should you move your back leg?",
+        "answers": [
+          {"text": "Forward", "isCorrect": false},
+          {"text": "Backward", "isCorrect": true},
+          {"text": "To the side", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:37",
+    "positiveMessages": [
+      "Beautiful job! This next kick is one of the most powerful kicks. Commit it carefully to your mind and in Phase Two you’re kicks will be truly explosive!",
+      "Let’s master it together! Your next lesson awaits!"
+    ],
+    "negativeMessages": ["You’re almost there! Let’s try that one again."],
+    "order": "4-26",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-29.-back-kick-ushiro-geri_gokay/playlist.m3u8",
+    "title": "Back kick (ushiro geri)",
+    "captions": [
+      {
+        "text": "Back Kick - Ushiro Geri.",
+        "start": "00:00.0",
+        "end": "00:02.7"
+      },
+      {"text": "One.", "start": "00:03.0", "end": "00:03.8"},
+      {
+        "text": "Begin in the wellbalanced fighting stance with hand guard.",
+        "start": "00:03.9",
+        "end": "00:07.6"
+      },
+      {"text": "Two.", "start": "00:07.6", "end": "00:08.7"},
+      {
+        "text": "Shift your weight on your front leg and start rotating toward",
+        "start": "00:08.9",
+        "end": "00:12.9"
+      },
+      {
+        "text": "your back and rotate your head 360 degrees until you look",
+        "start": "00:12.9",
+        "end": "00:17.6"
+      },
+      {"text": "at your target again.", "start": "00:17.6", "end": "00:18.6"},
+      {"text": "Three.", "start": "00:19.6", "end": "00:20.2"},
+      {
+        "text": "Bring your knee up so it faces opposite of your target.",
+        "start": "00:20.2",
+        "end": "00:23.8"
+      },
+      {"text": "Four.", "start": "00:24.0", "end": "00:24.7"},
+      {
+        "text": "Push your pelvis backward and at the same time bring your knee down",
+        "start": "00:24.7",
+        "end": "00:29.4"
+      },
+      {
+        "text": " so your knees come together.",
+        "start": "00:29.4",
+        "end": "00:31.4"
+      },
+      {"text": "Five.", "start": "00:31.6", "end": "00:32.2"},
+      {
+        "text": "Turn your shoulder on the same side as your kicking leg towards",
+        "start": "00:32.2",
+        "end": "00:36.6"
+      },
+      {"text": "your Center line.", "start": "00:36.6", "end": "00:37.4"},
+      {"text": "Six.", "start": "00:37.9", "end": "00:38.9"},
+      {
+        "text": "Move your arm in the opposite direction.",
+        "start": "00:38.9",
+        "end": "00:42.0"
+      },
+      {"text": "Seven.", "start": "00:42.6", "end": "00:43.6"},
+      {
+        "text": "Fully extend your kicking leg so your knee is completely locked",
+        "start": "00:43.6",
+        "end": "00:47.4"
+      },
+      {
+        "text": "and your lower back and glutes are fully engaged.",
+        "start": "00:47.4",
+        "end": "00:51.0"
+      },
+      {"text": "Eight.", "start": "00:51.8", "end": "00:52.8"},
+      {
+        "text": "Point your foot down and your heel upward.",
+        "start": "00:52.8",
+        "end": "00:56.3"
+      },
+      {"text": "Nine.", "start": "00:56.6", "end": "00:57.4"},
+      {
+        "text": "After the kick, bend your leg and return to your original position.",
+        "start": "00:57.8",
+        "end": "01:02.8"
+      },
+      {"text": "Ten.", "start": "01:02.8", "end": "01:03.7"},
+      {
+        "text": "To create more momentum",
+        "start": "01:03.7",
+        "end": "01:06.0"
+      },
+      {
+        "text": "once you grasp the biomechanics of the technique, you should",
+        "start": "01:06.0",
+        "end": "01:10.1"
+      },
+      {
+        "text": "slide in the direction of the kick on your supporting foot.",
+        "start": "01:10.1",
+        "end": "01:13.0"
+      }
+    ],
+    "timings": [
+      {"time": "3"},
+      {"time": "9"},
+      {"time": "20"},
+      {"time": "25"},
+      {"time": "32"},
+      {"time": "39"},
+      {"time": "43"},
+      {"time": "53"},
+      {"time": "58"},
+      {"time": "64"}
+    ],
+    "questions": [
+      {
+        "text": "Once you connect with the target where should the toes of your kicking legs be pointed?",
+        "answers": [
+          {"text": "Sideways", "isCorrect": false},
+          {"text": "Backwards", "isCorrect": false},
+          {"text": "Downward", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "1:14",
+    "positiveMessages": [
+      "Excellent work! This next kick is one of the most challenging, but also one of the most effective. Master this one and it will be devastating to your opponent!",
+      "Ready, set, go! Into your next lesson."
+    ],
+    "negativeMessages": ["So close! Let’s try that one more time."],
+    "order": "4-29",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-30.-spinning-hook-kick-ushiro-ura-mawashi-geri_gokay/playlist.m3u8",
+    "title": "Spinning hook kick (ushiro ura mawashi geri)",
+    "captions": [
+      {"text": "Spinning Hook Kick.", "start": "00:00.0", "end": "00:02.2"},
+      {
+        "text": "Ushiro Ura Mawashi Geri.",
+        "start": "00:02.2",
+        "end": "00:04.5"
+      },
+      {"text": "One.", "start": "00:04.7", "end": "00:05.6"},
+      {
+        "text": "From the fighting stance, execute a back kick about one foot",
+        "start": "00:05.8",
+        "end": "00:09.9"
+      },
+      {
+        "text": "from the face of your target.",
+        "start": "00:09.9",
+        "end": "00:11.3"
+      },
+      {
+        "text": "Your leg should be at a 10 to 15 degree angle relative to the target",
+        "start": "00:11.5",
+        "end": "00:16.7"
+      },
+      {
+        "text": "80% down the path of your standard back kick.",
+        "start": "00:16.8",
+        "end": "00:20.2"
+      },
+      {"text": "Two.", "start": "00:20.7", "end": "00:21.7"},
+      {
+        "text": "Roll your body sideways.",
+        "start": "00:21.8",
+        "end": "00:24.1"
+      },
+      {"text": "Three.", "start": "00:24.7", "end": "00:25.5"},
+      {"text": "Make the spear leg.", "start": "00:25.6", "end": "00:28.1"},
+      {"text": "Four.", "start": "00:28.1", "end": "00:29.1"},
+      {
+        "text": "Engage your lower back and glutes to arch your back.",
+        "start": "00:29.1",
+        "end": "00:32.6"
+      },
+      {"text": "Five.", "start": "00:33.2", "end": "00:34.2"},
+      {
+        "text": "Tap your opponent in the face with the bottom of your foot",
+        "start": "00:34.2",
+        "end": "00:38.3"
+      },
+      {
+        "text": "by flicking your lower leg in the direction of your target.",
+        "start": "00:38.3",
+        "end": "00:41.7"
+      },
+      {
+        "text": "Step down and come back to your fighting stance.",
+        "start": "00:41.9",
+        "end": "00:45.3"
+      }
+    ],
+    "timings": [
+      {"time": "5"},
+      {"time": "22"},
+      {"time": "25"},
+      {"time": "29"},
+      {"time": "34"}
+    ],
+    "questions": [
+      {
+        "text": "If your opponent is slightly further away what should you do?",
+        "answers": [
+          {"text": "Get closer", "isCorrect": false},
+          {"text": "Hop towards him", "isCorrect": false},
+          {"text": "Tilt your body backward more", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:46",
+    "positiveMessages": [
+      "Fantastic work! This next lesson will explain how to perform a three punch combination that will unleash an unstoppable force upon your opponent. I certainly wouldn’t want to be your opponent after this combo!",
+      "Let’s move, like an unstoppable force, into your next lesson!"
+    ],
+    "negativeMessages": [
+      "Awesome try! Stay positive. You’re on the road to mastering this one."
+    ],
+    "order": "4-30",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-31.-lungr-punch-reverse-punch-kizami-zuki-giaku-ziki-giaku-zuki_gokay/playlist.m3u8",
+    "title": "Lungr punchreverse punch (kizami zuki, giaku ziki, giaku zuki)",
+    "captions": [
+      {
+        "text": "Lunge Punch Reverse Punch Reverse Punch.",
+        "start": "00:00.0",
+        "end": "00:03.6"
+      },
+      {
+        "text": "Kizami Zuki Giaku Zuki Giaku Zuki.",
+        "start": "00:03.6",
+        "end": "00:07.1"
+      },
+      {"text": "One", "start": "00:07.2", "end": "00:07.7"},
+      {
+        "text": "With one step, execute two punches to the face, with the second punch",
+        "start": "00:07.7",
+        "end": "00:13.2"
+      },
+      {
+        "text": "extending a bit further than the first.",
+        "start": "00:13.2",
+        "end": "00:16.1"
+      },
+      {"text": "Two.", "start": "00:16.1", "end": "00:17.2"},
+      {
+        "text": "Continue the motion and accelerate",
+        "start": "00:17.2",
+        "end": "00:18.5"
+      },
+      {
+        "text": " even harder by pushing with your front foot.",
+        "start": "00:18.5",
+        "end": "00:22.1"
+      },
+      {"text": "Three.", "start": "00:22.6", "end": "00:23.6"},
+      {
+        "text": "Push your body slightly upward and execute the second ",
+        "start": "00:24.1",
+        "end": "00:28.0"
+      },
+      {
+        "text": "reverse punch to the face.",
+        "start": "00:28.0",
+        "end": "00:29.0"
+      },
+      {"text": "Four.", "start": "00:29.5", "end": "00:30.5"},
+      {
+        "text": "Quickly draw back your punching hand and reestablish your",
+        "start": "00:31.1",
+        "end": "00:34.7"
+      },
+      {
+        "text": "nice fighting position.",
+        "start": "00:34.8",
+        "end": "00:36.2"
+      }
+    ],
+    "timings": [{"time": "8"}, {"time": "17"}, {"time": "23"}, {"time": "30"}],
+    "questions": [
+      {
+        "text": "Where is the second punch supposed to land?",
+        "answers": [
+          {"text": "On the face", "isCorrect": true},
+          {"text": "On the chest", "isCorrect": false},
+          {"text": "On the shoulder", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:37",
+    "positiveMessages": [
+      "Wonderful! Learning this next offensive combination requires a little bit more skill, but from what I’ve seen from you, I know you can handle it!",
+      "I can’t wait to see you in our next lesson! Redirecting you, now."
+    ],
+    "negativeMessages": [
+      "Nice try! Your effort is commendable. Let’s take it from the top again"
+    ],
+    "order": "4-31",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-32.-outside-to-inside-block-lunge-punch-reverse-punch-soto-uke-kizami-zuki-giaku-zuki_gokay/playlist.m3u8",
+    "title": "Outside to inside block  lunge punch  reverse punch (soto uke  kizami zuki  giaku zuki)",
+    "captions": [
+      {
+        "text": "Outside to Inside Block Lunge Punch Reverse Punch.",
+        "start": "00:00.0",
+        "end": "00:04.3"
+      },
+      {
+        "text": "Soto Uke Kizami Zuki Giaku Zuki.",
+        "start": "00:04.5",
+        "end": "00:08.7"
+      },
+      {"text": "One", "start": "00:08.9", "end": "00:09.7"},
+      {
+        "text": "Load your back leg and shift your body slightly backward and to the side.",
+        "start": "00:09.9",
+        "end": "00:14.5"
+      },
+      {"text": "Two.", "start": "00:14.7", "end": "00:15.7"},
+      {
+        "text": "Execute the inside block.",
+        "start": "00:15.7",
+        "end": "00:18.4"
+      },
+      {"text": "Three.", "start": "00:18.4", "end": "00:19.3"},
+      {
+        "text": "Instantly draw your front arm a short distance back.",
+        "start": "00:19.6",
+        "end": "00:23.7"
+      },
+      {"text": "Four.", "start": "00:23.7", "end": "00:24.7"},
+      {
+        "text": "Lunge forward with your front foot and execute two punches",
+        "start": "00:25.2",
+        "end": "00:29.1"
+      },
+      {
+        "text": "to the face using the already familiar two-punch combination.",
+        "start": "00:29.1",
+        "end": "00:33.2"
+      }
+    ],
+    "timings": [{"time": "10"}, {"time": "15"}, {"time": "19"}, {"time": "25"}],
+    "questions": [
+      {
+        "text": "Where do you land two punches?",
+        "answers": [
+          {"text": "On the chest", "isCorrect": false},
+          {"text": "On the stomach", "isCorrect": false},
+          {"text": "On the face", "isCorrect": true}
+        ]
+      }
+    ],
+    "duration": "0:34",
+    "positiveMessages": [
+      "That last one was tough, but you were tougher! Great work!",
+      "This next combination is more advanced, but once you master it, this move will make you seem invincible!",
+      "Loading your next lesson… it’s ready when you are!"
+    ],
+    "negativeMessages": [
+      "Nice try! Your effort is commendable. Let’s take it from the top again."
+    ],
+    "order": "4-32",
+    "courseId": "olympic_karate"
+  },
+  {
+    "category": "Techniques",
+    "url": "https://stream.studyum.io/techniques-33.-leg-switch-reverse-punch-reverse-punch-gyaku-ni-gamae-gyaku-zuki-gyaku-zuki_gokay/playlist.m3u8",
+    "title": "Leg switch  reverse punch  reverse punch (gyaku ni gamae gyaku zuki  gyaku-zuki)",
+    "captions": [
+      {
+        "text": "Leg Switch Reverse Punch Reverse Punch.",
+        "start": "00:00.0",
+        "end": "00:02.8"
+      },
+      {
+        "text": "Gyaku Ni Gamae Gyaku Zuki Gyaku Zuki",
+        "start": "00:02.8",
+        "end": "00:06.9"
+      },
+      {"text": "One.", "start": "00:07.1", "end": "00:08.2"},
+      {
+        "text": "Switch legs in a triangular way by bringing your",
+        "start": "00:08.2",
+        "end": "00:11.7"
+      },
+      {
+        "text": "back leg to your front foot and moving your front foot ",
+        "start": "00:11.7",
+        "end": "00:15.1"
+      },
+      {
+        "text": "45 degrees to the side.",
+        "start": "00:15.1",
+        "end": "00:17.3"
+      },
+      {"text": "Two.", "start": "00:17.3", "end": "00:18.5"},
+      {
+        "text": "Use your backloaded leg to propel",
+        "start": "00:18.5",
+        "end": "00:21.0"
+      },
+      {
+        "text": "yourself forward and execute two reverse punches to the face",
+        "start": "00:21.0",
+        "end": "00:24.8"
+      },
+      {
+        "text": "with the step forward on the second punch.",
+        "start": "00:25.1",
+        "end": "00:27.6"
+      }
+    ],
+    "timings": [{"time": "8"}, {"time": "18"}],
+    "questions": [
+      {
+        "text": "In what way do you switch the legs before punching?",
+        "answers": [
+          {"text": "Linear", "isCorrect": false},
+          {"text": "Triangular", "isCorrect": true},
+          {"text": "By hopping upward", "isCorrect": false}
+        ]
+      }
+    ],
+    "duration": "0:29",
+    "positiveMessages": [
+      "Great work! You really aced that advanced combo!\nThis next technique will teach you how to fall, with safety and grace. Because as great as you’ve become, even the best fall down sometimes.",
+      "We hope you’ll fall (gracefully) into your next lesson!"
+    ],
+    "negativeMessages": ["You almost had it. Let’s review that one again."],
+    "order": "4-33",
+    "courseId": "olympic_karate"
+  }
+]

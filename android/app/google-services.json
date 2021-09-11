@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "882891214345",
+    "firebase_url": "https://studyum-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "studyum",
+    "storage_bucket": "studyum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882891214345:android:6a168444dd6d691e8af2d8",
+        "android_client_info": {
+          "package_name": "com.olympickarate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882891214345-u6u2hfa31m24rjfumno2hkd5949dvpog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVL58bIqglyxVs58JZ1sJcJWLRgxZQrpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882891214345-tvhvglm8kilj9m9ngc6vec1noko2v2hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
