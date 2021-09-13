@@ -53,8 +53,10 @@
     "redirectingIn": "Redirecting in",
     "doubleTapToClose": "Tap again to exit app",
 
-    "redirectNextMessage": "Next",
+    "redirectNextMessage": "Go",
     "redirectStopMessage": "Stop",
+    "redirectMessageGo": "Go to next lesson",
+    "redirectMessageStop": "Now redirecting",
     "redirectInitialMessage": "Let’s continue to learn",
     "redirectCurrentMessage": "Great try! Let’s go back and try it again."
   },

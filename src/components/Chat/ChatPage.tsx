@@ -65,6 +65,7 @@ export const ChatPage = () => {
 
   const [questionAnsweredCorrect, setQuestionAnsweredCorrect] = useState(false);
   const [redirectButtonText, setRedirectButtonText] = useState('');
+  const [redirectMessage, setRedirectMessage] = useState('');
   const [timeLeftBeforeRedirect, setTimeLeftBeforeRedirect] = useState(0);
   const [totalTime, setTotalTime] = useState<number>(0);
 
@@ -127,6 +128,7 @@ export const ChatPage = () => {
       setAnswers([]);
       togglePressBlockOverlay.setOn();
       setRedirectButtonText(t('redirectStopMessage'));
+      setRedirectMessage(t('redirectMessageStop'));
 
       if (LectionProgressState.NOT_PASSED === state) {
         loadStateFromStorage();
@@ -140,6 +142,7 @@ export const ChatPage = () => {
     if (answer.isCorrect) {
       setQuestionAnsweredCorrect(true);
       setRedirectButtonText(t('redirectStopMessage'));
+      setRedirectMessage(t('redirectMessageStop'));
       setAnswers([]);
       setPositiveMessages([]);
 
@@ -191,6 +194,7 @@ export const ChatPage = () => {
       togglePressBlockOverlay.setOn();
       setQuestionAnsweredCorrect(false);
       setRedirectButtonText(t('redirectStopMessage'));
+      setRedirectMessage(t('redirectMessageStop'));
       setAnswers([]);
 
       // const messageTimeouts = sum(newMessages.map(calculateMessageTimeout));
@@ -271,6 +275,7 @@ export const ChatPage = () => {
    * @param startRedirectTimeout - Timeout value which dictates when the redirect timer should be set & started
    * @param redirectTimeout - Timeout value which dictates for how lon the redirect timer will last
    */
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const redirect = async (
     params?: {lectionId: string},
     startRedirectTimeout = 0,
@@ -325,7 +330,14 @@ export const ChatPage = () => {
         );
       }
     },
-    [getId, navigation, user.id, user.token],
+    [
+      getId,
+      redirect,
+      showConfetti,
+      togglePressBlockOverlay,
+      user.id,
+      user.token,
+    ],
   );
 
   const loadState = useCallback(
@@ -355,7 +367,7 @@ export const ChatPage = () => {
         playNextLection({lectionWatched: true, questionAnsweredCorrect: true});
       }
     },
-    [isMounted, playNextLection],
+    [isMounted, messages, playNextLection],
   );
 
   const getCurrentLection = async (id: string) => {
@@ -393,7 +405,14 @@ export const ChatPage = () => {
     } finally {
       togglePressBlockOverlay.setOff();
     }
-  }, [getId, loadState, navigation, lectionProgress]);
+  }, [
+    getId,
+    title,
+    lectionProgress?.lectionWatched,
+    t,
+    loadState,
+    togglePressBlockOverlay,
+  ]);
 
   const loadGreetingChat = useCallback(() => {
     setMessages(getGreetingMessages(t, teacher));
@@ -493,6 +512,9 @@ export const ChatPage = () => {
     setRedirectButtonText(
       togglePaused.state ? t('redirectNextMessage') : t('redirectStopMessage'),
     );
+    setRedirectMessage(
+      togglePaused.state ? t('redirectMessageGo') : t('redirectMessageStop'),
+    );
   }, [t, togglePaused.state]);
 
   // Clear navigation props on component unmount
@@ -530,6 +552,7 @@ export const ChatPage = () => {
         <View style={style.redirectWrapper}>
           <RedirectButton
             label={redirectButtonText}
+            message={redirectMessage}
             timeLeft={timeLeftBeforeRedirect}
             onPress={() => togglePaused.toggle()}
             onTimerEnd={onTimerEnd}

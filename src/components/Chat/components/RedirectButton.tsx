@@ -15,6 +15,7 @@ import {ToggleContext} from 'store';
 
 type RedirectButton = {
   label: string;
+  message: string;
   onPress: () => void;
   timeLeft: number;
   totalTime: number;
@@ -23,6 +24,7 @@ type RedirectButton = {
 
 export const RedirectButton: FC<RedirectButton> = ({
   label,
+  message,
   onPress,
   timeLeft,
   totalTime,
@@ -52,7 +54,14 @@ export const RedirectButton: FC<RedirectButton> = ({
     if (!togglePaused.state && active && currentTime > 0) {
       setCurrentTime(current => current - 1);
     }
-  }, [active, currentTime, togglePaused.state]);
+  }, [
+    active,
+    currentTime,
+    elapsedTime,
+    timeLeft,
+    togglePaused.state,
+    totalTime,
+  ]);
 
   useEffect(() => {
     if (!totalTime || !timeLeft) {
@@ -83,7 +92,12 @@ export const RedirectButton: FC<RedirectButton> = ({
   return active ? (
     <TouchableRipple style={style.button} onPress={throttle(onPress, 1000)}>
       <Animated.View style={{...style.labelWrapper, opacity: fadeAnim}}>
-        <Text style={style.label}>{label}</Text>
+        <View style={style.messageContainer}>
+          <Text style={style.label}>{message}</Text>
+        </View>
+        <View style={style.labelContainer}>
+          <Text style={style.label}>{label}</Text>
+        </View>
         <Badge size={24} style={style.timeLeftWrapper}>
           {currentTime}
         </Badge>
@@ -119,15 +133,22 @@ const style = StyleSheet.create({
   labelWrapper: {
     flex: 2,
     flexDirection: 'row',
-
+    // backgroundColor: 'red',
     alignSelf: 'center',
     justifyContent: 'center',
     alignItems: 'center',
   },
 
+  messageContainer: {
+    flex: 0.65,
+    backgroundColor: 'transparent',
+    paddingLeft: '10%',
+    justifyContent: 'center',
+  },
+
   timeLeftWrapper: {
     position: 'absolute',
-    right: '7%',
+    left: '4%',
 
     justifyContent: 'center',
     alignContent: 'center',
@@ -139,7 +160,7 @@ const style = StyleSheet.create({
   timeLeftText: {color: '#F4F5F6', fontSize: 14, fontWeight: '300'},
 
   label: {
-    alignSelf: 'center',
+    // alignSelf: 'center',
     color: accentColor,
 
     fontFamily: 'SFUIText-Regular',
@@ -147,5 +168,12 @@ const style = StyleSheet.create({
     fontSize: 16,
     lineHeight: 21,
     letterSpacing: -0.3125,
+    bottom: 1,
+  },
+
+  labelContainer: {
+    flex: 0.25,
+    backgroundColor: 'transparent',
+    alignItems: 'flex-end',
   },
 });
