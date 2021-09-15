@@ -101,7 +101,7 @@ export const LearnPage: FC<LearnPageProps> = ({courseId}) => {
       ? togglePressBlockOverlay.setOn()
       : togglePressBlockOverlay.setOff();
   }, [lections?.length, togglePressBlockOverlay]);
-
+  console.log('[learningProgressData]', lections);
   return (
     <View style={style.container}>
       <Header title={'Olympic Karate'} icon={renderFavoritesIcon()} />

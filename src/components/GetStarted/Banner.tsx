@@ -7,6 +7,7 @@ import {
 } from '@common';
 import React, {FC, useState} from 'react';
 import {
+  Alert,
   Dimensions,
   Image,
   ImageBackground,
@@ -38,8 +39,8 @@ export const Banner: FC<BannerProps> = ({
       url: any;
       bg_img: any;
       title: any;
-      imageStyle: any;
-      headingStyle: any;
+      imageStyle?: any;
+      headingStyle?: any;
       getStart?: any;
     },
     index: number,
@@ -47,6 +48,7 @@ export const Banner: FC<BannerProps> = ({
     return (
       <View key={index} style={style.item}>
         <ImageBackground
+          key={index}
           source={
             item.bg_img === 'first'
               ? require('../../assets/png/images/1_circles.png')
@@ -83,13 +85,13 @@ export const Banner: FC<BannerProps> = ({
         index={page || 0}
         loop={false}
         showsButtons={false}
-        activeDotColor={activeColor}
+        activeDotColor={'rgba(0,0,0,0.2)'}
         dotStyle={style.dotStyle}
         activeDotStyle={style.activeDotStyle}
         onIndexChanged={index => handleSlider(index)}
         style={style.wrapper}>
         {images.map((item, index) => {
-          return <View>{renderItem(item, index)}</View>;
+          return <View key={index}>{renderItem(item, index)}</View>;
         })}
       </Swiper>
     );
@@ -168,7 +170,7 @@ const style = StyleSheet.create({
   heading: {
     fontSize: 27,
     fontFamily: 'SFUIText-Heavy', //Heavy,Bold
-    letterSpacing: -1.5,
+    letterSpacing: -0.5,
     lineHeight: 32,
     textAlign: 'center',
     bottom: -5,

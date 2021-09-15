@@ -35,8 +35,8 @@ const images: BannerImage[] = [
     getStart: 'Get Started Now',
     url: 'https://studumapp.ru/wp-content/uploads/2020/12/load3.png',
     bg_img: 'third',
-    title:
-      'Get your black belt certificate for the new Olympic sport of Karate',
+    title: 'Get your black belt knowledge certificate and enrich your life',
+    // 'Get your black belt certificate for the new Olympic sport of Karate',
     headingStyle: StyleSheet.create({marginTopStyle: {marginTop: '5%'}})
       .marginTopStyle,
   },

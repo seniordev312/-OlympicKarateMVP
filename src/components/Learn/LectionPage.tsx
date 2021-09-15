@@ -2,9 +2,11 @@
 import {
   ANONYMOUS,
   DEBOUNCE_INTERVAL,
+  heightPercentageToDP,
   learnProps,
   makeSource,
   VIBRATE_DURATION_MS,
+  widthPercentageToDP,
 } from '@common';
 import {Caption, Lection} from '@models';
 import {
@@ -98,6 +100,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   const [lection, setLection] = useState(initialLectionState);
   const [maxProgress, setMaxProgress] = useState(0);
   const [isWatched, setIsWatched] = useState(false);
+  const [isLoading, setLoader] = useState(true);
 
   const {data, loading} = useGetLectionData(
     Endpoints.lection.replace(
@@ -217,6 +220,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
     playVideo();
     console.log('VIDEO LOADED...');
     setDuration(meta.duration);
+    setLoader(false);
     isWatched && setMaxProgress(meta.duration);
   };
   const onPlayPausePress = throttle(() => {
@@ -366,7 +370,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
           Vibration.vibrate(VIBRATE_DURATION_MS);
           addToFavorites(lection.id);
         }}
-        fill={favorites?.[lection.id] ? 'red' : 'black'}
+        fill={favorites?.[lection.id] ? 'black' : 'black'}
         style={style.favorite}
         wrapperStyle={style.wrapperStyle}
         iconName={favorites?.[lection.id] ? 'heart' : 'hearto'}
@@ -490,6 +494,8 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
     return () => backHandler.remove();
   }, []);
 
+  console.log('[[lection]]', lection);
+  const onLoadStart = () => setLoader(true);
   return (
     <View style={style.container}>
       <>
@@ -536,13 +542,15 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
             <TouchableOpacity
               style={style.videoStyleWrapper}
               onPress={debounce(togglePlayPause, DEBOUNCE_INTERVAL)}>
-              {paused && <VideoOverlay />}
+              {paused && <VideoOverlay loader={isLoading} />}
               <Video
                 key={lection?.url}
                 ref={playerRef}
                 paused={paused}
                 onEnd={onEnd}
                 onLoad={onLoad}
+                hideShutterView={true}
+                onLoadStart={onLoadStart}
                 onProgress={onProgress}
                 source={makeSource(lection?.url)}
                 style={style.videoStyle}
@@ -637,8 +645,8 @@ const style = StyleSheet.create({
     borderRadius: 5,
     marginBottom: '-5%',
     opacity: 1,
-
     zIndex: 2,
+    // backgroundColor: 'green',
   },
   linearGradientBottom: {
     minHeight: '10%',
@@ -649,33 +657,31 @@ const style = StyleSheet.create({
     borderRadius: 5,
     marginTop: '-6%',
     opacity: 1,
-
     zIndex: 2,
+    // backgroundColor: 'green',
   },
 
   videoStyleWrapper: {
-    minHeight: '30%',
-    height: '55%',
+    // minHeight: '30%',
+    // height: '52%',
+    height: heightPercentageToDP('50'),
+    width: widthPercentageToDP('100'),
     marginBottom: '5%',
-
-    backgroundColor: 'transparent',
-
+    // backgroundColor: 'red',
     // borderColor: 'red',
     // borderWidth: 1,
-
     // minWidth: 500,
     // resizeMode: 'center',
   },
   videoStyle: {
-    // height: '100%',
-    // aspectRatio: 1 ,
-    // width: "100%",
+    height: heightPercentageToDP('50'),
+    width: widthPercentageToDP('100'),
+    backgroundColor: 'white',
     position: 'absolute',
     top: 0,
     left: 0,
     bottom: 0,
     right: 0,
-    backgroundColor: 'white',
   },
 
   activeBtnFont: {
@@ -689,16 +695,16 @@ const style = StyleSheet.create({
 
   timing: {
     position: 'absolute',
-    top: '7%',
-    left: '7%',
-
+    top: '10%',
+    left: '4.4%',
     zIndex: 9000,
   },
 
   captionWrapper: {
-    marginTop: '-10%',
+    marginTop: '-15%',
     minHeight: '20%',
     marginHorizontal: '3%',
+    // backgroundColor: 'red',
   },
 
   backIcon: {

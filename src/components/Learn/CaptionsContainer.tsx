@@ -44,8 +44,8 @@ export const CaptionsContainer: FC<{
 
 const style = StyleSheet.create({
   captionsWrapper: {
-    height: '23%',
-    // height: '30%',
+    height: '35%',
+    paddingHorizontal: 20,
     alignContent: 'stretch',
   },
 

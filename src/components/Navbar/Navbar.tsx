@@ -46,8 +46,8 @@ export const Navbar: FC<NavbarProps> = ({navItems, initialRouteName}) => {
     <>
       {focused
         ? icon({
-            width: size,
-            height: size,
+            // width: size,
+            // height: size,
             fill: togglePressBlockOverlay.state ? activeColorDisabled : fill,
           })
         : icon({
@@ -65,7 +65,7 @@ export const Navbar: FC<NavbarProps> = ({navItems, initialRouteName}) => {
         component={component}
         options={({route}) => ({
           unmountOnBlur: true,
-          tabBarLabel: label,
+          tabBarLabel: label.charAt(0).toUpperCase() + label.slice(1),
           tabBarIcon: iconProps => renderTabIcon(iconProps, icon, fill),
           tabBarVisible: getTabBarVisibility(route.name),
         })}
@@ -84,9 +84,7 @@ export const Navbar: FC<NavbarProps> = ({navItems, initialRouteName}) => {
       <NavbarStack.Navigator
         tabBarOptions={{
           ...tabBarOptions,
-          activeTintColor: togglePressBlockOverlay.state
-            ? accentColor
-            : activeColor,
+          activeTintColor: togglePressBlockOverlay.state ? accentColor : '#000',
         }}
         initialRouteName={initialRouteName}>
         {React.Children.toArray(navItems.map(renderNavItem))}
@@ -107,8 +105,8 @@ const tabBarOptions = {
     height: TAB_HEIGHT,
   },
   labelStyle: {
-    fontSize: 12,
-    lineHeight: 12,
+    fontSize: 13,
+    // lineHeight: 10,
     marginTop: '-5%',
     marginBottom: '5%',
   },

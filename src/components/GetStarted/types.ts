@@ -4,5 +4,5 @@ export type BannerImage = {
   title: string;
   imageStyle?: any;
   headingStyle?: any;
-  getStart? : any;
+  getStart?: any;
 };

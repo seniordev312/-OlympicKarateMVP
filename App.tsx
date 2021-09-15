@@ -1,6 +1,7 @@
 import {activeColor, BASE_URL, learnProps} from '@common';
 import {ChatPage} from '@components/Chat/ChatPage';
 import {GetStartedPage} from '@components/GetStarted/GetStartedPage';
+import {LandingPage} from '@components/Landing/LandingPage';
 import {LearnPage} from '@components/Learn/LearnPage';
 import {LectionPage} from '@components/Learn/LectionPage';
 import {LoginPage} from '@components/Login/LoginPage';
@@ -14,6 +15,8 @@ import {SettingsPage} from '@components/Settings/SettingsPage';
 import {SplashScreen} from '@components/SplashScreen/SplashScreen';
 import {Routes} from '@models';
 import {NavigationContainer} from '@react-navigation/native';
+import {CardStyleInterpolators} from '@react-navigation/stack';
+
 import {
   NavbarNavigation,
   navigationRef,
@@ -79,6 +82,10 @@ const layout: StackItem<RootStackNavigation>[] = [
   {
     name: 'getStarted',
     component: GetStartedPage,
+  },
+  {
+    name: 'landing',
+    component: LandingPage,
   },
   {
     name: 'lection',
@@ -229,8 +236,12 @@ export const App = () => {
                     fallback={<SplashScreen />}>
                     <View style={style.navigator}>
                       <Root.Navigator
-                        initialRouteName={isLoggedIn ? 'navbar' : 'getStarted'}
-                        headerMode={'none'}>
+                        initialRouteName={isLoggedIn ? 'navbar' : 'landing'}
+                        headerMode={'none'}
+                        screenOptions={{
+                          cardStyleInterpolator:
+                            CardStyleInterpolators.forHorizontalIOS,
+                        }}>
                         {React.Children.toArray(layout.map(renderStackScreen))}
                         <Root.Screen name={'navbar'} component={renderNavbar} />
                       </Root.Navigator>
