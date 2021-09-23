@@ -20,8 +20,9 @@ const images: BannerImage[] = [
     url: 'https://studumapp.ru/wp-content/uploads/2020/12/load1.png',
     bg_img: 'first',
     title: 'Now you have a chance to have a black belt in karate',
-    headingStyle: StyleSheet.create({marginTopStyle: {marginTop: '5%'}})
-      .marginTopStyle,
+    headingStyle: StyleSheet.create({
+      marginTopStyle: {marginTop: '5%', paddingHorizontal: '10%'},
+    }).marginTopStyle,
   },
   {
     url: 'https://studumapp.ru/wp-content/uploads/2020/12/load2.png',

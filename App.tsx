@@ -72,6 +72,10 @@ const renderLearnPage = () => <LearnPage {...learnProps} />;
 
 const layout: StackItem<RootStackNavigation>[] = [
   {
+    name: 'splash',
+    component: SplashScreen,
+  },
+  {
     name: 'login',
     component: renderLoginPage,
   },
@@ -197,7 +201,7 @@ export const App = () => {
       await requestStoragePermissions(reqStorageConfig);
       setTimeout(() => {
         setOff();
-      }, 2000);
+      }, 3000);
     };
     wrapper();
   }, [setOff]);
@@ -207,7 +211,7 @@ export const App = () => {
     setIsLoggedIn(user !== null);
     setTimeout(() => {
       setOff();
-    }, 2000);
+    }, 3000);
   }, []);
 
   useEffect(() => {
@@ -227,16 +231,17 @@ export const App = () => {
           <DoubleTapToClose message={'Tap again to exit app'} />
           <ToggleContextProvider>
             <LectionContextProvider courseId={learnProps.courseId}>
-              {loading && <SplashScreen />}
+              {/* {!loading && <SplashScreen />} */}
               {!loading && (
                 <View style={style.container}>
                   <NavigationContainer
                     ref={navigationRef}
                     linking={linking}
-                    fallback={<SplashScreen />}>
+                    // fallback={<SplashScreen />}
+                  >
                     <View style={style.navigator}>
                       <Root.Navigator
-                        initialRouteName={isLoggedIn ? 'navbar' : 'landing'}
+                        initialRouteName={isLoggedIn ? 'navbar' : 'splash'}
                         headerMode={'none'}
                         screenOptions={{
                           cardStyleInterpolator:

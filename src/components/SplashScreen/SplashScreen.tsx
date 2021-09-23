@@ -1,28 +1,86 @@
 import {BASE_URL, makeSource} from '@common';
-import React, {FC} from 'react';
-import {StyleSheet, View} from 'react-native';
+import React, {FC, useEffect, useState} from 'react';
+import {StyleSheet, View, Text} from 'react-native';
 import Image from 'react-native-fast-image';
 import {OlympicKarate} from './OlympicKarate';
 import {PoweredBy} from './PoweredBy';
+import * as Animatable from 'react-native-animatable';
+import {useNavigation, StackActions} from '@react-navigation/native';
 
 export const SplashScreen: FC = () => {
+  const navigation = useNavigation();
+  const [isShow, setShow] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setShow(true);
+    }, 1500);
+    setTimeout(() => {
+      navigation.dispatch(StackActions.replace('landing'));
+    }, 4000);
+  }, []);
   return (
     <View style={style.container}>
-      <View style={style.upperLogo}>
-        <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
-        <View style={style.upperLogoLabel}>
-          <OlympicKarate width={110} height={55} />
-        </View>
-      </View>
+      {isShow ? (
+        <Animatable.View
+          duration={1500}
+          delay={1000}
+          animation={zoomIn}
+          style={style.container}>
+          <View style={style.upperLogo}>
+            <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
+            <View style={style.upperLogoLabel}>
+              <OlympicKarate width={110} height={55} />
+            </View>
+          </View>
 
-      <View style={style.bottomLogo}>
-        <View style={style.bottomLogoLabel}>
-          <PoweredBy />
-        </View>
-        <Image style={style.bottomLogoImg} source={makeSource(LOGO_2)} />
-      </View>
+          <View style={style.bottomLogo}>
+            <View style={style.bottomLogoLabel}>
+              <PoweredBy />
+            </View>
+            <Image style={style.bottomLogoImg} source={makeSource(LOGO_2)} />
+          </View>
+        </Animatable.View>
+      ) : (
+        <Animatable.View
+          duration={1500}
+          delay={800}
+          animation={zoomOut}
+          style={style.upperLogo}>
+          <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
+        </Animatable.View>
+      )}
     </View>
   );
+};
+
+const zoomOut = {
+  0: {
+    opacity: 1,
+    scale: 1,
+  },
+  0.5: {
+    opacity: 1,
+    scale: 0.3,
+  },
+  1: {
+    opacity: 0,
+    scale: 0,
+  },
+};
+
+const zoomIn = {
+  0: {
+    opacity: 0,
+    scale: 0,
+  },
+  0.5: {
+    opacity: 1,
+    scale: 0.3,
+  },
+  1: {
+    opacity: 1,
+    scale: 1,
+  },
 };
 
 const LOGO_1 = `${BASE_URL}/wp-content/uploads/2020/12/olympic-karate-logo-1-1.png`;

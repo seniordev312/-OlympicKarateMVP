@@ -159,12 +159,11 @@ const style = StyleSheet.create({
   },
 
   headingWrapper: {
-    paddingHorizontal: '10%',
+    paddingHorizontal: '5%',
     // paddingBottom: '5%',
     alignContent: 'flex-end',
     justifyContent: 'flex-end',
     height: heightPercentageToDP('15'),
-    // borderWidth: 1,
   },
 
   heading: {
