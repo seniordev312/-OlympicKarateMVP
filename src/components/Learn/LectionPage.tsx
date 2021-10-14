@@ -469,7 +469,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
         'LectionPage ~ handleNavigation ~ Updated learning progress:',
         data,
       );
-      navigateTo(routeName, options, replace);
+      // navigateTo(routeName, options, replace);
     }
   };
 
@@ -702,15 +702,14 @@ const style = StyleSheet.create({
 
   captionWrapper: {
     marginTop: '-15%',
-    minHeight: '20%',
+    minHeight: '40%',
     marginHorizontal: '3%',
-    // backgroundColor: 'red',
+    paddingVertical: '2%',
   },
 
   backIcon: {
     textAlign: 'center',
     textAlignVertical: 'center',
-
     paddingVertical: '20%',
     paddingHorizontal: '20%',
   },
