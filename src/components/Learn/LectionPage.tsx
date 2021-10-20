@@ -38,6 +38,8 @@ import {
   TouchableOpacity,
   Vibration,
   View,
+  Text,
+  Image,
 } from 'react-native';
 import {
   GestureEvent,
@@ -596,6 +598,10 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
             locations={gradientBreakpointsReverse}
             style={style.linearGradientBottom}
           />
+          <View style={style.points}>
+            <Image source={require('../../assets/png/dollar.png')} />
+            <Text style={style.pointsTxt}>13 $STUD</Text>
+          </View>
         </View>
       </>
     </View>
@@ -701,7 +707,7 @@ const style = StyleSheet.create({
   },
 
   captionWrapper: {
-    marginTop: '-15%',
+    marginTop: '-26%',
     minHeight: '40%',
     marginHorizontal: '3%',
     paddingVertical: '2%',
@@ -713,4 +719,16 @@ const style = StyleSheet.create({
     paddingVertical: '20%',
     paddingHorizontal: '20%',
   },
+  points: {
+    padding: '3%',
+    borderWidth: 1,
+    borderColor: '#D3D3D3',
+    justifyContent: 'space-between',
+    paddingHorizontal: '5%',
+    alignItems: 'center',
+    alignSelf: 'center',
+    flexDirection: 'row',
+    borderRadius: 10,
+  },
+  pointsTxt: {fontSize: 12, fontWeight: '700', marginLeft: '5%'},
 });

@@ -20,7 +20,13 @@ import {
   UseControllerProps,
   useForm,
 } from 'react-hook-form';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  ScrollView,
+} from 'react-native';
 import Image from 'react-native-fast-image';
 import {TextInput} from 'react-native-paper';
 import AuthService from 'services/auth/AuthService';
@@ -35,6 +41,9 @@ type RegistrationPage = {
 enum RegistrationInputForm {
   EMAIL = 'email',
   USERNAME = 'username',
+  FIRSTNAME = 'firstname',
+  MIDDLENAME = 'middlename',
+  LASTNAME = 'lastname',
   PASSWORD = 'password',
   VALUE_TAKEN = 'valueTaken',
 }
@@ -76,6 +85,30 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
       label: 'Username',
       placeholder: 'johndoe',
       name: RegistrationInputForm.USERNAME,
+      control: control,
+      errors: errors,
+      errorMsg: t('formValidationDefaultMsg'),
+      rules: {required: true, minLength: MIN_LENGTH_USERNAME},
+    },
+    {
+      label: 'First Name',
+      placeholder: 'john',
+      name: RegistrationInputForm.FIRSTNAME,
+      control: control,
+      errors: errors,
+      errorMsg: t('formValidationDefaultMsg'),
+      rules: {required: true, minLength: MIN_LENGTH_USERNAME},
+    },
+    {
+      label: 'Middle name (optional)',
+      placeholder: 'doe',
+      name: RegistrationInputForm.MIDDLENAME,
+      control: control,
+    },
+    {
+      label: 'Last name',
+      placeholder: 'petter',
+      name: RegistrationInputForm.LASTNAME,
       control: control,
       errors: errors,
       errorMsg: t('formValidationDefaultMsg'),
@@ -164,7 +197,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
   const renderFormInputs = (props: FormInputProps) => <FormInput {...props} />;
 
   return (
-    <View style={style.container}>
+    <ScrollView style={style.container}>
       <View style={style.header}>
         <Logo
           imageUrl={logoUrl}
@@ -198,7 +231,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
         </View>
       </View>
       {/* </KeyboardAvoidingView> */}
-    </View>
+    </ScrollView>
   );
 };
 
@@ -222,10 +255,10 @@ export type FormInputProps = {
   name: string;
   customStyle?: Record<string, unknown>;
   control: Control<any>;
-  errors: DeepMap<any, FieldError>;
+  errors?: DeepMap<any, FieldError>;
   secureTextEntry?: boolean;
   rules?: UseControllerProps['rules'];
-  errorMsg: string;
+  errorMsg?: string;
   right?: React.ReactNode;
   left?: React.ReactNode;
 };

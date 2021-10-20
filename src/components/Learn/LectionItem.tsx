@@ -68,6 +68,9 @@ export const LectionItem: FC<LectionProps> = ({
         <View style={style.textWrapper}>
           <Text style={style.duration}>{duration}</Text>
         </View>
+        <View style={style.textWrapper}>
+          <Text style={style.points}>+1 $STUD</Text>
+        </View>
       </TouchableOpacity>
       <View style={style.right}>
         {locked && (
@@ -182,6 +185,13 @@ const style = StyleSheet.create({
 
     color: accentColor,
     fontSize: 14,
+    lineHeight: 24,
+  },
+  points: {
+    marginTop: '2%',
+    color: accentColor,
+    fontSize: 12,
+    fontWeight: '700',
     lineHeight: 24,
   },
 });

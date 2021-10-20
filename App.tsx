@@ -35,6 +35,7 @@ import {
 } from '@store';
 import {DoubleTapToClose} from '@utils/BackHandlers';
 import {useToggle} from '@utils/hooks';
+import Wallet from 'components/wallet/wallet';
 import React, {useCallback, useContext, useEffect, useState} from 'react';
 import {Dimensions, StatusBar, StyleSheet, View} from 'react-native';
 import {
@@ -114,6 +115,10 @@ const tabBar: StackItem<NavbarNavigation>[] = [
     name: 'settings',
     component: SettingsPage,
   },
+  // {
+  //   name: 'settings',
+  //   component: Wallet,
+  // },
 ];
 
 const navItems: NavItem[] = [
