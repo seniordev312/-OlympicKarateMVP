@@ -15,7 +15,10 @@ import {SettingsPage} from '@components/Settings/SettingsPage';
 import {SplashScreen} from '@components/SplashScreen/SplashScreen';
 import {Routes} from '@models';
 import {NavigationContainer} from '@react-navigation/native';
-import {CardStyleInterpolators} from '@react-navigation/stack';
+import {
+  CardStyleInterpolators,
+  createStackNavigator,
+} from '@react-navigation/stack';
 
 import {
   NavbarNavigation,
@@ -35,6 +38,7 @@ import {
 } from '@store';
 import {DoubleTapToClose} from '@utils/BackHandlers';
 import {useToggle} from '@utils/hooks';
+import Profile from 'components/Profile/Profile';
 import Wallet from 'components/wallet/wallet';
 import React, {useCallback, useContext, useEffect, useState} from 'react';
 import {Dimensions, StatusBar, StyleSheet, View} from 'react-native';
@@ -84,6 +88,10 @@ const layout: StackItem<RootStackNavigation>[] = [
     name: 'register',
     component: renderRegistrationPage,
   },
+  // {
+  //   name: 'register',
+  //   component: Profile,
+  // },
   {
     name: 'getStarted',
     component: GetStartedPage,
@@ -102,6 +110,17 @@ const layout: StackItem<RootStackNavigation>[] = [
   },
 ];
 
+const SettingStack = createStackNavigator();
+function SettingTab() {
+  return (
+    <SettingStack.Navigator screenOptions={{headerShown: false}}>
+      <SettingStack.Screen name="profile" component={Profile} />
+      <SettingStack.Screen name="wallet" component={Wallet} />
+      <SettingStack.Screen name="edit" component={SettingsPage} />
+    </SettingStack.Navigator>
+  );
+}
+
 const tabBar: StackItem<NavbarNavigation>[] = [
   {
     name: 'learn',
@@ -113,7 +132,7 @@ const tabBar: StackItem<NavbarNavigation>[] = [
   },
   {
     name: 'settings',
-    component: SettingsPage,
+    component: SettingTab,
   },
   // {
   //   name: 'settings',
