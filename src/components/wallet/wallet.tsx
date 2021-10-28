@@ -14,20 +14,27 @@ import axios from 'axios';
 import {activeColor} from 'common';
 import AuthService from 'services/auth/AuthService';
 import CertificateApi from 'services/api/Certificate';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {walletUpdate} from 'services/api/userService';
+import {navigationRef} from 'Routes';
 
-export default function Wallet() {
+export default function Wallet({navigation}) {
   const [chain, setChain] = useState('');
   const [address, setAddress] = useState('');
 
-  const onCertificate = async () => {
+  const onSubmit = async () => {
+    const getCount = await AsyncStorage.getItem('STUD');
     const creds = await AuthService.getCredentials();
-    console.log('======>>>>>', creds);
+    console.log('[[check]]', creds, getCount);
+
     let authToken = JSON.parse(creds.password);
-    console.log('======>>>>>', authToken);
+    console.log('[[Token]]', authToken);
+
     let params = {
-      student: {
-        firstName: 'Marko',
-        lastName: 'Markovic',
+      id: authToken.id,
+      wallet: {
+        address: address,
+        amount: getCount,
       },
     };
     const cbSuccess = data => {
@@ -36,52 +43,7 @@ export default function Wallet() {
     const cbFailure = err => {
       console.log(err);
     };
-
-    CertificateApi(params, authToken.token, cbSuccess, cbFailure);
-    // axios
-    //   .get('https://omvp.studyum.io/v1/certificate', params, {
-    //     headers: {
-    //       Authorization: 'Bearer '.concat(authToken.token),
-    //     },
-    //   })
-    //   .then(response => {
-    //     console.log(response);
-    //   })
-    //   .catch(error => {
-    //     console.log(JSON.parse(JSON.stringify(error)));
-    //   });
-  };
-
-  const onSubmit = async () => {
-    const creds = await AuthService.getCredentials();
-    console.log('======>>>>>', creds);
-
-    let authToken = JSON.parse(creds.password);
-    console.log('======>>>>>', authToken);
-
-    let params = {
-      id: authToken.id,
-      wallet: {
-        address: 'address',
-        amount: 69,
-      },
-    };
-    // const cbSuccess = data => {
-    //   console.log(data);
-    // };
-    // const cbFailure = err => {
-    //   console.log(err);
-    // };
-    axios
-      .post('https://omvp.studyum.io/v1/update-wallet', params, {
-        headers: {Authorization: 'Bearer '.concat(authToken.token)},
-      })
-      .then(response => {
-        console.log(response);
-      })
-      .catch(error => {
-        console.log(error);
-      });
+    walletUpdate({params, cbSuccess, cbFailure});
   };
 
   return (
@@ -137,12 +99,12 @@ export default function Wallet() {
           />
         </View>
         <View style={style.bottomContainer}>
-          <TouchableOpacity style={style.bottomBtn}>
+          <TouchableOpacity
+            style={style.bottomBtn}
+            onPress={() => navigation.goBack()}>
             <Text style={style.BottombtnTxt}>Cancel</Text>
           </TouchableOpacity>
-          <TouchableOpacity
-            style={style.bottomBtn2}
-            onPress={() => onCertificate()}>
+          <TouchableOpacity style={style.bottomBtn2} onPress={() => onSubmit()}>
             <Text style={style.BottombtnTxt2}>Submit</Text>
           </TouchableOpacity>
         </View>

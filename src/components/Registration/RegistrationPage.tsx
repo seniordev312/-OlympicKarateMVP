@@ -159,6 +159,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
 
   const handleRegister = async (data: RegistrationInput) => {
     setValueTakenErrorMsg('');
+
     const response = await UserService.register(data);
 
     if (response.success) {

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
 import {Platform} from 'react-native';
 import {
   View,
@@ -12,8 +12,65 @@ import {
 import axios from 'axios';
 import {activeColor} from 'common';
 import {Icon} from 'react-native-elements';
+import AuthService from 'services/auth/AuthService';
+import {UserService} from 'services/api';
+import {UserContext} from 'store';
 
 export default function Profile({navigation}) {
+  const {user} = useContext(UserContext);
+  const onCertificate = async () => {
+    const creds = await AuthService.getCredentials();
+    console.log('[[creds]]', creds);
+    let authToken = JSON.parse(creds.password);
+    console.log('[[token]]', authToken.token);
+    let params = {
+      student: {
+        firstName: 'Marko',
+        lastName: 'Markovic',
+      },
+    };
+    // console.log('======>>>>>', params);
+    // const cbSuccess = data => {
+    //   console.log(data);
+    // };
+    // const cbFailure = err => {
+    //   console.log(err);
+    // };
+    // craeteCertificate({params, cbSuccess, cbFailure});
+
+    axios
+      .post('https://omvp.studyum.io/v1/certificate', params, {
+        headers: {
+          Authorization: 'Bearer '.concat(authToken.token),
+        },
+      })
+      .then(response => {
+        console.log(response.data.publicUrl);
+        navigation.navigate('chat', {
+          certificateUrl: response?.data?.publicUrl,
+          others: 10,
+        });
+      })
+      .catch(error => {
+        console.log(JSON.parse(JSON.stringify(error)));
+      });
+  };
+
+  const onLogout = async (data: any) => {
+    try {
+      const res = await UserService.updatePassword(
+        {
+          password: data.password,
+          token: user.token ?? '',
+          email: user.email ?? '',
+        },
+        {
+          Authorization: `Bearer ${user.token ?? ''}`,
+        },
+      );
+    } catch (error) {}
+  };
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'padding'}
@@ -48,13 +105,15 @@ export default function Profile({navigation}) {
             </View>
             <Icon name="chevron-right" type="material-community" />
           </TouchableOpacity>
-          <View style={style.formTextInput}>
+          <TouchableOpacity
+            style={style.formTextInput}
+            onPress={() => onCertificate()}>
             <View style={style.lineContainer}>
               <Icon name="text-box-outline" type="material-community" />
               <Text style={style.lineTxt}>Certificate</Text>
             </View>
             <Icon name="chevron-right" type="material-community" />
-          </View>
+          </TouchableOpacity>
           <View style={style.formTextInput}>
             <View style={style.lineContainer}>
               <Icon name="bell-outline" type="material-community" />
@@ -64,7 +123,7 @@ export default function Profile({navigation}) {
           </View>
         </View>
 
-        <TouchableOpacity style={style.btn}>
+        <TouchableOpacity style={style.btn} onPress={() => onLogout()}>
           <Text style={style.btnTxt}>Log Out</Text>
         </TouchableOpacity>
       </ScrollView>
@@ -98,7 +157,7 @@ const style = StyleSheet.create({
     justifyContent: 'center',
     alignSelf: 'center',
     borderRadius: 10,
-    marginTop: '60%',
+    marginTop: '40%',
   },
   btnTxt: {fontSize: 16, fontWeight: 'bold', marginLeft: '5%'},
   heading: {
@@ -188,3 +247,6 @@ const style = StyleSheet.create({
     fontWeight: '600',
   },
 });
+function alert(arg0: string) {
+  throw new Error('Function not implemented.');
+}

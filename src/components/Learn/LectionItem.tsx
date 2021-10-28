@@ -1,7 +1,8 @@
 import {accentColor, EMPTY_FN, getThumbnailLink, makeSource} from '@common';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {useNavigation} from '@react-navigation/native';
 import {RootStackNavigation} from '@routes';
-import React, {FC} from 'react';
+import React, {FC, useState, useEffect} from 'react';
 import {
   GestureResponderEvent,
   StyleSheet,
@@ -37,6 +38,7 @@ export const LectionItem: FC<LectionProps> = ({
   const navigateTo = (route: keyof RootStackNavigation, params: any) =>
     navigator.navigate(route, params);
 
+  const [stdToken, setStdToken] = useState('');
   return (
     <View style={style.container}>
       <TouchableOpacity

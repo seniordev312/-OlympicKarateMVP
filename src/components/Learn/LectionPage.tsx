@@ -9,6 +9,7 @@ import {
   widthPercentageToDP,
 } from '@common';
 import {Caption, Lection} from '@models';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   CommonActions,
   useNavigation,
@@ -78,6 +79,8 @@ const gradientBreakpoints = [0.3, 0.9];
 const gradientColorsReverse = [...gradientColors].reverse();
 const gradientBreakpointsReverse = [0.3, 0.9];
 
+let STUD = 0;
+
 export const LectionPage: FC<LectionPageProps> = ({}) => {
   const route = useRoute<RootRouteProps<'lection'>>();
   const navigation = useNavigation();
@@ -88,6 +91,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [captionsIndex, setCaptionsIndex] = useState(0);
+  const [stdToken, setStdToken] = useState('');
   const progressRef = useRef(0);
 
   const playerRef = useRef<Video>(null);
@@ -103,7 +107,6 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   const [maxProgress, setMaxProgress] = useState(0);
   const [isWatched, setIsWatched] = useState(false);
   const [isLoading, setLoader] = useState(true);
-
   const {data, loading} = useGetLectionData(
     Endpoints.lection.replace(
       RoutePlaceholders.LECTION_ID,
@@ -152,6 +155,14 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
     [navigation, routeIndex],
   );
 
+  useEffect(() => {
+    getToken();
+  }, []);
+  const getToken = async () => {
+    const getCount: any = await AsyncStorage.getItem('STUD');
+    setStdToken(getCount);
+  };
+
   const updateCaptionsIndex = (time: number) => {
     const index = lection.captions.findIndex(
       ({start, end}) =>
@@ -176,6 +187,21 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   };
   const onError = (error: LoadError) => console.error(error);
   const onEnd = async () => {
+    const getCount: any = await AsyncStorage.getItem('STUD');
+    console.log(
+      '[[stud counter]]',
+      getCount,
+      await AsyncStorage.getItem('STUD'),
+    );
+    if (!isNaN(getCount)) {
+      let counter: number = parseInt(getCount) + 1;
+      await AsyncStorage.setItem('STUD', counter.toString());
+      setStdToken(await AsyncStorage.getItem('STUD'));
+    } else {
+      let counter: number = STUD + 1;
+      await AsyncStorage.setItem('STUD', counter.toString());
+    }
+
     console.log('TOTAL WATCHED: ', progressRef.current);
     console.log(
       progressRef.current >= duration ||
@@ -600,7 +626,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
           />
           <View style={style.points}>
             <Image source={require('../../assets/png/dollar.png')} />
-            <Text style={style.pointsTxt}>13 $STUD</Text>
+            <Text style={style.pointsTxt}>{stdToken} $STUD</Text>
           </View>
         </View>
       </>

@@ -1,3 +1,5 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import axios from 'axios';
 import StatusCodes from 'http-status-codes';
 import {User} from 'models/user';
 import AuthService from '../auth/AuthService';
@@ -110,4 +112,40 @@ export const resetPassword = async (data: ResetPasswordBodyData) => {
   } finally {
     return response;
   }
+};
+
+export const walletUpdate = async ({data, cbSuccess, cbFailure}) => {
+  const getCount = await AsyncStorage.getItem('STUD');
+  const creds = await AuthService.getCredentials();
+  console.log('======>>>>>', creds, getCount);
+
+  let authToken = JSON.parse(creds.password);
+  console.log('======>>>>>', authToken);
+  axios
+    .post('https://omvp.studyum.io/v1/update-wallet', data, {
+      headers: {Authorization: 'Bearer '.concat(authToken.token)},
+    })
+    .then(response => {
+      cbSuccess(response);
+    })
+    .catch(error => {
+      cbFailure(error);
+    });
+};
+
+export const craeteCertificate = async ({data, cbSuccess, cbFailure}) => {
+  const creds = await AuthService.getCredentials();
+  console.log('======>>>>>', creds);
+  let authToken = JSON.parse(creds.password);
+  console.log('======>>>>>{}{}{}', authToken);
+  axios
+    .post('https://omvp.studyum.io/v1/certificate', data, {
+      headers: {Authorization: 'Bearer '.concat(authToken.token)},
+    })
+    .then(response => {
+      cbSuccess(response);
+    })
+    .catch(error => {
+      cbFailure(error);
+    });
 };
