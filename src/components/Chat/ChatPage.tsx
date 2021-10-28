@@ -49,7 +49,6 @@ const teacher = {
 const DEFAULT_TITLE = 'Studyum';
 
 export const ChatPage = () => {
-  const [show, setShow] = useState(false);
   const route = useRoute<NavbarRouteProps<'chat'>>();
   if (route?.params) {
     const {certificateUrl, others} = route?.params;
@@ -604,18 +603,19 @@ const style = StyleSheet.create({
     width: '100%',
   },
   certify: {
-    height: '40%',
-    margin: 10,
+    height: '60%',
+    margin: 50,
     width: '40%',
     position: 'absolute',
     bottom: 10,
+    // top: 200,
   },
   certificate: {
-    height: '95%',
-    width: '90%',
+    height: '60%',
+    width: '120%',
     position: 'absolute',
     bottom: 10,
-    backgroundColor: 'gray',
+    // backgroundColor: 'gray',
     // paddingVertical: 10,
     margin: 20,
     borderWidth: 2,

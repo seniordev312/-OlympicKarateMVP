@@ -10,6 +10,8 @@ type LoginBodyData = {
   username: string;
   password: string;
   email: string;
+  firstname: string;
+  lastname: string;
 };
 export const login = async (data: LoginBodyData) => {
   const response = {success: true, failedMsg: ''};
@@ -24,13 +26,15 @@ export const login = async (data: LoginBodyData) => {
       response.failedMsg = res.data.details;
     } else {
       const user = res.data.user;
-
+      console.log('===>', user);
       let creds: User = {
         id: user.id ?? '',
         username: user.username,
         email: user.email,
         password: user.password ?? 'DEFAULT_PWD',
         token: user.token,
+        firstname: user.firstname,
+        lastname: user.lastname,
       };
       // @ts-ignore
       await AuthService.storeCredentials(creds);

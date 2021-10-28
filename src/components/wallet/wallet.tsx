@@ -9,7 +9,7 @@ import {
   ScrollView,
   KeyboardAvoidingView,
 } from 'react-native';
-import {TextInput} from 'react-native-paper';
+import {Button, TextInput} from 'react-native-paper';
 import axios from 'axios';
 import {activeColor} from 'common';
 import AuthService from 'services/auth/AuthService';
@@ -17,10 +17,14 @@ import CertificateApi from 'services/api/Certificate';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {walletUpdate} from 'services/api/userService';
 import {navigationRef} from 'Routes';
+import {Picker} from '@react-native-picker/picker';
+import {Alert} from 'react-native';
+import Modal from 'react-native-modal';
 
 export default function Wallet({navigation}) {
   const [chain, setChain] = useState('');
   const [address, setAddress] = useState('');
+  const [isModalVisible, setModalVisible] = useState(false);
 
   const onSubmit = async () => {
     const getCount = await AsyncStorage.getItem('STUD');
@@ -39,6 +43,9 @@ export default function Wallet({navigation}) {
     };
     const cbSuccess = data => {
       console.log(data);
+      setModalVisible(true);
+      setChain('');
+      setAddress('');
     };
     const cbFailure = err => {
       console.log(err);
@@ -71,7 +78,33 @@ export default function Wallet({navigation}) {
           </Text>
         </View>
         <View>
-          <TextInput
+          <View
+            // eslint-disable-next-line react-native/no-inline-styles
+            style={{
+              borderBottomWidth: 1.5,
+              borderBottomColor: '#C0C0C0',
+              marginHorizontal: 20,
+            }}>
+            <Picker
+              // eslint-disable-next-line react-native/no-inline-styles
+              style={{
+                marginHorizontal: 10,
+              }}
+              selectedValue={chain}
+              onValueChange={(itemValue, itemIndex) => setChain(itemValue)}>
+              <Picker.Item label="Etherium" value="Etherium" />
+              <Picker.Item label="Cardano" value="Cardano" />
+              <Picker.Item
+                label="Binance Smart Chain"
+                value="Binance Smart Chain"
+              />
+              <Picker.Item
+                label="Etherium & Binance use the same address validation"
+                value="Etherium & Binance use the same address validation"
+              />
+            </Picker>
+          </View>
+          {/* <TextInput
             placeholder={'chain'}
             label="Chain"
             value={chain}
@@ -83,7 +116,7 @@ export default function Wallet({navigation}) {
               colors: {primary: activeColor},
             }}
             autoCapitalize="none"
-          />
+          /> */}
           <TextInput
             label="Wallet address"
             placeholder={'wallet address'}
@@ -109,11 +142,32 @@ export default function Wallet({navigation}) {
           </TouchableOpacity>
         </View>
       </ScrollView>
+      <Modal isVisible={isModalVisible}>
+        <View style={style.model}>
+          <Text>
+            Token distribution is done every 28th of the month. You will receive
+            your tokens on the date
+          </Text>
+
+          <TouchableOpacity
+            style={style.bottomBtn}
+            onPress={() => setModalVisible(false)}>
+            <Text style={style.BottombtnTxt}>Ok</Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
     </KeyboardAvoidingView>
   );
 }
 
 const style = StyleSheet.create({
+  model: {
+    height: '20%',
+    width: '100%',
+    backgroundColor: 'white',
+    borderRadius: 20,
+    padding: 20,
+  },
   container: {
     // justifyContent: 'center',
     alignItems: 'center',
@@ -187,7 +241,12 @@ const style = StyleSheet.create({
     borderRadius: 10,
     marginVertical: '5%',
   },
-  BottombtnTxt: {fontSize: 12, fontWeight: '300', marginLeft: '5%'},
+  BottombtnTxt: {
+    fontSize: 12,
+    fontWeight: '300',
+    marginLeft: '5%',
+    color: 'black',
+  },
   bottomBtn2: {
     width: '45%',
     height: 50,

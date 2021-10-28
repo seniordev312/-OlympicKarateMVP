@@ -158,6 +158,8 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
   const {user, getUser} = useContext(UserContext);
 
   const handleRegister = async (data: RegistrationInput) => {
+    console.log(data);
+
     setValueTakenErrorMsg('');
 
     const response = await UserService.register(data);

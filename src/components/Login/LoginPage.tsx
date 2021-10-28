@@ -98,6 +98,7 @@ export const LoginPage: FC<LoginPage> = ({logoUrl, title}) => {
     console.log('ABC=============>>>>>>>', loginResponse);
     if (loginResponse.success) {
       const creds = await AuthService.getCredentials();
+      console.log(creds);
       console.log('{}{}{}{}{}{}{}=>', JSON.parse(creds.password));
       await getUser();
 

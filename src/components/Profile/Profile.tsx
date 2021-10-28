@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import {Platform} from 'react-native';
 import {
   View,
@@ -15,60 +15,67 @@ import {Icon} from 'react-native-elements';
 import AuthService from 'services/auth/AuthService';
 import {UserService} from 'services/api';
 import {UserContext} from 'store';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import Toast from 'react-native-simple-toast';
 
 export default function Profile({navigation}) {
   const {user} = useContext(UserContext);
-  const onCertificate = async () => {
-    const creds = await AuthService.getCredentials();
-    console.log('[[creds]]', creds);
-    let authToken = JSON.parse(creds.password);
-    console.log('[[token]]', authToken.token);
-    let params = {
-      student: {
-        firstName: 'Marko',
-        lastName: 'Markovic',
-      },
-    };
-    // console.log('======>>>>>', params);
-    // const cbSuccess = data => {
-    //   console.log(data);
-    // };
-    // const cbFailure = err => {
-    //   console.log(err);
-    // };
-    // craeteCertificate({params, cbSuccess, cbFailure});
+  const [stdToken, setStdToken] = useState('');
 
-    axios
-      .post('https://omvp.studyum.io/v1/certificate', params, {
-        headers: {
-          Authorization: 'Bearer '.concat(authToken.token),
+  const getToken = async () => {
+    const STUDToken = await AsyncStorage.getItem('STUD');
+    console.log(STUDToken);
+    setStdToken(STUDToken);
+  };
+  useEffect(() => {
+    getToken();
+  }, []);
+  const onCertificate = async () => {
+    if (stdToken === '77') {
+      const creds = await AuthService.getCredentials();
+      console.log('[[creds]]', creds);
+      let authToken = JSON.parse(creds.password);
+      console.log('[[token]]', authToken);
+      let params = {
+        student: {
+          firstName: authToken.lastname,
+          lastName: authToken.firstname,
         },
-      })
-      .then(response => {
-        console.log(response.data.publicUrl);
-        navigation.navigate('chat', {
-          certificateUrl: response?.data?.publicUrl,
-          others: 10,
+      };
+      // console.log('======>>>>>', params);
+      // const cbSuccess = data => {
+      //   console.log(data);
+      // };
+      // const cbFailure = err => {
+      //   console.log(err);
+      // };
+      // craeteCertificate({params, cbSuccess, cbFailure});
+
+      axios
+        .post('https://omvp.studyum.io/v1/certificate', params, {
+          headers: {
+            Authorization: 'Bearer '.concat(authToken.token),
+          },
+        })
+        .then(response => {
+          console.log(response.data.publicUrl);
+          navigation.navigate('chat', {
+            certificateUrl: response?.data?.publicUrl,
+            others: 10,
+          });
+        })
+        .catch(error => {
+          console.log(JSON.parse(JSON.stringify(error)));
         });
-      })
-      .catch(error => {
-        console.log(JSON.parse(JSON.stringify(error)));
-      });
+    } else {
+      Toast.show('Please Complete your video course first', Toast.LONG);
+    }
   };
 
-  const onLogout = async (data: any) => {
-    try {
-      const res = await UserService.updatePassword(
-        {
-          password: data.password,
-          token: user.token ?? '',
-          email: user.email ?? '',
-        },
-        {
-          Authorization: `Bearer ${user.token ?? ''}`,
-        },
-      );
-    } catch (error) {}
+  const onLogout = async () => {
+    await AuthService.resetCredentials();
+    const creds = await AuthService.getCredentials();
+    navigation.navigate('login');
   };
 
   return (
@@ -101,7 +108,7 @@ export default function Profile({navigation}) {
             style={style.formTextInput}>
             <View style={style.lineContainer}>
               <Icon name="credit-card-outline" type="material-community" />
-              <Text style={style.lineTxt}>Wallet (13 $STUD)</Text>
+              <Text style={style.lineTxt}>Wallet ({stdToken} $STUD)</Text>
             </View>
             <Icon name="chevron-right" type="material-community" />
           </TouchableOpacity>

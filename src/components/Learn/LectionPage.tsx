@@ -158,9 +158,13 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   useEffect(() => {
     getToken();
   }, []);
+
+  useEffect(() => {}, [stdToken]);
+
   const getToken = async () => {
     const getCount: any = await AsyncStorage.getItem('STUD');
-    setStdToken(getCount);
+    console.log('[initial-value]', getCount);
+    setStdToken(isNaN(getCount) || getCount === null ? '0' : getCount);
   };
 
   const updateCaptionsIndex = (time: number) => {
@@ -193,13 +197,20 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
       getCount,
       await AsyncStorage.getItem('STUD'),
     );
-    if (!isNaN(getCount)) {
-      let counter: number = parseInt(getCount) + 1;
+    if (!isNaN(getCount) && getCount !== null) {
+      let counter: number = parseInt(getCount, 10) + 1;
       await AsyncStorage.setItem('STUD', counter.toString());
-      setStdToken(await AsyncStorage.getItem('STUD'));
+      console.log('[[stud counter if]]', await AsyncStorage.getItem('STUD'));
+      setStdToken(counter.toString());
     } else {
-      let counter: number = STUD + 1;
+      let counter: number = 1;
       await AsyncStorage.setItem('STUD', counter.toString());
+      console.log(
+        '[[stud counter else]]',
+        await AsyncStorage.getItem('STUD'),
+        counter,
+      );
+      setStdToken(counter.toString());
     }
 
     console.log('TOTAL WATCHED: ', progressRef.current);
