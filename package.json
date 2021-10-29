@@ -41,7 +41,7 @@
     "react-native-clean-project": "^3.6.4",
     "react-native-confetti-cannon": "^1.5.2",
     "react-native-dotenv": "^2.5.5",
-    "react-native-dropdown-picker": "^5.1.21",
+    "react-native-dropdown-picker": "^5.2.3",
     "react-native-elements": "^3.4.2",
     "react-native-fast-image": "^8.3.6",
     "react-native-gesture-handler": "^1.10.3",

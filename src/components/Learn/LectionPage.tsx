@@ -200,7 +200,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
     if (!isNaN(getCount) && getCount !== null) {
       let counter: number = parseInt(getCount, 10) + 1;
       await AsyncStorage.setItem('STUD', counter.toString());
-      console.log('[[stud counter if]]', await AsyncStorage.getItem('STUD'));
+      // console.log('[[stud counter if]]', await AsyncStorage.getItem('STUD'));
       setStdToken(counter.toString());
     } else {
       let counter: number = 1;

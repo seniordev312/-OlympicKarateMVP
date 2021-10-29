@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Platform} from 'react-native';
 import {
   View,
@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   ScrollView,
   KeyboardAvoidingView,
+  Linking,
 } from 'react-native';
 import {Button, TextInput} from 'react-native-paper';
 import axios from 'axios';
@@ -20,12 +21,33 @@ import {navigationRef} from 'Routes';
 import {Picker} from '@react-native-picker/picker';
 import {Alert} from 'react-native';
 import Modal from 'react-native-modal';
+import DropDownPicker from 'react-native-dropdown-picker';
 
 export default function Wallet({navigation}) {
   const [chain, setChain] = useState('');
   const [address, setAddress] = useState('');
   const [isModalVisible, setModalVisible] = useState(false);
+  const [stdToken, setStdToken] = useState('');
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState(null);
+  const [items, setItems] = useState([
+    {label: 'Etherium', value: 'Etherium'},
+    {label: 'Cardano', value: 'Cardano'},
+    {label: 'Binance Smart Chain', value: 'Binance Smart Chain'},
+  ]);
 
+  const getToken = async () => {
+    const STUDToken = await AsyncStorage.getItem('STUD');
+    console.log(STUDToken);
+    if (STUDToken === null) {
+      setStdToken('0');
+    } else {
+      setStdToken(STUDToken);
+    }
+  };
+  useEffect(() => {
+    getToken();
+  }, []);
   const onSubmit = async () => {
     const getCount = await AsyncStorage.getItem('STUD');
     const creds = await AuthService.getCredentials();
@@ -53,6 +75,10 @@ export default function Wallet({navigation}) {
     walletUpdate({params, cbSuccess, cbFailure});
   };
 
+  const openSite = async () => {
+    await Linking.openURL('https://www.google.com/');
+  };
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'padding'}
@@ -67,14 +93,15 @@ export default function Wallet({navigation}) {
             style={style.topimg}
           />
         </View>
-        <TouchableOpacity style={style.btn}>
+        <TouchableOpacity style={style.btn} onPress={() => openSite()}>
           <Text style={style.btnTxt}>Download Metamask</Text>
         </TouchableOpacity>
         <View>
           <Text style={style.heading}>Congratulations</Text>
           <Text style={style.detail}>
-            you have received 77 STUD for passing all leasons. Please enter
-            chain and wallet address where you wish to recive your reward.
+            you have received {stdToken} STUD for passing {stdToken} leasons.
+            Please enter chain and wallet address where you wish to recive your
+            reward.
           </Text>
         </View>
         <View>
@@ -85,24 +112,29 @@ export default function Wallet({navigation}) {
               borderBottomColor: '#C0C0C0',
               marginHorizontal: 20,
             }}>
-            <Picker
+            <DropDownPicker
+              open={open}
+              value={chain}
+              items={items}
+              setOpen={setOpen}
+              setValue={value => setChain(value, 'woodspecie')}
+              // setItems={setItems}
+              // eslint-disable-next-line react-native/no-inline-styles
+              containerStyle={{
+                height: open ? '60%' : 60,
+                width: '100%',
+                marginTop: '5%',
+                alignSelf: 'center',
+                backgroundColor: 'transparent',
+              }}
               // eslint-disable-next-line react-native/no-inline-styles
               style={{
-                marginHorizontal: 10,
+                borderColor: 'transparent',
+                borderWidth: 2,
+                height: 80,
+                backgroundColor: 'transparent',
               }}
-              selectedValue={chain}
-              onValueChange={(itemValue, itemIndex) => setChain(itemValue)}>
-              <Picker.Item label="Etherium" value="Etherium" />
-              <Picker.Item label="Cardano" value="Cardano" />
-              <Picker.Item
-                label="Binance Smart Chain"
-                value="Binance Smart Chain"
-              />
-              <Picker.Item
-                label="Etherium & Binance use the same address validation"
-                value="Etherium & Binance use the same address validation"
-              />
-            </Picker>
+            />
           </View>
           {/* <TextInput
             placeholder={'chain'}

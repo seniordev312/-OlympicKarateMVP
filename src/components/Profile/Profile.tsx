@@ -21,11 +21,21 @@ import Toast from 'react-native-simple-toast';
 export default function Profile({navigation}) {
   const {user} = useContext(UserContext);
   const [stdToken, setStdToken] = useState('');
+  const [certify, setCertify] = useState(true);
 
   const getToken = async () => {
     const STUDToken = await AsyncStorage.getItem('STUD');
     console.log(STUDToken);
-    setStdToken(STUDToken);
+    if (STUDToken === null) {
+      setStdToken('0');
+    } else {
+      setStdToken(STUDToken);
+    }
+    if (STUDToken === '77') {
+      setCertify(false);
+    } else {
+      setCertify(true);
+    }
   };
   useEffect(() => {
     getToken();
@@ -113,6 +123,7 @@ export default function Profile({navigation}) {
             <Icon name="chevron-right" type="material-community" />
           </TouchableOpacity>
           <TouchableOpacity
+            disabled={certify}
             style={style.formTextInput}
             onPress={() => onCertificate()}>
             <View style={style.lineContainer}>
