@@ -76,7 +76,9 @@ export default function Wallet({navigation}) {
   };
 
   const openSite = async () => {
-    await Linking.openURL('https://www.google.com/');
+    await Linking.openURL(
+      'https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202',
+    );
   };
 
   return (

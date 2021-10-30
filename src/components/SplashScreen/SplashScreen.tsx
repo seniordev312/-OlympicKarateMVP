@@ -21,14 +21,14 @@ export const SplashScreen: FC = () => {
   return (
     <View style={style.container}>
       {isShow ? (
-        <Animatable.View
-          duration={1500}
-          delay={1000}
-          animation={zoomIn}
-          style={style.container}>
+        <View style={style.container}>
           <View style={style.upperLogo}>
             <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
-            <View style={style.upperLogoLabel}>
+            <View
+              // duration={1500}
+              // delay={1000}
+              // animation={zoomIn}
+              style={style.upperLogoLabel}>
               <OlympicKarate width={110} height={55} />
             </View>
           </View>
@@ -39,15 +39,15 @@ export const SplashScreen: FC = () => {
             </View>
             <Image style={style.bottomLogoImg} source={makeSource(LOGO_2)} />
           </View>
-        </Animatable.View>
+        </View>
       ) : (
-        <Animatable.View
-          duration={1500}
-          delay={800}
-          animation={zoomOut}
+        <View
+          // duration={1500}
+          // delay={800}
+          // animation={zoomOut}
           style={style.upperLogo}>
           <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
-        </Animatable.View>
+        </View>
       )}
     </View>
   );
