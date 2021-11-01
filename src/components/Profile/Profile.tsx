@@ -91,7 +91,11 @@ export default function Profile({navigation}) {
   const onLogout = async () => {
     await AuthService.resetCredentials();
     const creds = await AuthService.getCredentials();
-    navigation.navigate('login');
+    navigation.reset({
+      index: 0,
+      routes: [{name: 'login'}],
+    });
+    // navigation.navigate('login')
   };
 
   return (

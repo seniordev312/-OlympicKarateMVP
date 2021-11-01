@@ -28,7 +28,7 @@ enum SettingsInputForm {
 
 type SettingsInput = Record<SettingsInputForm, any>;
 
-export const SettingsPage = () => {
+export const SettingsPage = ({navigation}) => {
   const {t} = useContext(translateContext);
   const {user} = useContext(UserContext);
   const {
@@ -72,7 +72,11 @@ export const SettingsPage = () => {
   const handleLogoutPress = async () => {
     await AuthService.resetCredentials();
     const creds = await AuthService.getCredentials();
-    navigateTo('login');
+    // navigateTo('login');
+    navigation.reset({
+      index: 0,
+      routes: [{name: 'login'}],
+    });
   };
 
   return (
