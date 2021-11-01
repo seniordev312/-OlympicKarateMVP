@@ -591,7 +591,7 @@ const style = StyleSheet.create({
   },
 
   // chat: {height: '64%', maxHeight: '98%'},
-  chat: {height: '60%', maxHeight: '98%', marginTop: '20%'},
+  chat: {height: '60%', maxHeight: '98%', marginTop: '13%'},
   answers: {maxHeight: '36%', paddingBottom: 14},
 
   titleStyle: {flex: 6, paddingVertical: '5%'},

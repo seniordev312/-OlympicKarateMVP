@@ -41,6 +41,7 @@ import {
   View,
   Text,
   Image,
+  Alert,
 } from 'react-native';
 import {
   GestureEvent,
@@ -508,7 +509,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
         'LectionPage ~ handleNavigation ~ Updated learning progress:',
         data,
       );
-      // navigateTo(routeName, options, replace);
+      navigateTo(routeName, options, replace);
     }
   };
 

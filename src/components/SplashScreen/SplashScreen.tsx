@@ -20,38 +20,39 @@ export const SplashScreen: FC = () => {
   }, []);
   return (
     <View style={style.container}>
-      {isShow ? (
-        <View style={style.container}>
-          <View style={style.upperLogo}>
-            <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
-            <View
-              // duration={1500}
-              // delay={1000}
-              // animation={zoomIn}
-              style={style.upperLogoLabel}>
-              <OlympicKarate width={110} height={55} />
-            </View>
-          </View>
-
-          <View style={style.bottomLogo}>
-            <View style={style.bottomLogoLabel}>
-              <PoweredBy />
-            </View>
-            <Image style={style.bottomLogoImg} source={makeSource(LOGO_2)} />
+      <View style={style.container}>
+        <View style={style.upperLogo}>
+          <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
+          <View
+            // duration={1500}
+            // delay={1000}
+            // animation={zoomIn}
+            style={style.upperLogoLabel}>
+            <OlympicKarate width={110} height={55} />
           </View>
         </View>
-      ) : (
-        <View
+
+        <View style={style.bottomLogo}>
+          <View style={style.bottomLogoLabel}>
+            <PoweredBy />
+          </View>
+          <Image style={style.bottomLogoImg} source={makeSource(LOGO_2)} />
+        </View>
+      </View>
+    </View>
+  );
+};
+
+// {isShow ? (
+// ) : (
+/* <View
           // duration={1500}
           // delay={800}
           // animation={zoomOut}
           style={style.upperLogo}>
           <Image style={style.upperLogoImg} source={makeSource(LOGO_1)} />
-        </View>
-      )}
-    </View>
-  );
-};
+        </View> */
+//   )}
 
 const zoomOut = {
   0: {

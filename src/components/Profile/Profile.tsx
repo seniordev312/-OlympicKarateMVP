@@ -22,11 +22,17 @@ export default function Profile({navigation}) {
   const {user} = useContext(UserContext);
   const [stdToken, setStdToken] = useState('');
   const [certify, setCertify] = useState(true);
+  const [User, setUser] = useState('');
 
   const getToken = async () => {
+    const creds = await AuthService.getCredentials();
+    console.log(JSON.parse(creds.password));
+    setUser(JSON.parse(creds.password));
+    console.log('====>', user);
+
     const STUDToken = await AsyncStorage.getItem('STUD');
     console.log(STUDToken);
-    if (STUDToken === null) {
+    if (STUDToken === user) {
       setStdToken('0');
     } else {
       setStdToken(STUDToken);
@@ -103,8 +109,8 @@ export default function Profile({navigation}) {
               style={style.topimg}
             />
             <View style={style.userInfo}>
-              <Text>test ABC</Text>
-              <Text>test@gmail.com</Text>
+              <Text>{user.username}</Text>
+              <Text>{user.email}</Text>
             </View>
           </View>
           <TouchableOpacity onPress={() => navigation.navigate('edit')}>
