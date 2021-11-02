@@ -52,27 +52,36 @@ export default function Wallet({navigation}) {
     const getCount = await AsyncStorage.getItem('STUD');
     const creds = await AuthService.getCredentials();
     console.log('[[check]]', creds, getCount);
-
     let authToken = JSON.parse(creds.password);
     console.log('[[Token]]', authToken);
 
-    let params = {
-      id: authToken.id,
-      wallet: {
-        address: address,
-        amount: getCount,
-      },
-    };
-    const cbSuccess = data => {
-      console.log(data);
-      setModalVisible(true);
-      setChain('');
-      setAddress('');
-    };
-    const cbFailure = err => {
-      console.log(err);
-    };
-    walletUpdate({params, cbSuccess, cbFailure});
+    const {
+      validateEthAddress,
+    } = require('react-native-blockchain-address-validator/validators/eth');
+
+    const isEthAddressValid = validateEthAddress(address);
+    console.log('Address validate', isEthAddressValid);
+    if (isEthAddressValid) {
+      let params = {
+        id: authToken.id,
+        wallet: {
+          address: address,
+          amount: getCount,
+        },
+      };
+      const cbSuccess = data => {
+        console.log(data);
+        setModalVisible(true);
+        setChain('');
+        setAddress('');
+      };
+      const cbFailure = err => {
+        console.log(err);
+      };
+      walletUpdate({params, cbSuccess, cbFailure});
+    } else {
+      Alert.alert('Please enter a valid address');
+    }
   };
 
   const openSite = async () => {

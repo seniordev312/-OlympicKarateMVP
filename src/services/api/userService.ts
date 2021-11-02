@@ -26,7 +26,8 @@ export const login = async (data: LoginBodyData) => {
       response.failedMsg = res.data.details;
     } else {
       const user = res.data.user;
-      console.log('===>', user);
+      console.log('===> Async', user.wallet.amount);
+      await AsyncStorage.setItem('STUD', JSON.stringify(user.wallet.amount));
       let creds: User = {
         id: user.id ?? '',
         username: user.username,

@@ -22,6 +22,7 @@ import {Endpoints, RoutePlaceholders} from '@services/api/types';
 import {StorageKeys, StorageService} from '@services/storage';
 import {UserContext} from '@store';
 import {useToggle} from '@utils/hooks/useToggle';
+import axios from 'axios';
 import {debounce, isEmpty, isObject, throttle} from 'lodash';
 import React, {
   FC,
@@ -93,6 +94,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   const [currentTime, setCurrentTime] = useState(0);
   const [captionsIndex, setCaptionsIndex] = useState(0);
   const [stdToken, setStdToken] = useState('');
+
   const progressRef = useRef(0);
 
   const playerRef = useRef<Video>(null);
@@ -108,6 +110,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   const [maxProgress, setMaxProgress] = useState(0);
   const [isWatched, setIsWatched] = useState(false);
   const [isLoading, setLoader] = useState(true);
+  const [balance, setBalance] = useState('');
   const {data, loading} = useGetLectionData(
     Endpoints.lection.replace(
       RoutePlaceholders.LECTION_ID,
@@ -192,6 +195,24 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
   };
   const onError = (error: LoadError) => console.error(error);
   const onEnd = async () => {
+    console.log('opopo', user);
+
+    axios
+      .get('https://omvp.studyum.io/v1/user/' + user.id, {
+        headers: {Authorization: 'Bearer '.concat(user.token)},
+      })
+      // eslint-disable-next-line prettier/prettier
+      .then(async res => {
+        console.log('success', res.data.user.wallet.amount);
+        setBalance(res.data.user.wallet.amount);
+        await AsyncStorage.setItem(
+          'STUD',
+          JSON.stringify(res.data.user.wallet.amount),
+        );
+      })
+      .catch(err => {
+        console.log('error', err);
+      });
     const getCount: any = await AsyncStorage.getItem('STUD');
     console.log(
       '[[stud counter]]',
@@ -199,10 +220,12 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
       await AsyncStorage.getItem('STUD'),
     );
     if (!isNaN(getCount) && getCount !== null) {
-      let counter: number = parseInt(getCount, 10) + 1;
-      await AsyncStorage.setItem('STUD', counter.toString());
-      // console.log('[[stud counter if]]', await AsyncStorage.getItem('STUD'));
-      setStdToken(counter.toString());
+      if (getCount === balance && balance !== '0') {
+        let counter: number = parseInt(getCount, 10) + 1;
+        await AsyncStorage.setItem('STUD', counter.toString());
+        // console.log('[[stud counter if]]', await AsyncStorage.getItem('STUD'));
+        setStdToken(counter.toString());
+      }
     } else {
       let counter: number = 1;
       await AsyncStorage.setItem('STUD', counter.toString());

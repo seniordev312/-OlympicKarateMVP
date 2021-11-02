@@ -6216,6 +6216,11 @@ react-native-awesome-alerts@^1.5.0:
   dependencies:
     prop-types "^15.7.2"
 
+react-native-blockchain-address-validator@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-blockchain-address-validator/-/react-native-blockchain-address-validator-0.1.0.tgz#b169bd17e9120993516bef1fd91ffc742a44d414"
+  integrity sha512-VQGEvBcMDr0kOxry6Y5XEqqA5U8guqulMRfTms72f78RVfa2/1S67OoBT8pomBGluCBXJxGlz9mC5W0LhBAszg==
+
 react-native-clean-project@^3.6.4:
   version "3.6.7"
   resolved "https://registry.yarnpkg.com/react-native-clean-project/-/react-native-clean-project-3.6.7.tgz#6d22ad22fe3a1e6efdb040eb66f9bdfb2273ac2e"

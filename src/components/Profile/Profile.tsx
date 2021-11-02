@@ -28,7 +28,7 @@ export default function Profile({navigation}) {
     const creds = await AuthService.getCredentials();
     console.log(JSON.parse(creds.password));
     setUser(JSON.parse(creds.password));
-    console.log('====>', user);
+    console.log('====>user', user);
 
     const STUDToken = await AsyncStorage.getItem('STUD');
     console.log(STUDToken);
@@ -37,7 +37,7 @@ export default function Profile({navigation}) {
     } else {
       setStdToken(STUDToken);
     }
-    if (STUDToken === '77') {
+    if (STUDToken >= '77') {
       setCertify(false);
     } else {
       setCertify(true);
@@ -47,7 +47,7 @@ export default function Profile({navigation}) {
     getToken();
   }, []);
   const onCertificate = async () => {
-    if (stdToken === '77') {
+    if (stdToken >= '77') {
       const creds = await AuthService.getCredentials();
       console.log('[[creds]]', creds);
       let authToken = JSON.parse(creds.password);
