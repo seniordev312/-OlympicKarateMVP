@@ -67,6 +67,7 @@ export default function Profile({navigation}) {
       // };
       // craeteCertificate({params, cbSuccess, cbFailure});
 
+      //api
       axios
         .post('https://omvp.studyum.io/v1/certificate', params, {
           headers: {
