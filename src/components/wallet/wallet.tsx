@@ -31,7 +31,7 @@ export default function Wallet({navigation}) {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState(null);
   const [items, setItems] = useState([
-    {label: 'Etherium', value: 'Etherium'},
+    {label: 'Etherium', value: 'Ethereum'},
     {label: 'Cardano', value: 'Cardano'},
     {label: 'Binance Smart Chain', value: 'Binance Smart Chain'},
   ]);
@@ -67,6 +67,7 @@ export default function Wallet({navigation}) {
         wallet: {
           address: address,
           amount: getCount,
+          chain
         },
       };
       const cbSuccess = data => {
@@ -78,7 +79,7 @@ export default function Wallet({navigation}) {
       const cbFailure = err => {
         console.log(err);
       };
-      walletUpdate({params, cbSuccess, cbFailure});
+      walletUpdate({data:params, cbSuccess, cbFailure});
     } else {
       Alert.alert('Please enter a valid address');
     }
