@@ -1,27 +1,24 @@
-import React, {useState, useEffect} from 'react';
-import {Platform} from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {activeColor} from 'common';
+import React, {useEffect, useState} from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
+  Alert,
   Image,
-  TouchableOpacity,
-  ScrollView,
   KeyboardAvoidingView,
   Linking,
+  LogBox,
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from 'react-native';
-import {Button, TextInput} from 'react-native-paper';
-import axios from 'axios';
-import {activeColor} from 'common';
-import AuthService from 'services/auth/AuthService';
-import CertificateApi from 'services/api/Certificate';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import {walletUpdate} from 'services/api/userService';
-import {navigationRef} from 'Routes';
-import {Picker} from '@react-native-picker/picker';
-import {Alert} from 'react-native';
-import Modal from 'react-native-modal';
 import DropDownPicker from 'react-native-dropdown-picker';
+import {ScrollView} from 'react-native-gesture-handler';
+import Modal from 'react-native-modal';
+import {TextInput} from 'react-native-paper';
+import {walletUpdate} from 'services/api/userService';
+import AuthService from 'services/auth/AuthService';
 
 export default function Wallet({navigation}) {
   const [chain, setChain] = useState('');
@@ -31,14 +28,14 @@ export default function Wallet({navigation}) {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState(null);
   const [items, setItems] = useState([
-    {label: 'Etherium', value: 'Ethereum'},
+    {label: 'Ethereum', value: 'Ethereum'},
     {label: 'Cardano', value: 'Cardano'},
     {label: 'Binance Smart Chain', value: 'Binance Smart Chain'},
   ]);
 
   const getToken = async () => {
     const STUDToken = await AsyncStorage.getItem('STUD');
-    console.log(STUDToken);
+    console.log(`[[STUD from storage]]`, STUDToken);
     if (STUDToken === null) {
       setStdToken('0');
     } else {
@@ -48,6 +45,11 @@ export default function Wallet({navigation}) {
   useEffect(() => {
     getToken();
   }, []);
+
+  useEffect(() => {
+    LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
+  }, []);
+
   const onSubmit = async () => {
     const getCount = await AsyncStorage.getItem('STUD');
     const creds = await AuthService.getCredentials();
@@ -66,8 +68,8 @@ export default function Wallet({navigation}) {
         id: authToken.id,
         wallet: {
           address: address,
-          amount: getCount,
-          chain
+          amount: Number(getCount),
+          chain,
         },
       };
       const cbSuccess = data => {
@@ -79,7 +81,7 @@ export default function Wallet({navigation}) {
       const cbFailure = err => {
         console.log(err);
       };
-      walletUpdate({data:params, cbSuccess, cbFailure});
+      walletUpdate({data: params, cbSuccess, cbFailure});
     } else {
       Alert.alert('Please enter a valid address');
     }
@@ -96,9 +98,9 @@ export default function Wallet({navigation}) {
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'padding'}
-      style={{flex: 1}}>
+      style={style.container}>
       <ScrollView>
-        <View style={style.container}>
+        <View style={style.walletTextWrapper}>
           <Text style={style.walletTxt}>Wallet</Text>
         </View>
         <View style={style.img}>
@@ -141,6 +143,10 @@ export default function Wallet({navigation}) {
                 alignSelf: 'center',
                 backgroundColor: 'transparent',
               }}
+              listMode="SCROLLVIEW"
+              scrollViewProps={{
+                nestedScrollEnabled: true,
+              }}
               // eslint-disable-next-line react-native/no-inline-styles
               style={{
                 borderColor: 'transparent',
@@ -150,19 +156,6 @@ export default function Wallet({navigation}) {
               }}
             />
           </View>
-          {/* <TextInput
-            placeholder={'chain'}
-            label="Chain"
-            value={chain}
-            //   mode={'flat'}
-            //   onBlur={Keyboard.dismiss}
-            onChangeText={v => setChain(v)}
-            style={style.formTextInput}
-            theme={{
-              colors: {primary: activeColor},
-            }}
-            autoCapitalize="none"
-          /> */}
           <TextInput
             label="Wallet address"
             placeholder={'wallet address'}
@@ -215,6 +208,10 @@ const style = StyleSheet.create({
     padding: 20,
   },
   container: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+  walletTextWrapper: {
     // justifyContent: 'center',
     alignItems: 'center',
   },

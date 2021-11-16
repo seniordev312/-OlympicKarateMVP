@@ -1,22 +1,21 @@
-import React, {useState, useEffect, useContext} from 'react';
-import {Platform} from 'react-native';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Image,
-  TouchableOpacity,
-  ScrollView,
-  KeyboardAvoidingView,
-} from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import {activeColor} from 'common';
+import React, {useContext, useEffect, useState} from 'react';
+import {
+  Image,
+  KeyboardAvoidingView,
+  Platform,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {Icon} from 'react-native-elements';
-import AuthService from 'services/auth/AuthService';
-import {UserService} from 'services/api';
-import {UserContext} from 'store';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import Toast from 'react-native-simple-toast';
+import AuthService from 'services/auth/AuthService';
+import {UserContext} from 'store';
 
 export default function Profile({navigation}) {
   const {user} = useContext(UserContext);
@@ -31,11 +30,12 @@ export default function Profile({navigation}) {
     console.log('====>user', user);
 
     const STUDToken = await AsyncStorage.getItem('STUD');
-    console.log(STUDToken);
-    if (STUDToken === user) {
+    console.log('[STUD]', STUDToken);
+    if (STUDToken === user || STUDToken === 'null') {
       setStdToken('0');
+      await AsyncStorage.setItem('STUD', '0');
     } else {
-      setStdToken(STUDToken);
+      setStdToken(STUDToken ?? '0');
     }
     if (STUDToken >= '77') {
       setCertify(false);
@@ -102,9 +102,9 @@ export default function Profile({navigation}) {
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'padding'}
-      style={{flex: 1}}>
+      style={style.container}>
       <ScrollView>
-        <View style={style.container}>
+        <View style={style.walletTextWrapper}>
           <Text style={style.walletTxt}>Profile</Text>
         </View>
         <View style={style.infoContainer}>
@@ -161,7 +161,8 @@ export default function Profile({navigation}) {
 }
 
 const style = StyleSheet.create({
-  container: {
+  container: {flex: 1, backgroundColor: 'white'},
+  walletTextWrapper: {
     // justifyContent: 'center',
     alignItems: 'center',
   },

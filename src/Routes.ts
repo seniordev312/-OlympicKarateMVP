@@ -8,6 +8,8 @@ import React, {FunctionComponent} from 'react';
 import {Question} from './models';
 
 export type RootStackNavigation = {
+  splash: object;
+  landing: object;
   login: object;
   register: object;
   getStarted: object;

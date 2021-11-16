@@ -21,11 +21,11 @@ import {
   useForm,
 } from 'react-hook-form';
 import {
+  ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
-  ScrollView,
 } from 'react-native';
 import Image from 'react-native-fast-image';
 import {TextInput} from 'react-native-paper';
@@ -73,7 +73,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
       name: RegistrationInputForm.EMAIL,
       control: control,
       errors: errors,
-      errorMsg: t('formValidationDefaultMsg'),
+      errorMsg: t('registrationFieldValidationDefaultMsg'),
       rules: {
         required: true,
         validate: {
@@ -87,7 +87,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
       name: RegistrationInputForm.USERNAME,
       control: control,
       errors: errors,
-      errorMsg: t('formValidationDefaultMsg'),
+      errorMsg: t('registrationFieldValidationDefaultMsg'),
       rules: {required: true, minLength: MIN_LENGTH_USERNAME},
     },
     {
@@ -96,7 +96,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
       name: RegistrationInputForm.FIRSTNAME,
       control: control,
       errors: errors,
-      errorMsg: t('formValidationDefaultMsg'),
+      errorMsg: t('registrationFieldValidationDefaultMsg'),
       rules: {required: true, minLength: MIN_LENGTH_USERNAME},
     },
     {
@@ -111,7 +111,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
       name: RegistrationInputForm.LASTNAME,
       control: control,
       errors: errors,
-      errorMsg: t('formValidationDefaultMsg'),
+      errorMsg: t('registrationFieldValidationDefaultMsg'),
       rules: {required: true, minLength: MIN_LENGTH_USERNAME},
     },
     {
@@ -120,7 +120,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
       name: RegistrationInputForm.PASSWORD,
       control: control,
       errors: errors,
-      errorMsg: t('formValidationDefaultMsg'),
+      errorMsg: t('registrationFieldValidationDefaultMsg'),
       rules: {required: true, minLength: MIN_LENGTH_PWD},
       secureTextEntry: !showPwd,
       // right: (

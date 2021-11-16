@@ -1,13 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import {
-  activeColor,
-  heightPercentageToDP,
-  makeSource,
-  widthPercentageToDP,
-} from '@common';
+import {heightPercentageToDP, widthPercentageToDP} from '@common';
 import React, {FC, useState} from 'react';
 import {
-  Alert,
   Dimensions,
   Image,
   ImageBackground,

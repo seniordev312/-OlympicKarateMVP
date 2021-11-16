@@ -1,14 +1,14 @@
+import {useNavigation} from '@react-navigation/native';
 import {heightPercentageToDP, widthPercentageToDP} from 'common';
 import React from 'react';
 import {
-  Text,
-  ImageBackground,
   Image,
-  View,
+  ImageBackground,
   SafeAreaView,
   StyleSheet,
+  Text,
+  View,
 } from 'react-native';
-import {useNavigation} from '@react-navigation/native';
 import {LandingPageImage} from './types';
 
 export const LandingPage = () => {
@@ -22,12 +22,8 @@ export const LandingPage = () => {
       <>
         {images.map((item, index) => {
           return (
-            <View style={styles.cardContainer}>
-              <ImageBackground
-                key={index}
-                source={item.bgImage}
-                style={styles.bgImg}
-              />
+            <View key={`${item.title}#${index}`} style={styles.cardContainer}>
+              <ImageBackground source={item.bgImage} style={styles.bgImg} />
               <Text style={styles.titleStyle}>{item.title}</Text>
               <Image
                 source={item.image}
@@ -149,7 +145,7 @@ const images: LandingPageImage[] = [
     image: require('../../assets/png/images/athlets.png'),
     bgImage: require('../../assets/png/images/bg_circle.png'),
     type: 'all',
-    title: 'for athlets',
+    title: 'for athletes',
     imageStyle: {left: -5},
   },
   {

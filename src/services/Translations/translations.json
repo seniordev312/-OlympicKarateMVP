@@ -18,6 +18,7 @@
     "alreadyMember": "Already a member?",
     "passwordReset": "Reset password",
     "formValidationDefaultMsg": "You have entered an invalid username or password",
+    "registrationFieldValidationDefaultMsg": "You have entered an incorrect value",
     "favorites": "Favorite lections",
     "emailAlreadyExistsError": "Use a different email",
     "usernameAlreadyExistsError": "Use a different username",

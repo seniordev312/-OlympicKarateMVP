@@ -1,8 +1,8 @@
 import {Lection} from '@models';
 import {useGetLectionsData} from '@services/api';
 import {Endpoints, RoutePlaceholders} from '@services/api/types';
-import {UserContext} from '@store';
 import React, {createContext, FC, useContext} from 'react';
+import {UserContext} from './UserContext';
 
 export type LectionContext = {
   lections: Lection[];

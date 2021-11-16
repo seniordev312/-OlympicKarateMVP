@@ -1,11 +1,10 @@
 import {BASE_URL, makeSource} from '@common';
+import {StackActions, useNavigation} from '@react-navigation/native';
 import React, {FC, useEffect, useState} from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import Image from 'react-native-fast-image';
 import {OlympicKarate} from './OlympicKarate';
 import {PoweredBy} from './PoweredBy';
-import * as Animatable from 'react-native-animatable';
-import {useNavigation, StackActions} from '@react-navigation/native';
 
 export const SplashScreen: FC = () => {
   const navigation = useNavigation();

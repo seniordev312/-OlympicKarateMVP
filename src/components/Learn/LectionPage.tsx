@@ -36,13 +36,12 @@ import {
   AppState,
   AppStateStatus,
   BackHandler,
+  Image,
   StyleSheet,
+  Text,
   TouchableOpacity,
   Vibration,
   View,
-  Text,
-  Image,
-  Alert,
 } from 'react-native';
 import {
   GestureEvent,
@@ -184,7 +183,7 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
     const a = minutesToSeconds(lection.captions[index].start);
     const b = minutesToSeconds(lection.captions[index].end);
 
-    console.log('CAPTIONS INDEX: ', index, ` ${a} [${time}] ${b}`);
+    // console.log('CAPTIONS INDEX: ', index, ` ${a} [${time}] ${b}`);
     setCaptionsIndex(index);
   };
 
@@ -238,11 +237,11 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
     }
 
     console.log('TOTAL WATCHED: ', progressRef.current);
-    console.log(
-      progressRef.current >= duration ||
-        progressRef.current >= WATCHED_THRESHOLD * duration,
-    );
-    console.log(duration);
+    // console.log(
+    //   progressRef.current >= duration ||
+    //     progressRef.current >= WATCHED_THRESHOLD * duration,
+    // );
+    // console.log(duration);
     if (
       progressRef.current >= duration ||
       progressRef.current >= WATCHED_THRESHOLD * duration
@@ -528,10 +527,10 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
         {lectionWatched: true, questionAnsweredCorrect: false},
         user.token ?? '',
       );
-      console.log(
-        'LectionPage ~ handleNavigation ~ Updated learning progress:',
-        data,
-      );
+      // console.log(
+      //   'LectionPage ~ handleNavigation ~ Updated learning progress:',
+      //   data,
+      // );
       navigateTo(routeName, options, replace);
     }
   };
@@ -557,7 +556,6 @@ export const LectionPage: FC<LectionPageProps> = ({}) => {
     return () => backHandler.remove();
   }, []);
 
-  console.log('[[lection]]', lection);
   const onLoadStart = () => setLoader(true);
   return (
     <View style={style.container}>

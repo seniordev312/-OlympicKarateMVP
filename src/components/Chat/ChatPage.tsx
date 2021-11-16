@@ -27,7 +27,7 @@ import React, {
   useRef,
   useState,
 } from 'react';
-import {FlatList, Platform, StyleSheet, View, ScrollView} from 'react-native';
+import {FlatList, Platform, StyleSheet, View} from 'react-native';
 import ConfettiCannon from 'react-native-confetti-cannon';
 import uuid from 'react-native-uuid';
 import PDFView from 'react-native-view-pdf';
@@ -531,41 +531,40 @@ export const ChatPage = () => {
         <ConfettiCannon count={200} origin={{x: -10, y: 0}} />
       )}
       <Header icon={<></>} title={title} titleStyle={style.titleStyle} />
-      <ScrollView>
-        <View style={{marginBottom: 250, marginTop: 20}}>
-          <FlatList
-            // @ts-ignore
-            ref={flatListRef}
-            style={style.chat}
-            data={messages}
-            renderItem={({item}) => renderMessage(item)}
-            keyExtractor={item => `${item.id}`}
+
+      <View>
+        <FlatList
+          // @ts-ignore
+          ref={flatListRef}
+          style={style.chat}
+          data={messages}
+          renderItem={({item}) => renderMessage(item)}
+          keyExtractor={item => `${item.id}`}
+        />
+      </View>
+      {route?.params ? (
+        <View style={style.certify}>
+          <PDFView
+            fadeInDuration={250.0}
+            style={style.certificate}
+            resource={resources[resourceType]}
+            resourceType={resourceType}
+            onLoad={() => console.log(`PDF rendered from ${resourceType}`)}
+            onError={error => console.log('Cannot render PDF', error)}
           />
         </View>
-        {route?.params ? (
-          <View style={style.certify}>
-            <PDFView
-              fadeInDuration={250.0}
-              style={style.certificate}
-              resource={resources[resourceType]}
-              resourceType={resourceType}
-              onLoad={() => console.log(`PDF rendered from ${resourceType}`)}
-              onError={error => console.log('Cannot render PDF', error)}
-            />
-          </View>
-        ) : null}
-        {!!timeLeftBeforeRedirect && (
-          <View style={style.redirectWrapper}>
-            <RedirectButton
-              label={redirectButtonText}
-              timeLeft={timeLeftBeforeRedirect}
-              onPress={() => togglePaused.toggle()}
-              onTimerEnd={onTimerEnd}
-              totalTime={totalTime}
-            />
-          </View>
-        )}
-      </ScrollView>
+      ) : null}
+      {!!timeLeftBeforeRedirect && (
+        <View style={style.redirectWrapper}>
+          <RedirectButton
+            label={redirectButtonText}
+            timeLeft={timeLeftBeforeRedirect}
+            onPress={() => togglePaused.toggle()}
+            onTimerEnd={onTimerEnd}
+            totalTime={totalTime}
+          />
+        </View>
+      )}
 
       {answers.length ? (
         <ChatAnswers

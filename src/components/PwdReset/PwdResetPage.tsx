@@ -110,7 +110,7 @@ export const PwdResetPage: FC<PwdResetPage> = ({logoUrl, title}) => {
       return;
     }
     const response = await UserService.updatePassword(
-      {password: data.password, token: resetToken},
+      {password: data.password, token: resetToken, email: ''},
       {Authorization: `Bearer ${resetToken ?? ''}`},
     );
 
