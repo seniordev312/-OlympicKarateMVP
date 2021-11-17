@@ -1,6 +1,7 @@
 import {
   activeColor,
   makeSource,
+  MIN_LENGTH_FIRST_NAME,
   MIN_LENGTH_PWD,
   MIN_LENGTH_USERNAME,
 } from '@common';
@@ -97,13 +98,7 @@ export const RegistrationPage: FC<RegistrationPage> = ({logoUrl, title}) => {
       control: control,
       errors: errors,
       errorMsg: t('registrationFieldValidationDefaultMsg'),
-      rules: {required: true, minLength: MIN_LENGTH_USERNAME},
-    },
-    {
-      label: 'Middle name (optional)',
-      placeholder: 'doe',
-      name: RegistrationInputForm.MIDDLENAME,
-      control: control,
+      rules: {required: true, minLength: MIN_LENGTH_FIRST_NAME},
     },
     {
       label: 'Last name',

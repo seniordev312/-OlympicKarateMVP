@@ -6,6 +6,7 @@ import {LectionProgress, LectionProgressState} from './models';
 export const BASE_URL = 'https://studumapp.ru';
 export const EMPTY_OBJ = {};
 export const MIN_LENGTH_USERNAME = 4;
+export const MIN_LENGTH_FIRST_NAME = 2;
 export const MIN_LENGTH_PWD = 4;
 export const ANONYMOUS = 'ANONYMOUS';
 export const MAX_NUM_LECTION_ITEMS = 5;
